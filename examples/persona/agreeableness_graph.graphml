@@ -1,0 +1,1536 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;MISERLY_INTERACTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's interactions with his clerk Bob Cratchit demonstrate his stingy nature and lack of warmth."</data>
+  <data key="d2">chunk-90d5764e301321c087f5a8f78b73a145</data>
+</node>
+<node id="&quot;JOY_OF_GIVING&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge discovers the joy of giving and sharing with others, symbolizing his shift from a miser to a generous individual."&lt;SEP&gt;"Scrooge experiences joy in giving, symbolized by his generous donation to the charity after his transformation."&lt;SEP&gt;"Scrooge's delight in giving gifts and assisting others post-transformation reflects his high agreeableness and change in motivation."&lt;SEP&gt;"Scrooge's newfound appreciation for generosity and kindness in his interactions with others signifies his complete transformation."&lt;SEP&gt;"Scrooge's newfound joy in giving reflects a profound shift in his values, highlighting the positive aspects of altruism."&lt;SEP&gt;"Scrooge’s newfound appreciation for giving and joy further illustrates his change from miser to benefactor."&lt;SEP&gt;"Scrooge’s realization of the joy derived from giving rather than receiving marks a significant emotional shift in his character."&lt;SEP&gt;"With his transformation, Scrooge finds joy in giving and helping others, driven by his experiences with the ghosts."</data>
+  <data key="d2">chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</node>
+<node id="&quot;HIGH_EMOTIONAL_AWARENESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"As Scrooge begins to reflect on his past and the impact of his actions, he displays increased emotional awareness and understanding of others."&lt;SEP&gt;"As Scrooge changes, he develops a high emotional awareness, recognizing the effects of his past on his present interactions."&lt;SEP&gt;"Later in the narrative, Scrooge shows high emotional awareness as he recognizes and embraces his own feelings of regret and joy."&lt;SEP&gt;"Scrooge's ability to recognize and respond empathetically to the emotions of others reflects high emotional awareness after his transformation."&lt;SEP&gt;"Scrooge's newfound emotional awareness is revealed as he begins to comprehend and express his feelings after his encounters with the spirits."&lt;SEP&gt;"Scrooge’s increased emotional awareness following the visits from the spirits illustrates high openness as he confronts his past and desires for a better future."</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</node>
+<node id="&quot;GHOST_OF_CHRISTMAS_PAST_VISIT&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's encounter with the Ghost of Christmas Past triggers reflection on his earlier life and past choices."&lt;SEP&gt;"The supernatural visit from the Ghost of Christmas Past triggers Scrooge's memories and reflection on his life choices."&lt;SEP&gt;"The visitation by the Ghost of Christmas Past begins Scrooge's reflective journey, causing him to reconsider his past and emotional responses."</data>
+  <data key="d2">chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</node>
+<node id="&quot;TRANSFORMATION_MOTIVATION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's deep desire to change and avoid a sorrowful fate motivates his transformation towards kindness and connection."&lt;SEP&gt;"Scrooge's deep-seated fear and guilt for his past actions and their consequences motivate his eventual transformation towards generosity and kindness."&lt;SEP&gt;"Scrooge's desire to avoid a bleak future and regrets drives his interactions with the Spirits, urging him to change his path."&lt;SEP&gt;"Scrooge's eventual desire for redemption and change stems from the haunting experiences with the spirits."&lt;SEP&gt;"Scrooge's eventual desire to change and embrace community arises from his encounters with the spirits."&lt;SEP&gt;"Scrooge's eventual motivation to change stems from his reflections on past, present, and future, prompted by the visits from the three spirits."&lt;SEP&gt;"Scrooge's journey of transformation is driven by a growing recognition of his past mistakes and a desire for redemption."&lt;SEP&gt;"Scrooge's journey towards transformation drives his eventual appreciation for generosity, warmth, and community connection."&lt;SEP&gt;"Scrooge's transformation is driven by an awakening desire to change and connect more positively with others after encountering the spirits."&lt;SEP&gt;"Scrooge’s desire to redeem himself and embrace life differently after his encounters with the spirits fuels his transformation."&lt;SEP&gt;"The desire for personal reclamation and emotional healing motivates Scrooge's transformation throughout the narrative."&lt;SEP&gt;"The desire to connect with others meaningfully becomes Scrooge's new motivation, leading to his transformation."</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+</node>
+<node id="&quot;SCROOGE_ISOLATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The oppressive isolation in Scrooge's life is highlighted during moments of silence and solitude, showcasing his alienation from society."</data>
+  <data key="d2">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;GHOST_OF_CHRISTMAS_YET_TO_COME&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"The foreboding experience with the Ghost of Christmas Yet to Come provides a crucial turning point, emphasizing consequences of Scrooge's actions."&lt;SEP&gt;"The ominous spirit that reveals Scrooge's future, instilling a sense of urgency and prompting fear to catalyze change."&lt;SEP&gt;"The ominous spirit that shows Scrooge his lonely death, serving as a wake-up call for his life choices."&lt;SEP&gt;"The ominous spirit that shows Scrooge his potential future, serving as a critical turning point for his transformation."&lt;SEP&gt;"The silent spirit that represents Scrooge's potential future, showcasing the consequences of his current lifestyle."&lt;SEP&gt;"The unsettling visit from the Ghost of Christmas Yet to Come instills deep fear in Scrooge, confronting him with his legacy and prompting significant self-reflection."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d</data>
+</node>
+<node id="&quot;HIGH_EXTRAVERSION&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">The entity "HIGH_EXTRAVERSION" is primarily associated with the character transformation of Scrooge from Charles Dickens' narrative. Initially, Scrooge is depicted as having low extraversion, characterized by his solitary lifestyle, disdain for social gatherings, and reclusive behavior, illustrating an aversion to social interactions. His initial coldness and reluctance to engage with others reflect a lack of enthusiasm for community and connection.
+
+However, following his transformative experience, Scrooge undergoes a profound change that results in a significant increase in his extraversion. Post-transformation, he embodies warmth, cheerfulness, and a newfound eagerness to socialize. Scrooge actively engages with others, particularly during Christmas celebrations, demonstrating joyfulness and a vibrant energy that contrasts starkly with his previous isolation. His interactions are marked by sociability, as he embraces festive events and plays, highlighting his commitment to joyful engagement with his family and the community.
+
+By the narrative's conclusion, Scrooge not only shows signs of high extraversion but also radiates a zest for life, as he fully embraces social connections and expresses enthusiasm for interactions. He embodies a transformed individual who moves from solitude to sociability, becoming an engaging and cheerful presence in the lives of those around him. Thus, Scrooge's journey illustrates a clear transition from low to high extraversion, culminating in a character profoundly changed by his newfound ability and willingness to connect joyfully with others.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;GENEROSITY_DECLARATION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge publicly pledges to assist those in need and celebrate Christmas joyfully, illustrating his newfound high agreeableness."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</node>
+<node id="&quot;POST_TRANSFORMATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A moment filled with joy and excitement as Scrooge wakes up on Christmas morning, reflecting on his transformation."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</node>
+<node id="&quot;SCROOGE'S_CHILDHOOD&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scenes reflecting Scrooge's lonely childhood that shaped his later disdain for connection and community."&lt;SEP&gt;"Scrooge's memories of his lonely childhood reveal his early emotional experiences that shaped his personality."</data>
+  <data key="d2">chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</node>
+<node id="&quot;FRED&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"Fred, Scrooge's cheerful nephew, symbolizes the spirit of Christmas joy and the importance of family connections."&lt;SEP&gt;"Scrooge's cheerful and optimistic nephew who embodies the spirit of Christmas and serves as a contrast to Scrooge’s original coldness."&lt;SEP&gt;"Scrooge's cheerful and warm-hearted nephew who represents family connection and the spirit of Christmas."</data>
+  <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1</data>
+</node>
+<node id="&quot;CHRISTMAS_VISIT&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Encounter with gentlemen seeking charity illustrates Scrooge's dismissive attitude towards societal needs."&lt;SEP&gt;"Scrooge is visited by the Ghost of Christmas Present, which marks a pivotal moment in his journey of transformation and self-discovery."</data>
+  <data key="d2">chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</node>
+<node id="&quot;TRANSFORMATION_CHRISTMAS_MORNING&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's joyful interactions on Christmas morning exhibit his shift towards warmth and sociability."</data>
+  <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+</node>
+<node id="&quot;HIGH_OPENNESS_TRANSFORMATION&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"Scrooge's growing openness toward new experiences and relationships demonstrates a significant personal transformation by the end of the narrative."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+<node id="&quot;SCROOGE_RESENTMENT&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge displays resentment and disdain during interactions with those who celebrate Christmas, illustrating his cold-hearted nature."</data>
+  <data key="d2">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;GENEROSITY_AFTER_TRANSFORMATION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Motivated by a new understanding of life, Scrooge’s actions post-transformation illustrate his commitment to generosity and kindness."&lt;SEP&gt;"Scrooge’s newfound willingness to give and share with others after his transformative experiences with the spirits."</data>
+  <data key="d2">chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;EMOTIONAL_STABILITY&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"Scrooge's emotional instability is highlighted through his inconsistencies in mood and reactions to past experiences, demonstrating low emotional stability at the beginning."</data>
+  <data key="d2">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</node>
+<node id="&quot;EMPATHY_DEVELOPMENT&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's motivation to change stems from his deepening understanding of the consequences of his actions on others."&lt;SEP&gt;"Scrooge's reflection on the plight of others and his past drives his transition from a self-centered outlook to cultivating empathy and community involvement."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</node>
+<node id="&quot;SPIRIT_INTERACTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"A pivotal dialogue interaction between Scrooge and the Spirits guiding his reflection on his life choices, sparking empathy and self-awareness."&lt;SEP&gt;"Scrooge's dialogues with the Spirits reveal his inner struggle and eventual understanding of generosity and compassion."</data>
+  <data key="d2">chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</node>
+<node id="&quot;GENEROSITY_EXHIBITION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"By the end of the narrative, Scrooge's spontaneous acts of generosity exemplify his full transformation and acceptance of joy."&lt;SEP&gt;"Scrooge's acts of kindness toward the Cratchit family after his transformation, demonstrating his newfound agreeableness and empathy."&lt;SEP&gt;"Scrooge's charitable acts and newfound warmth towards his community reveal his transformation and growing agreeableness."</data>
+  <data key="d2">chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</node>
+<node id="&quot;FEZZIWIG&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"Scrooge's former employer, who embodies generosity and joy, serving as a positive contrast to Scrooge's later demeanor."&lt;SEP&gt;"Scrooge's former employer, whose joyful celebration of Christmas highlights the contrasts in Scrooge's own life choices."</data>
+  <data key="d2">chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</node>
+<node id="&quot;CHARITY_CONFRONTATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's sharp rejection of charity solicitors indicates his low agreeableness and unwillingness to cooperate or show empathy."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;FRED_HOLYDAY_VISIT&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Fred's repeated invitations to Christmas dinner exemplify the cheerfulness and warmth of the holiday spirit that Scrooge initially rejects."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</node>
+<node id="&quot;HIGH_NEUROTICISM&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">In Charles Dickens' narrative, "A Christmas Carol," the character Ebenezer Scrooge exemplifies high neuroticism, particularly during his transformation spurred by encounters with various spirits. Before his change, Scrooge's anxiousness about his future and emotional instability are evident, as he grapples with guilt, fear of death, and trepidation over his past choices. His profound stress and anxiety surrounding mortality become apparent during confrontations with the spirits, notably leading to panic and emotional vulnerability, especially when faced with the Ghost of Christmas Yet to Come.
+
+Throughout the story, Scrooge exhibits heightened levels of anxiety related to his wealth and fear of isolation, manifesting in behavior characterized by bitterness and defensiveness toward emotional topics, particularly Christmas. His interactions reveal an underpinning of anxiety and moodiness, as he struggles with feelings of loneliness and emotional instability. He often showcases significant worry about financial security, fearing loss and the implications that accompany changes in his solitary lifestyle.
+
+Scrooge's neurotic tendencies are further illustrated by his intense anxiety and self-consciousness regarding his fate, alongside a consistent fear of losing control over his finances. His emotional turmoil is particularly pronounced during moments of introspection or when he is confronted with memories of his past, showcasing a reluctance to embrace change or form emotional connections.
+
+In summary, Scrooge's journey through high neuroticism is marked by crippling anxiety about mortality, wealth, and social interactions, which ultimately leads him into a state of isolation and fear. His emotional instability is particularly evident from the onset of the story, evolving significantly as he confronts the ramifications of his life choices throughout his encounters with the three spirits.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;POVERTY_REFLECTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's nervous questions to the Ghost about its time in death reflect a growing discomfort with his past indifference to the poor."</data>
+  <data key="d2">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+</node>
+<node id="&quot;CHRISTMAS_EVE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The night of Marley's visitation sets the stage for Scrooge's confrontation with his own fears and regrets."&lt;SEP&gt;"The setting where Scrooge's cold sentiment is displayed through his rejection of festive cheer and disdain for Christmas."</data>
+  <data key="d2">chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;SELF_REFLECTION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"A moment where Scrooge contemplates his past and its effects on his present self, triggering a shift in personality traits."&lt;SEP&gt;"Scrooge's interactions with the spirits lead to moments of profound self-reflection, where he reassesses his life choices and the impact of his actions."&lt;SEP&gt;"Scrooge's internal motivation drives him to confront his past, leading him to re-evaluate his life choices and relationships, steering him toward redemption."&lt;SEP&gt;"Scrooge's internal struggle to come to terms with his past actions and their consequences drives his character development."&lt;SEP&gt;"Scrooge's introspective moments allow him to reconsider his values and reshape them towards kindness and community."&lt;SEP&gt;"Scrooge's journey through self-reflection is driven by the spirits' lessons about the importance of kindness and community."&lt;SEP&gt;"Scrooge's moments of self-reflection, particularly when he sobs in conflict with the Spirit, signal the beginning of his emotional awakening."&lt;SEP&gt;"Scrooge's motivation to change is triggered by his interactions with the spirits, leading him to evaluate the choices he made throughout his life."&lt;SEP&gt;"The moments when Scrooge reflects on his life choices after the visits from the spirits, leading to profound changes in his personality."&lt;SEP&gt;"Through conversations with the spirits, Scrooge begins to confront his past and reevaluate his life choices."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</node>
+<node id="&quot;FINANCIAL_SCRUTINY&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's obsessive counting and checking of his financial affairs reveal his detail-oriented, organized personality."</data>
+  <data key="d2">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</node>
+<node id="&quot;IMPACT_OF_NEPHEW&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Fred's persistent invitation to Christmas dinner showcases the power of familial connections and compassion."</data>
+  <data key="d2">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</node>
+<node id="&quot;CHANGED_LIFE_COMMITMENT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's passionate promise to honor Christmas and change his ways illustrates the sincerity of his transformation."</data>
+  <data key="d2">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</node>
+<node id="&quot;CHRISTMAS_MORNING&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"On Christmas morning, Scrooge embraces the joy of giving, marking a significant shift in his attitude towards life and others."&lt;SEP&gt;"Scrooge's joyful interactions with his nephew Fred and his willingness to celebrate Christmas highlight his transformed personality."&lt;SEP&gt;"The day after Scrooge's transformation, where he joyfully greets everyone with a generous spirit, reflecting his new personality."&lt;SEP&gt;"The moment of Scrooge's awakening and joy on Christmas morning, symbolizing his complete transformation and acceptance of a new life."</data>
+  <data key="d2">chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</node>
+<node id="&quot;REGRETFUL_REFLECTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"During his transformation, Scrooge begins to confront his past decisions, revealing his emotional capacity and openness to change."&lt;SEP&gt;"Scrooge reflects on his past joy and the choices he made that led to his current plight during his interaction with the Ghost of Christmas Past."&lt;SEP&gt;"Scrooge's regrets about his past choices during the ghostly visits illustrate his initial high neuroticism through emotional distress."</data>
+  <data key="d2">chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</node>
+<node id="&quot;BOB_CRATCHIT&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"Bob Cratchit, Scrooge's underpaid clerk, embodies kindness and loyalty, acting as a contrast to Scrooge's initial harshness."&lt;SEP&gt;"Scrooge's underpaid and overworked clerk, whose kindness and family values contrast sharply with Scrooge's initial cold demeanor."&lt;SEP&gt;"Scrooge's underpaid and overworked employee, whose family struggles highlight Scrooge's transformation towards generosity."&lt;SEP&gt;"Scrooge's underpaid clerk, who depicts the struggles of the working class and embodies the resilience and love of family."</data>
+  <data key="d2">chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1</data>
+</node>
+<node id="&quot;BOB_CRATCHIT_INTERACTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's begrudging relationship with Bob highlights his low agreeableness before the change, juxtaposed against the warmth of Bob's family."&lt;SEP&gt;"Scrooge's growing concern for Bob and Tiny Tim's situation shows his developing empathy and altruism."&lt;SEP&gt;"Scrooge's initial relationship with Bob, marked by harsh treatment and a lack of empathy, highlights low agreeableness and high neuroticism."&lt;SEP&gt;"Scrooge's interactions with his employee Bob Cratchit demonstrate his stinginess and low agreeableness, especially evident when he begrudges Cratchit's desire for holiday cheer."&lt;SEP&gt;"Scrooge's treatment of his clerk Bob demonstrates his lack of empathy and generosity."</data>
+  <data key="d2">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</node>
+<node id="&quot;FEAR_OF_CHANGE&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's initial actions are driven by a strong fear of change, leading to a need for control and isolation."&lt;SEP&gt;"Scrooge's initial reluctance to change stems from his fear of losing control and the lives he has built upon wealth."&lt;SEP&gt;"Scrooge's initial resistance to change stems from fear of the unknown and the discomfort of altering his established life."</data>
+  <data key="d2">chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d</data>
+</node>
+<node id="&quot;GHOST_OF_CHRISTMAS_PAST&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A spirit representing memory and the past, guiding Scrooge to confront his previous life choices and relationships."&lt;SEP&gt;"An impactful moment where Scrooge is shown memories from his youth, instigating reflection on his choices and future."&lt;SEP&gt;"Scrooge's encounter with the Ghost of Christmas Past, which takes him through significant moments of his history and evokes emotional reflection."&lt;SEP&gt;"The appearance of this ghost serves as a pivotal moment leading to Scrooge's introspection regarding his past self and relationships."&lt;SEP&gt;"The first spirit that visits Scrooge, showing him his past and evoking feelings of nostalgia and regret."&lt;SEP&gt;"The interaction with the Ghost of Christmas Past evokes Scrooge's memories and regrets, initiating his journey toward transformation."&lt;SEP&gt;"The spirit representing Scrooge’s past, whose journey with Scrooge evokes emotional responses and reflections on lost opportunities."&lt;SEP&gt;"The spirit that shows Scrooge his earlier years, triggering reflections on his past choices and relationships."</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;MENTORSHIP_COMMITMENT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's intention to mentor and positively influence those around him after his transformation reveals his new conscientiousness."</data>
+  <data key="d2">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</node>
+<node id="&quot;CHRISTMAS_PAST_VISIT&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Through the visit to his past, Scrooge experiences nostalgia and regret, leading him to reflect on his choices and gradually opening up to change."</data>
+  <data key="d2">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;GRAVE_SCENE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A significant moment where Scrooge witnesses the consequences of his life choices represented through the vision of a neglected, deceased man."&lt;SEP&gt;"The pivotal encounter with the Ghost of Christmas Yet to Come, where Scrooge sees his lonely death in the grave, serves as a critical moment prompting his transformation."</data>
+  <data key="d2">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;LOW_OPENNESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"Low Openness" in the context of the character Scrooge from Charles Dickens' "A Christmas Carol" is prominently illustrated throughout the early narrative, where his mindset is described as rigid and closed-minded. At the beginning of the story, Scrooge exhibits a significant lack of openness to new experiences and emotional awareness, especially evident in his disdain for Christmas and his strict adherence to conventional views on wealth and business. His reluctance to consider different perspectives and his resistance to change underscore a profound unwillingness to embrace new ideas or the joy associated with social interactions.
+
+Before his transformation, Scrooge's character is marked by a stubbornness that prevents him from engaging with others emotionally or artistically. His interactions are cold and driven solely by monetary concerns, illustrating a narrow worldview that rejects any lifestyle outside of his money-driven existence. Additionally, he demonstrates a lack of curiosity about the lives of others, indicating low emotional awareness and a resistance to the festive spirit surrounding him.
+
+Scrooge's initial closed-mindedness is pervasive, as he dismisses new ideas and traditions, particularly those related to familial connections and charity. He embodies low openness to experience in his rigid beliefs about money and a severe isolation from social interactions. His character encapsulates a strict conventionalism that keeps him from enjoying life beyond the confines of his financial pursuits. Overall, Scrooge's lack of flexibility and inability to entertain new perspectives are central to his characterization before the transformative events of the story unfold.</data>
+  <data key="d2">chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;LIGHTHEARTEDNESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"Post-transformation, Scrooge embraces lightheartedness, evident in his laughter and cheerful demeanor."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</node>
+<node id="&quot;LOW_AGREEABLENESS_REFLECTION&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">"Scrooge's initial lack of empathy and selfishness are consistently exhibited through his dismissive dialogue and actions toward others before his change."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+<node id="&quot;HIGH_CONSCIENTIOUSNESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">HIGH_CONSCIENTIOUSNESS is characterized through the complex transformation of the character Scrooge, illustrating both the positive and negative aspects of this trait. Initially, Scrooge's meticulous attention to financial matters and his rigid adherence to routines exemplify a high degree of conscientiousness, though primarily manifested in a self-centered manner focused on profit and business success. His diligent work ethic and organizational skills are evident, revealing a strong sense of responsibility toward his financial affairs, albeit tainted by greed and a disregard for personal connections.
+
+As the narrative unfolds, Scrooge's high conscientiousness takes on a more nuanced form. While his early behaviors reflect strict responsibility and an inflexible approach to life, which can lead to rigidity and a lack of relational warmth, by the story's conclusion, he undergoes a significant transformation. After his experiences with the spirits, he begins to embrace a broader sense of responsibility that includes caring for others and reflecting on past mistakes. This evolution shows a shift from a narrow focus on monetary gain to a more morally grounded conscientiousness, highlighting responsibility and emotional growth.
+
+In his later life, Scrooge's actions demonstrate increased responsibility and duty to help others, signifying a more balanced approach to conscientiousness that integrates caring and community engagement. His newfound commitment to living a moral life and making amends for his past wrongs further illustrates a strong sense of conscientious behavior, as he not only plans for his own happiness but actively strives to contribute positively to society.
+
+Ultimately, HIGH_CONSCIENTIOUSNESS in Scrooge encapsulates both the initial misdirection towards financial obsession and the later growth into a responsible and socially conscious individual, reflecting a comprehensive journey towards understanding the true essence of conscientiousness.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">HIGH_AGREEABLENESS refers to the significant transformation of Scrooge's character throughout the narrative, particularly highlighting a marked increase in the trait of agreeableness post-transformation. Initially, Scrooge embodies low agreeableness, characterized by selfishness, distrust, and a lack of empathy towards others. He is portrayed as emotionally neglectful and disdainful, showing little inclination to cooperate or connect with those around him.
+
+However, as the story unfolds, particularly following his transformative experiences with the Spirits, Scrooge begins to exhibit traits associated with high agreeableness. His journey of personal growth is marked by a developing warmth, trust, and cooperation, which leads to an increased capacity for empathy and kindness. This transformation is evident in his interactions with others, especially the Cratchit family, where he demonstrates compassion, generosity, and a willingness to help.
+
+Later in the narrative, Scrooge's emerging kindness and altruism become prominent, reflecting his change into a more caring and understanding individual. His newfound readiness to engage with others and his expressions of gratitude signify a significant shift towards a cooperative spirit, characterized by a desire to connect with the community. Ultimately, Scrooge’s transformation showcases high agreeableness, as he learns to value relationships and embrace empathy, trust, and kindness towards others, starkly contrasting his initial character traits.</data>
+  <data key="d2">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;NEPHEW_INTERACTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"The cheerful interaction between Scrooge and his nephew represents an emerging connection and sets the tone for Scrooge's change in attitude."&lt;SEP&gt;"The conversation that illustrates Scrooge's dismissiveness and hostility towards his nephew's joyful perspective on Christmas."</data>
+  <data key="d2">chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+</node>
+<node id="&quot;SPIRIT_OF_CHRISTMAS_PAST&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"The first spirit takes Scrooge through his past, forcing him to confront memories that reveal the roots of his greed and isolation."&lt;SEP&gt;"The first spirit that shows Scrooge his past, which evokes feelings of nostalgia and regret, acting as a catalyst for his transformation."&lt;SEP&gt;"The ghost of Christmas Past who shows Scrooge his former self, triggering reflections on his past choices and relationships."</data>
+  <data key="d2">chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;TRANSFORMATION_EXPERIENCE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's encounters with the Ghosts of Christmas reveal his past and potential future, triggering changes in his openness and emotional awareness."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;LIFE_REFLECTION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Throughout the spirit visits, Scrooge confronts his past choices, leading to significant growth and changes in his outlook toward life."</data>
+  <data key="d2">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</node>
+<node id="&quot;LOW_EXTRAVERSION&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">LOW_EXTRAVERSION is epitomized through the character of Scrooge, who is marked by a profound tendency to be socially withdrawn and reserved. At the outset of the narrative, Scrooge exhibits low extraversion by isolating himself, consistently avoiding social gatherings, especially festive ones such as Christmas. His solitary nature and disdain for interactions are evident as he shuns social connections and displays a strong reluctance to engage with others, demonstrating a clear preference for solitude.
+
+Throughout the early chapters, Scrooge's behavior underscores his low level of extraversion, characterized by his coldness, grumpiness, and defensive demeanor. His interactions reflect an avoidance of social contact, leading to a lifestyle that is distinctly reclusive and antisocial. Scrooge’s initial preference for isolation is a recurring theme, as he expresses distaste for communal joy and festivities, often grumbling at the idea of social engagements. This aversion to socialization serves as a hallmark of his character before his eventual transformation.
+
+As the story progresses, Scrooge begins to alter his behavior, indicating a shift towards higher extraversion. By the end of the narrative, his interactions evolve from solitary to more open and cheerful, suggesting a significant change in his approach to social engagement. However, it is the early part of the story that firmly establishes his low extraversion through a consistent pattern of withdrawal, isolation, and a marked reluctance to connect with the world around him.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</node>
+<node id="&quot;FEAR_OF_LONELINESS&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's fear of dying alone without meaningful relationships drives his transformation from isolation to intimacy."&lt;SEP&gt;"Scrooge's initial fear of loneliness drives his greed and isolation, emphasized through interactions with spirits and reflections on his life choices."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;HIGH_OPENNESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">HIGH_OPENNESS, particularly as demonstrated by the character Scrooge, shows a profound transformation throughout the narrative. Initially, Scrooge exhibits low openness, evident in his rigid thinking, avoidance of emotional awareness, and a singular focus on wealth. This closed-mindedness is reflected in his resistance to new experiences and a lack of connection with others, showcasing a limited capacity for curiosity and emotional insight.
+
+However, following his encounters with various spirits, Scrooge gradually embraces new ideas surrounding compassion, generosity, and human connection. His experiences prompt a significant shift in his character, revealing an increasing openness to emotional awareness and new experiences. As he reflects on his past, Scrooge begins to demonstrate traits of curiosity and a willingness to change, particularly regarding relationships and the joys of the Christmas spirit.
+
+The transformative visits from the spirits encourage Scrooge to question his previously held beliefs. His eventual acceptance of the supernatural signifies a heightened openness, allowing him to confront the consequences of his past actions and embrace new perspectives on kindness and generosity. Scrooge's journey embodies a gradual evolution toward greater receptiveness, as he learns to appreciate the festive spirit and the connection with others, embodying the essence of compassion.
+
+By the narrative's conclusion, Scrooge showcases a high level of openness, characterized by his joyful acceptance of Christmas, emotional awareness, and a newfound appreciation for life. This transformation marks a significant departure from his earlier closed-off self, emphasizing the rich growth in his character through moments of reflection and change. Scrooge's journey from low to high openness illustrates the profound impact of human connection and emotional experience, culminating in a character that embraces life more fully.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</node>
+<node id="&quot;NEPHEW_VISIT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge’s interaction with his cheerful nephew Fred reveals his unwillingness to embrace familial bonds and joy, highlighting his low agreeableness."</data>
+  <data key="d2">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;SELFISHNESS_MOTIVATION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"In the beginning, Scrooge's actions are motivated by selfishness, prioritizing wealth accumulation over human connection."</data>
+  <data key="d2">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;HOLIDAY_CELEBRATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The warm gatherings during Christmas, filled with joy and laughter, contrast sharply with Scrooge's initial demeanor."</data>
+  <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</node>
+<node id="&quot;CRATCHIT_FAMILY_INTERACTION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's interactions with the Cratchit family demonstrate his initial lack of empathy and understanding, setting the stage for his transformation."</data>
+  <data key="d2">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;CARING_DIALOGUE&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's dialogue with Tiny Tim illustrates his emotional growth and newfound care for others' welfare."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+<node id="&quot;LOW_NEUROTICISM&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">The entity "LOW_NEUROTICISM" is exemplified through the character of Scrooge, particularly after his transformation. Following his redemption, Scrooge exhibits low neuroticism as he gains emotional stability, embracing happiness and joy in his life. By the end of the narrative, he shows signs of emotional resilience, indicating a significant reduction in neuroticism. Throughout the descriptions, it is highlighted that Scrooge's transformation leads to a newfound peace and a positive outlook on life, showcasing emotional stability and a cheerful disposition towards others.
+
+In contrast to his earlier, more neurotic tendencies characterized by anxiety and moodiness, Scrooge's later demeanor reflects a serene acceptance of life. Post-transformation, he demonstrates happiness and confidence in his choices, further reinforcing his emotional stability and low neuroticism. Even in his youth, Scrooge displayed lower levels of neuroticism, embracing life with greater openness and less worry.
+
+Ultimately, Scrooge's journey portrays a significant evolution from one marked by emotional turmoil to one of joyful acceptance, exemplifying the traits associated with low neuroticism through his improved relationships, community engagement, and overall contentment in his transformed state of mind.</data>
+  <data key="d2">chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+</node>
+<node id="&quot;PHILANTHROPY_GROWTH&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's desire to give back and contribute positively to society grows as he connects with his newfound values."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</node>
+<node id="&quot;MARLEY'S_GHOST_APPEARANCE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The dramatic entrance of Marley's Ghost serves as a pivotal moment that confronts Scrooge with his past choices and emotional turmoil."</data>
+  <data key="d2">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+</node>
+<node id="&quot;MARLEY'S_GHOST_ENCOUNTER&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The haunting visit of Marley's ghost serves as a pivotal moment, catalyzing Scrooge's transformation from a miser to a generous individual."</data>
+  <data key="d2">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;CRATCHIT_HOLIDAY&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The Cratchit family's Christmas celebration is tainted by Scrooge's stinginess and lack of support despite the warmth of their relationships."</data>
+  <data key="d2">chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</node>
+<node id="&quot;DESIRE_FOR_REDEMPTION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's journey is driven by an evolving desire for redemption and connection with others as he confronts the shadows of his past."</data>
+  <data key="d2">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;SPIRIT_OF_CHRISTMAS_PRESENT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"One of the three spirits who visit Scrooge, representing generosity, joy, and the importance of community during Christmas."&lt;SEP&gt;"The ghost of Christmas Present who reveals to Scrooge the joy of living in the moment and the importance of being connected to others."&lt;SEP&gt;"The jolly visitation reveals to Scrooge the joy and generosity he is missing in life, pushing him to reevaluate his current path."&lt;SEP&gt;"The second spirit exposes Scrooge to the warm, joyful interactions of others during Christmas, stirring jealousy and regret in him."&lt;SEP&gt;"The second spirit highlights the joys and struggles of those around Scrooge, pressing him to reconsider his attitude towards generosity."</data>
+  <data key="d2">chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</node>
+<node id="&quot;SAD_CHRISTMAS_REFLECTIONS&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's solitary contemplation during Christmas reveals his inner turmoil and disconnect from joy."</data>
+  <data key="d2">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</node>
+<node id="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A miserly and cold-hearted man whose personality transforms throughout the narrative from a selfish, unkind misanthrope to a warm and generous individual."&lt;SEP&gt;"The main character who undergoes a significant transformation from a cold-hearted miser to a generous and warm individual."</data>
+  <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</node>
+<node id="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"A pivotal moment where Scrooge realizes the importance of connection and goodwill, fundamentally altering his personality and outlook on life."&lt;SEP&gt;"Scrooge's emotional confrontation with the spirits leads him to recognize the negative impact of his avarice and isolation."&lt;SEP&gt;"Scrooge's interactions with the Cratchit family illuminate his gradual understanding of compassion and community, showcasing his transformation."&lt;SEP&gt;"Scrooge's motivation shifts from selfishness to a desire to connect meaningfully with others as he is visited by the three spirits."&lt;SEP&gt;"Scrooge's profound emotional awakening during his encounter with the Ghost of Christmas Present illustrates his character's transformation."&lt;SEP&gt;"Scrooge's realizations and willingness to change during his encounters with the spirits demonstrate a newfound openness to ideas and feelings."&lt;SEP&gt;"Scrooge’s realization of the consequences of his actions and the desire to change drive his personality evolution."&lt;SEP&gt;"The moment Scrooge realizes he has the power to change at any moment showcases personal insight."&lt;SEP&gt;"The moment when Scrooge realizes the joy and fulfillment that comes from helping others and embracing kindness."&lt;SEP&gt;"The pivotal moment when Scrooge confronts the grave with his name, leading to his heartfelt desire for change and redemption."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</node>
+<node id="&quot;GHOSTLY_INTERACTION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The various encounters with the spirits who guide Scrooge through his past, present, and future, triggering emotional responses and realizations."</data>
+  <data key="d2">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</node>
+<node id="&quot;SCENE_CHRISTMAS_CONVERSATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A tense interaction between Scrooge and his nephew, where Scrooge expresses hostility towards Christmas and refuses an invitation to dinner."</data>
+  <data key="d2">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</node>
+<node id="&quot;LOW_CONSCIENTIOUSNESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">LOW_CONSCIENTIOUSNESS refers to the character of Scrooge, particularly in his earlier life as depicted in Charles Dickens' narrative. Initially, Scrooge's focus on work and relentless pursuit of wealth underscores his lower level of conscientiousness regarding personal relationships and social responsibilities. He prioritizes greed over connections with others, demonstrating a significant negligence toward both ethical considerations and social obligations. 
+
+Throughout the story, Scrooge displays a lack of responsibility, often disregarding the well-being of those around him. His actions reflect a self-centered lifestyle that neglects family duties and emotional connections, which emphasizes a purely economic viewpoint. In this context, his short-sightedness leads to reckless disregard for the consequences of his actions on others, further illustrating low conscientiousness.
+
+As the narrative progresses, Scrooge's earlier behaviors are characterized by carelessness in maintaining personal relationships and a lack of attention to the needs of others. His obsession with profit overshadows his responsibilities towards society and familial obligations. This negligence showcases not only a lack of moral duties but also an aversion to emotional engagement with others.
+
+However, there is a noted shift in Scrooge's character later in the narrative, as he begins to prioritize the happiness and well-being of others over his previous focus on wealth accumulation. This transformation signals a move away from his earlier low conscientiousness, indicating potential for growth and redemption through a newfound understanding of his responsibilities towards both himself and his community.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;SKEPTICAL_DIALOGUE&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's exchanges with Marley's Ghost reflect his deep skepticism and emotional instability, leading to increased stress and anxiety."</data>
+  <data key="d2">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+</node>
+<node id="&quot;MEETING_WITH_GHOST&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"An unsettling encounter where Scrooge faces Marley's ghost, triggering significant fear and reflection on his past actions."</data>
+  <data key="d2">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</node>
+<node id="&quot;REDISCOVERED_CHRISTMAS_SPIRIT&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's newfound motivation to embrace the Christmas spirit and spread joy to others post-transformation."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</node>
+<node id="&quot;CHARITY_GIVING&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's donations to the poor and support of the Cratchit family signify a crucial change in his character."</data>
+  <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</node>
+<node id="&quot;GENEROSITY_POST_TRANSFORMATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A climax moment where Scrooge embraces generosity and connects joyfully with his community after his change of heart."</data>
+  <data key="d2">chunk-8bc1edd983869352d14cf0886a9175a7</data>
+</node>
+<node id="&quot;LONELY_EXISTENCE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's solitary days in his office reflect his low sociability and deep-seated loneliness, amplifying his neurotic tendencies."</data>
+  <data key="d2">chunk-b2f98bc7abb0c67d4c86055c7fd72218</data>
+</node>
+<node id="&quot;BOB_CRATCHET&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"Scrooge's underpaid clerk whose struggles and family dynamics illuminate the human cost of Scrooge's past actions."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</node>
+<node id="&quot;SCROOGE&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">SCROOGE is a complex character who undergoes a profound transformation from a miserly, cold-hearted individual to a warm-hearted, generous figure. Initially embodying traits of self-interest, cynicism, and isolation, SCROOGE's journey reflects deep emotional conflicts and reveals the potential for personal redemption. Throughout the narrative, he is depicted as a bitter and unfeeling old man, whose disdain for Christmas and selfishness define his interactions with others.
+
+However, SCROOGE's character evolves significantly through supernatural encounters with ghosts, leading him to reflect on his past, present, and the potential future consequences of his actions. These haunting experiences facilitate his journey from isolation and greed to empathy and community involvement. The evolution of his personality is marked by significant behavioral changes, showcasing his transition from a miserly and cynical individual to someone who embraces warmth, joy, and generosity.
+
+Ultimately, SCROOGE embodies the spirit of Christmas and compassion, illustrating the transformative power of kindness and the importance of connection with others. His story highlights the complexities of human personality and the profound changes that can arise when one confronts their inner demons and opens their heart to love and generosity.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;GENEROSITY_MOTIVATION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Driven by a newfound desire to change his legacy, Scrooge's motivation shifts towards altruism and community involvement."&lt;SEP&gt;"Scrooge's desire to change and be generous, particularly by sending the prize turkey to the Cratchit family, drives his actions."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;POST_REDEMPTION_CELEBRATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's joyful participation in Christmas celebrations post-transformation illustrates his embrace of community and familial bonds."</data>
+  <data key="d2">chunk-503f0bfa5453467c7c61d160a3540eca</data>
+</node>
+<node id="&quot;REDEMPTION_MOTIVATION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Post-ghost encounters, Scrooge's desire to find redemption and connect with others drives his transformation."&lt;SEP&gt;"Scrooge's drive to redeem himself from a life of misery and selfishness following his ghostly encounters, leading to his positive change."&lt;SEP&gt;"Scrooge’s desire for redemption motivates his transformation from greed to generosity and kindness."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</node>
+<node id="&quot;CHRISTMAS_EVE_REFUSAL&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's refusal to celebrate Christmas and disregard for his nephew’s invitation demonstrate his low agreeableness and low extraversion."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</node>
+<node id="&quot;GHOST_OF_CHRISTMAS_PRESENT_VISIT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"The visit from the Ghost of Christmas Present illustrates Scrooge's initial disregard for others' joy and suffering, prompting realizations."&lt;SEP&gt;"The visit from the Ghost of Christmas Present reveals the joy and generosity present in others' lives, encouraging Scrooge's change."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</node>
+<node id="&quot;SCROOGE'S_NEPHEW&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A cheerful, optimistic man who embodies generosity and good humor, serving as a foil to Scrooge's character."&lt;SEP&gt;"Fred is Scrooge’s cheerful nephew who persistently invites his uncle to celebrate Christmas, symbolizing warmth and persistence in family bonds."&lt;SEP&gt;"Fred, Scrooge's cheerful nephew, who embodies the spirit of Christmas and attempts to include Scrooge in family celebrations."</data>
+  <data key="d2">chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</node>
+<node id="&quot;CHRISTMAS_BENEVOLENCE&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's interactions with the Cratchit family after his transformation demonstrate his newfound kindness and willingness to help those in need."&lt;SEP&gt;"Scrooge's interactions with townsfolk and his changes in behavior towards giving during Christmas display a complete turnaround in character."</data>
+  <data key="d2">chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+<node id="&quot;JOYOUS_LAUGHTER&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The scene where Scrooge expresses his joy through laughter marks a significant shift in his personality from gloom to exuberance."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</node>
+<node id="&quot;GHOST_OF_CHRISTMAS_PRESENT&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A lively episode showing Scrooge the joy of others during the holiday, representing the potential for community and connection he’s missing."&lt;SEP&gt;"During his visit from the Ghost of Christmas Present, Scrooge observes the happiness of others, stirring feelings of empathy and connection."&lt;SEP&gt;"Insights gained during Scrooge's visit with the Ghost of Christmas Present, highlighting his potential for emotional warmth."&lt;SEP&gt;"The appearance of the Ghost of Christmas Present provides Scrooge with insights into the joy and struggles of others, pushing him toward a more open mindset."&lt;SEP&gt;"The enlightening visit from the Ghost of Christmas Present, which contrasts Scrooge's current demeanor with the joy he is missing out on."&lt;SEP&gt;"The second spirit that reveals the joy and happiness of others during Christmas, highlighting Scrooge's isolation."&lt;SEP&gt;"The spirit symbolizing the joys of the present, showing Scrooge the happiness around him, which he initially dismisses."&lt;SEP&gt;"The spirit that reveals the current consequences of Scrooge's actions and the joy of community, urging him to change."&lt;SEP&gt;"The spirit that reveals the joy and warmth of the present, highlighting the impact of Scrooge's actions on those around him."</data>
+  <data key="d2">chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;SPIRIT_OF_CHRISTMAS_YET_TO_COME&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"The encounter with the final spirit grants Scrooge a glimpse of his lonely death, catalyzing his desire for change and redemption."&lt;SEP&gt;"The third spirit reveals the potential grim future Scrooge faces unless he changes his ways, sparking fear and reflection."</data>
+  <data key="d2">chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;FINAL_CONFRONTATION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's cheerful interactions during Christmas with the Cratchit family signify his shift towards positive traits."</data>
+  <data key="d2">chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</node>
+<node id="&quot;GENEROSITY_AT_CHRISTMAS&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The final transformative scene where Scrooge embodies the spirit of Christmas through acts of kindness and generosity, marking his complete change."</data>
+  <data key="d2">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</node>
+<node id="&quot;SOCIAL_EMBRACE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The joyful reunion and celebrations with his family at the end of the story illustrate Scrooge's acceptance into the community he previously shunned."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+<node id="&quot;CURIOSITY_FOR_CHANGE&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's journey towards redemption and understanding reflects a motivated curiosity to examine his past and its impact."</data>
+  <data key="d2">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</node>
+<node id="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"As Scrooge becomes more engaged with his community, his motivation shifts toward fostering connections and supporting others."&lt;SEP&gt;"Scrooge's desire to connect with his community and repair his relationships catalyzes his transformation into a more agreeable individual."&lt;SEP&gt;"Scrooge's development culminates in forming new relationships and connections within his community, emphasizing his transformed personality."&lt;SEP&gt;"Scrooge's enthusiastic interactions with the boy and others around him reflect his desire to form community connections."&lt;SEP&gt;"Scrooge's motivation evolves to include genuine connections with his community, emphasizing the importance of relationships in his life."&lt;SEP&gt;"Scrooge's newfound desire to connect with his community and spread joy becomes a driving motivation after his transformation."&lt;SEP&gt;"Scrooge’s eventual participation in community celebrations, signifying his newfound values and connections with others."&lt;SEP&gt;"Strikingly motivated by the desire to reconnect with community and family values, Scrooge undergoes a personal transformation."&lt;SEP&gt;"The desire to be part of a broader community drives Scrooge's actions towards kindness and social engagement."&lt;SEP&gt;"The pursuit of genuine connection to the community becomes a driving force in Scrooge's transformation."</data>
+  <data key="d2">chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</node>
+<node id="&quot;NOSTALGIA_IN_REFLECTION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's reflective nature as he recalls fond memories during his explorations with the ghosts feeds into his eventual change."</data>
+  <data key="d2">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</node>
+<node id="&quot;INTERACTION_CLERK_CONFRONTATION&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's interaction with his clerk showcases his harsh demeanor and lack of warmth in a professional setting."</data>
+  <data key="d2">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</node>
+<node id="&quot;INTERACTION_WITH_BOB_CRATCHET&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's kind interactions with Bob Cratchit post-transformation highlight his evolving character and the relationships he cultivates in his new life."</data>
+  <data key="d2">chunk-503f0bfa5453467c7c61d160a3540eca</data>
+</node>
+<node id="&quot;SPIRIT_ENCOUNTERS&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's interactions with the Ghosts of Christmas Past, Present, and Future are crucial scenes that trigger his self-reflection and burgeoning openness."&lt;SEP&gt;"Scrooge's interactions with the Ghosts of Christmas Past, Present, and Yet to Come catalyze his transformation and re-evaluation of his life."&lt;SEP&gt;"The interactions with the three spirits serve as catalysts for Scrooge's ultimate transformation and understanding of true human values."</data>
+  <data key="d2">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;PAST_REFLECTION&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's desire to reflect on his past mistakes serves as a crucial impetus for his transformation and acts of compassion."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</node>
+<node id="&quot;ETERNAL_GRUMP&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's initial interactions with others, characterized by grumpiness and dismissal of joy, exhibit his closed-off demeanor and low agreeableness."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;GRATITUDE_AFTER_REDEMPTION&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"Scrooge's expressions of gratitude and kindness towards others after his transformation demonstrate his new outlook on life."</data>
+  <data key="d2">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</node>
+<node id="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d0">"PERSONALITY_TRAIT"</data>
+  <data key="d1">The entity "LOW_AGREEABLENESS" is exemplified through the character of Scrooge at the beginning of his story. Scrooge is characterized by selfishness, distrust, and a pronounced lack of cooperation, which vividly illustrate his low levels of agreeableness. His initial interactions reveal a dismissive and critical attitude, particularly towards Christmas and his own family, as well as a harsh, judgmental stance towards others, including the destitute and those who care for him, such as Bob Cratchit.
+
+Throughout the early narrative, Scrooge's consistent lack of empathy manifests in his cold demeanor and indifference to others' needs, showcasing a stark absence of understanding or compassion. His disdain for social connections and charitable efforts highlights his prioritization of self-interest over altruism. Scrooge frequently expresses mistrust and skepticism, reinforcing his isolation and reinforcing his low agreeableness.
+
+Moreover, Scrooge's interactions are marked by a notably dismissive attitude, deepening the portrait of a man who is uncooperative and uninterested in engaging with the people around him. He often exhibits harsh responses and makes harsh judgments, reflecting a strong disdain for the joy and well-being of others. This unyielding attitude and behavior culminate in a clear depiction of a character who, at the onset of the story, is devoid of empathy, cooperation, and genuine concern for the welfare of others.</data>
+  <data key="d2">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</node>
+<node id="&quot;ISOLATION_IMPACT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's solitary life leads to intense feelings of despair, amplifying his neuroticism and lack of connection with others."</data>
+  <data key="d2">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</node>
+<node id="&quot;REVITALIZATION_SCENE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"At the end of the narrative, Scrooge's joyful interactions with others reflect high agreeableness through his newfound kindness and generosity."</data>
+  <data key="d2">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</node>
+<node id="&quot;CRATCHIT_FAMILY&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"Bob Cratchit’s family represents warmth, love, and the struggles of poverty, significantly influencing Scrooge's transformation."&lt;SEP&gt;"The Cratchit family represents the warmth of companionship and the struggles of poverty, contrasting sharply with Scrooge's initial coldness."&lt;SEP&gt;"The Cratchit family represents warmth, joy, and resilience despite economic hardships, highlighting the importance of togetherness and love."&lt;SEP&gt;"The Cratchit family's struggles highlight Scrooge's indifference to the plight of others."&lt;SEP&gt;"The humble yet loving family of Bob Cratchit, showcasing the value of relationships and care over wealth."&lt;SEP&gt;"The interactions between Scrooge and the Cratchit family further emphasize his neglect and lack of generosity towards those less fortunate."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</node>
+<node id="&quot;TINY_TIM&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A symbol of innocence and vulnerability whose fate deeply impacts Scrooge, prompting his emotional awakening and growth toward compassion."&lt;SEP&gt;"Bob Cratchit's ill son who represents innocence and the impact of charity, ultimately urging Scrooge to transform."&lt;SEP&gt;"Bob Cratchit's ill son whose plight elicits sympathy from Scrooge and symbolizes the impact of generosity and compassion."&lt;SEP&gt;"Bob Cratchit's ill son, whose hopefulness and charm influence Scrooge's change of heart."&lt;SEP&gt;"Bob Cratchit's innocent and sickly son, whose vulnerability prompts Scrooge's empathy and desire to help others."&lt;SEP&gt;"Bob Cratchit’s youngest son, Tiny Tim, embodies innocence and vulnerability, influencing Scrooge’s transformation."&lt;SEP&gt;"The fragile and compassionate nature of Tiny Tim symbolizes the impact of empathy and care, compelling Scrooge to change."&lt;SEP&gt;"Tiny Tim embodies hope and innocence, symbolizing the impact of Scrooge's transformation and the importance of family connections."</data>
+  <data key="d2">chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</node>
+<node id="&quot;BUSINESS_MEETING&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A gathering where business colleagues discuss Scrooge's financial affairs and comment on his death with indifference, highlighting their lack of emotional connection to him."</data>
+  <data key="d2">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</node>
+<node id="&quot;SPIRIT_GUIDANCE&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"Scrooge's relationship with the ghost leads to moments of reflection, prompting his internal struggle and eventual transformation."&lt;SEP&gt;"The visits from the Ghosts serve as pivotal experiences triggering Scrooge’s reflections on past, present, and future."</data>
+  <data key="d2">chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</node>
+<node id="&quot;DYNAMIC_CHARACTER_CHANGE&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"The motivation for growth and character change propels Scrooge's narrative arc, showcasing his development from a miser to a generous man."</data>
+  <data key="d2">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</node>
+<node id="&quot;SCROOGE'S_INITIAL_MINDSET&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A representation of Scrooge's cold and unyielding attitude towards life, showcasing his initial personality traits, particularly low agreeableness and low openness."</data>
+  <data key="d2">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</node>
+<node id="&quot;TRANSFORMATION_AFTER_NIGHTMARE&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"The pivotal moment when Scrooge begins to change after experiencing the visits from the three spirits, leading to a gradual transformation."</data>
+  <data key="d2">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</node>
+<node id="&quot;REGRET_FOR_PAST_ACTIONS&quot;">
+  <data key="d0">"MOTIVATION"</data>
+  <data key="d1">"Scrooge's regret for his previous selfishness and neglect drives his desire to change and grow as a person after encountering the spirits."</data>
+  <data key="d2">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</node>
+<node id="&quot;CRATCHIT_FAMILY_CHRISTMAS&quot;">
+  <data key="d0">"SCENE"</data>
+  <data key="d1">"A scene in which the Cratchit family, despite their poverty, celebrates Christmas with joy and warmth, influencing Scrooge's transformation."&lt;SEP&gt;"A warm and loving Christmas dinner at the Cratchit household, showcasing familial love and togetherness, which ultimately influences Scrooge."&lt;SEP&gt;"A warm family gathering that highlights the Cratchits' love and joy, which profoundly affects Scrooge during his transformation."</data>
+  <data key="d2">chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</node>
+<node id="&quot;GENEROSITY_ACT&quot;">
+  <data key="d0">"INTERACTION"</data>
+  <data key="d1">"The act of sending the prize turkey to Bob Cratchit's family illustrates Scrooge's commitment to generosity after his transformation."</data>
+  <data key="d2">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</node>
+<edge source="&quot;MISERLY_INTERACTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge’s stingy interactions reveal his cold personality and attitudes towards economic concerns."</data>
+  <data key="d5">"stinginess, lack of warmth"</data>
+  <data key="d6">chunk-90d5764e301321c087f5a8f78b73a145</data>
+</edge>
+<edge source="&quot;JOY_OF_GIVING&quot;" target="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's newfound joy in giving aligns with his development into a high agreeableness character, reflecting true generosity."</data>
+  <data key="d5">"generosity, transformation"</data>
+  <data key="d6">chunk-54bdd22db1f84a965b5f4c06c9216d8d</data>
+</edge>
+<edge source="&quot;JOY_OF_GIVING&quot;" target="&quot;GENEROSITY_AT_CHRISTMAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's newfound joy in giving leads to acts of generosity at Christmas, completing his transformation into a caring individual."</data>
+  <data key="d5">"character evolution, benevolence"</data>
+  <data key="d6">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</edge>
+<edge source="&quot;HIGH_EMOTIONAL_AWARENESS&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's realization of the importance of emotional awareness signifies his growth and recognition of the impact of his past decisions."</data>
+  <data key="d5">"insight, personal growth"</data>
+  <data key="d6">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</edge>
+<edge source="&quot;HIGH_EMOTIONAL_AWARENESS&quot;" target="&quot;TRANSFORMATION_MOTIVATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Increased emotional awareness during transformative encounters fuels Scrooge's desire to become a better person and foster positive connections."</data>
+  <data key="d5">"transformation drive, emotional growth"</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8</data>
+</edge>
+<edge source="&quot;GHOST_OF_CHRISTMAS_PAST_VISIT&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's encounter with the Ghost of Christmas Past triggers a critical shift in his motivations toward emotional connection and empathy."</data>
+  <data key="d5">"self-reflection, emotional awakening"</data>
+  <data key="d6">chunk-773d0df1dd25c356f7b771d780583e09</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;CRATCHIT_FAMILY_CHRISTMAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge’s exposure to the Cratchit family’s joy motivates his transformation and commitment to community."</data>
+  <data key="d5">"catalyst for change, emotional revelation"</data>
+  <data key="d6">chunk-7e2e7ebcc19a53b399dc03aded4743e7</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;SPIRIT_ENCOUNTERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The motivation for transformation stems from Scrooge's encounters with the ghosts, prompting him to reconsider his values and relationships."</data>
+  <data key="d5">"personal growth, awareness"</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;GRAVE_SCENE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The grim vision in the grave scene acts as a catalyst that compels Scrooge to re-evaluate his life's choices, triggering his motivation for change."</data>
+  <data key="d5">"critical turning point, self-realization"</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;NEPHEW_INTERACTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The basis of Scrooge’s transformation begins with these interactions, challenging him to reconsider his values and perceptions of Christmas."</data>
+  <data key="d5">"self-reflection, potential for change"</data>
+  <data key="d6">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;HIGH_OPENNESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge’s emerging openness characterizes his motivation to transform and embrace new experiences and connections as a response to the spirits’ guidance."</data>
+  <data key="d5">"personal development, acceptance"</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;LOW_OPENNESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's initial resistance to change reflects his low openness, yet drives his eventual desire for redemption."</data>
+  <data key="d5">"transformation, change acceptance"</data>
+  <data key="d6">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_MOTIVATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The interactions with spirits inspire Scrooge’s motivation to change from miser to a generous figure."</data>
+  <data key="d5">"character growth, redemption"</data>
+  <data key="d6">chunk-90d5764e301321c087f5a8f78b73a145</data>
+</edge>
+<edge source="&quot;SCROOGE_ISOLATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's profound isolation represents his emotional state, deepening the impact of his eventual transformation."</data>
+  <data key="d5">"loneliness, despair"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;GHOST_OF_CHRISTMAS_YET_TO_COME&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"The foreboding visit shows Scrooge the consequences of his life choices, driving home the urgency for change."&lt;SEP&gt;"The frightening revelations from the Ghost of Christmas Yet to Come inspire Scrooge’s urgent desire for redemption."</data>
+  <data key="d5">"consequences, urgency"&lt;SEP&gt;"urgency, fear of loss"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</edge>
+<edge source="&quot;GHOST_OF_CHRISTMAS_YET_TO_COME&quot;" target="&quot;HIGH_NEUROTICISM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The foreboding nature of his future shown by this ghost raises Scrooge's anxiety and fear, showcasing his high neuroticism at that moment."</data>
+  <data key="d5">"fear of consequences, emotional turmoil"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;HIGH_EXTRAVERSION&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The joyous interactions at Fred's Christmas party reflect Scrooge's enhanced sociability and cheerfulness."</data>
+  <data key="d5">"social engagement, happiness"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;HIGH_EXTRAVERSION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">167.0</data>
+  <data key="d4">"After his transformation, Scrooge’s social interactions reflect high extraversion, as he engages joyfully with the community."&lt;SEP&gt;"By the end, Scrooge engages with others joyfully, showing growth in social enthusiasm and energy."&lt;SEP&gt;"His active participation in family games and celebrations shows Scrooge’s increasing sociability and enjoyment of life."&lt;SEP&gt;"In his transformation, Scrooge becomes actively engaged in life and relationships, revealing high extraversion in his joyful interactions."&lt;SEP&gt;"Post-transformation, Scrooge's energy and sociability demonstrate his embrace of high extraversion after a lifetime of solitary behavior."&lt;SEP&gt;"Post-transformation, Scrooge's engaging interactions with family highlight high extraversion, a joyful embrace of social connections."&lt;SEP&gt;"Scrooge's active participation in social interactions after his transformation illustrates high extraversion."&lt;SEP&gt;"Scrooge's eventual embracing of joy and connection illustrates his transformation into a more extraverted individual post-redemption, as he engages warmly with others."&lt;SEP&gt;"Scrooge's evolving character displays growing sociability, especially when he starts to embrace the Christmas spirit and joyful interactions."&lt;SEP&gt;"Scrooge's journey culminates in joyful sociability, highlighting his newfound extraversion amongst company."&lt;SEP&gt;"Scrooge's joyful interactions and newfound sociability show a strong shift towards extraversion."&lt;SEP&gt;"Scrooge's lively demeanor after transformation shows strong extraversion during social interactions."&lt;&gt; "joy, sociability"&lt;SEP&gt;"Scrooge's low extraversion manifests in his solitary lifestyle before transformation, isolating him from social joy and connection."&lt;SEP&gt;"Scrooge's low levels of extraversion become evident in his isolation and rejection of social norms, reinforcing his character's curmudgeonly nature."&lt;SEP&gt;"Scrooge's newfound sociability and cheerfulness after his transformation demonstrate his high extraversion."&lt;SEP&gt;"Scrooge's transformation into a joyful participant in society indicates newfound extraversion and social engagement."&lt;SEP&gt;"Scrooge's transformation reveals high extraversion as he embodies cheerfulness and sociability, engaging with loved ones."&lt;SEP&gt;"Scrooge's vibrant engagement with the community after his transformation indicates a marked increase in extraversion."&lt;SEP&gt;"Scrooge’s joyful interactions after redemption highlight a shift toward higher extraversion, showcasing his willingness to socialize and engage."</data>
+  <data key="d5">"energy increase, social engagement"&lt;SEP&gt;"joy, social engagement"&lt;SEP&gt;"joyous engagement, social warmth"&lt;SEP&gt;"social acceptance, community connection"&lt;SEP&gt;"social avoidance, isolation"&lt;SEP&gt;"social connection, community embrace"&lt;SEP&gt;"social connection, enthusiasm"&lt;SEP&gt;"social engagement, community connection"&lt;SEP&gt;"social engagement, happiness"&lt;SEP&gt;"social engagement, joy"&lt;SEP&gt;"social engagement, newfound joy"&lt;SEP&gt;"social engagement, personality shift"&lt;SEP&gt;"social engagement, warmth"&lt;SEP&gt;"social interaction, joy"&lt;SEP&gt;"social isolation, introverted nature"&lt;SEP&gt;"social transformation, joy"&lt;SEP&gt;"social warmth, engagement"&lt;SEP&gt;10</data>
+  <data key="d6">chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;GENEROSITY_DECLARATION&quot;" target="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge’s promise of generosity after his transformation signifies a dramatic shift towards high agreeableness and community care."</data>
+  <data key="d5">"community service, positive change"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;POST_TRANSFORMATION&quot;" target="&quot;HIGH_CONSCIENTIOUSNESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's commitment to making amends and taking responsibility for his past actions reflects high conscientiousness after his transformation."</data>
+  <data key="d5">"responsibility, commitment"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</edge>
+<edge source="&quot;SCROOGE'S_CHILDHOOD&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's reflections on his lonely childhood illuminate the origins of his later miserly behavior and emotional struggles."</data>
+  <data key="d5">"early experiences, emotional foundation"</data>
+  <data key="d6">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</edge>
+<edge source="&quot;FRED&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"Fred’s optimistic nature and persistent kindness serve as a stark contrast to Scrooge's initial cynicism, highlighting the potential for change."&lt;SEP&gt;"Scrooge's changing attitude towards Fred showcases how familial love can influence one's personality and social behavior."</data>
+  <data key="d5">"contrast, familial love"&lt;SEP&gt;"family, connection"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad</data>
+</edge>
+<edge source="&quot;CHRISTMAS_VISIT&quot;" target="&quot;SPIRIT_INTERACTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The visit from the Spirit catalyzes Scrooge's change, prompting self-reflection and growth in various traits."</data>
+  <data key="d5">"catalyst for change, spiritual awakening"</data>
+  <data key="d6">chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</edge>
+<edge source="&quot;CHRISTMAS_VISIT&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The gentlemen's attempt to solicit funds is met with Scrooge's rude rejection, illustrating his unyielding nature."</data>
+  <data key="d5">"hostility, rejection"</data>
+  <data key="d6">chunk-90d5764e301321c087f5a8f78b73a145</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_CHRISTMAS_MORNING&quot;" target="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's newfound warm-heartedness and kindness after his transformation highlights his high agreeableness."</data>
+  <data key="d5">"generosity, kindness"</data>
+  <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+</edge>
+<edge source="&quot;HIGH_OPENNESS_TRANSFORMATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's increased openness manifests as he embraces new relationships and experiences, marking his transformation into a more accepting individual."</data>
+  <data key="d5">"personal growth, openness to change"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;SCROOGE_RESENTMENT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's negativity and resentment towards Christmas celebrations showcase his initial distaste for joy and connection with others."</data>
+  <data key="d5">"negative attitude, emotional defense"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;GENEROSITY_AFTER_TRANSFORMATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Post-transformation, Scrooge's newfound generosity stands in stark contrast to his past self, showcasing his growth and change."</data>
+  <data key="d5">"redemption, character arc"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;EMOTIONAL_STABILITY&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's journey from emotional instability to greater emotional awareness demonstrates a fundamental shift in his character throughout the story."</data>
+  <data key="d5">"emotional journey, character shift"</data>
+  <data key="d6">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</edge>
+<edge source="&quot;EMPATHY_DEVELOPMENT&quot;" target="&quot;BOB_CRATCHIT_INTERACTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's motivation to develop greater empathy leads to meaningful interactions with the Cratchit family."</data>
+  <data key="d5">"growth, social responsibility"</data>
+  <data key="d6">chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</edge>
+<edge source="&quot;EMPATHY_DEVELOPMENT&quot;" target="&quot;REVITALIZATION_SCENE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's realization of the importance of empathy drives his newfound appreciation for community and connection."</data>
+  <data key="d5">"community focus, motivation for change"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;GENEROSITY_EXHIBITION&quot;" target="&quot;NEPHEW_INTERACTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Their interaction exemplifies the driving force behind Scrooge's newfound generosity and joy during Christmas."</data>
+  <data key="d5">"relationship revival, joy expression"</data>
+  <data key="d6">chunk-91614df5cb74cbe5e109a338a82041e9</data>
+</edge>
+<edge source="&quot;GENEROSITY_EXHIBITION&quot;" target="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d3">19.0</data>
+  <data key="d4">"Acts of kindness towards the Cratchit family symbolize Scrooge’s reformed character, exhibiting high agreeableness."&lt;SEP&gt;"Scrooge's newfound agreeableness is evident in the generous actions he takes to support others, a direct result of his transformation."</data>
+  <data key="d5">"compassion, community focus"&lt;SEP&gt;"kindness, support"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</edge>
+<edge source="&quot;FEZZIWIG&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Recollections of Fezziwig's kindness trigger Scrooge's realization of how he has squandered relationships and joy."</data>
+  <data key="d5">"nostalgia, lost joy"</data>
+  <data key="d6">chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</edge>
+<edge source="&quot;FEZZIWIG&quot;" target="&quot;HIGH_NEUROTICISM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"As a successful contrast in personality to Scrooge, Fezziwig's joy and generosity showcase what Scrooge has lost due to his high neuroticism."</data>
+  <data key="d5">"contrast, ideal figure"</data>
+  <data key="d6">chunk-8bc1edd983869352d14cf0886a9175a7</data>
+</edge>
+<edge source="&quot;CHARITY_CONFRONTATION&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Initially, Scrooge's rejection of charitable contributions reflects his low agreeableness and unwillingness to engage with the community."</data>
+  <data key="d5">"rejection, self-isolation"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;FRED_HOLYDAY_VISIT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Fred's persistent kindness and invitations reflect contrasting ideals that ultimately aid in Scrooge's transformation."</data>
+  <data key="d5">"contrasting warmth, community"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;HIGH_NEUROTICISM&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's anxiety and emotional turmoil in response to the ghosts reflect high neuroticism prior to his change."</data>
+  <data key="d5">"anxiety, emotional distress"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;HIGH_NEUROTICISM&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">259.0</data>
+  <data key="d4">The entity, "Scrooge," is characterized by high levels of neuroticism throughout his transformation story, particularly evident in his profound anxiety and emotional instability. Initially, he exhibits significant anxiety regarding his wealth and fear of poverty, which leads to an isolated and harsh demeanor affecting his relationships with others. Scrooge’s interactions are marked by emotional turmoil and negative thinking patterns, showcasing high neuroticism, especially in social situations. His dread of mortality and regrets about his past amplify his anxiety as he confronts supernatural elements, such as Marley’s Ghost and the spirits of Christmas.
+
+As Scrooge undergoes his journey with the ghosts, his anxiety intensifies, revealing his emotional struggles and fear of loneliness. He is unable to cope well with these supernatural experiences, which further highlights his instability and difficulty in facing painful memories. His high neuroticism manifests in acute emotional reactions and stress during these encounters, calling attention to his fears and regrets that he had buried.
+
+The interplay of Scrooge’s anxiety, emotional instability, and negative outlook emphasizes not only his neurotic tendencies at the outset but also serves as a barrier to his personal happiness. Ultimately, the experiences during his ghostly visits transform his understanding, but his initial state is deeply rooted in high neuroticism, which shapes his identity and relational dynamics before his eventual transformation.</data>
+  <data key="d5">"anxiety, emotional distress"&lt;SEP&gt;"anxiety, emotional response"&lt;SEP&gt;"anxiety, fear"&lt;SEP&gt;"anxiety, fear-based behavior"&lt;SEP&gt;"anxiety, moodiness"&lt;SEP&gt;"anxiety, stress"&lt;SEP&gt;"anxiety, supernatural fears"&lt;SEP&gt;"anxiety, transformation, fear"&lt;SEP&gt;"emotional distress, anxiety"&lt;SEP&gt;"emotional instability, anxiety patterns"&lt;SEP&gt;"emotional instability, anxiety"&lt;SEP&gt;"emotional instability, fear of consequences"&lt;SEP&gt;"emotional instability, scorn for social norms"&lt;SEP&gt;"emotional struggle, loneliness"&lt;SEP&gt;"emotional turmoil, anxiety"&lt;SEP&gt;"emotional turmoil, character growth"&lt;SEP&gt;"emotional turmoil, isolation"&lt;SEP&gt;"emotional turmoil, past regrets"&lt;SEP&gt;"fear of loss, stress from wealth"&lt;SEP&gt;"fear of vulnerability, isolation"&lt;SEP&gt;"fear response, emotional turmoil"&lt;SEP&gt;"fear, emotional instability"&lt;SEP&gt;"fear, emotional turmoil"&lt;SEP&gt;"fear, self-reflection"&lt;SEP&gt;"stress sensitivity, emotional avoidance"&lt;SEP&gt;"stress sensitivity, fear response"&lt;SEP&gt;"stress, anxiety"&lt;SEP&gt;8&lt;SEP&gt;fear, anxiety</data>
+  <data key="d6">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;HIGH_NEUROTICISM&quot;" target="&quot;LOW_NEUROTICISM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's journey from emotional instability to stability marks a significant change from high to low neuroticism."</data>
+  <data key="d5">"emotional journey, stability"</data>
+  <data key="d6">chunk-8f738cb25d60a7dab782162d9d0a25ed</data>
+</edge>
+<edge source="&quot;POVERTY_REFLECTION&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Scrooge's hesitant inquiries during his interaction with the Ghost signal an emerging awareness of his neglect towards the needy."</data>
+  <data key="d5">"growing awareness, moral conflict"</data>
+  <data key="d6">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+</edge>
+<edge source="&quot;CHRISTMAS_EVE&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"On Christmas Eve, Scrooge's rejection of cheer showcases his disdain for community engagement and highlights his low openness and agreeableness."</data>
+  <data key="d5">"rejection of joy, closed mindset"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;SELF_REFLECTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's motivation for redemption drives his reflective journey, prompted by the spirits that challenge his views and attitudes."</data>
+  <data key="d5">"self-discovery, redemption motivation"</data>
+  <data key="d6">chunk-503f0bfa5453467c7c61d160a3540eca</data>
+</edge>
+<edge source="&quot;FINANCIAL_SCRUTINY&quot;" target="&quot;HIGH_CONSCIENTIOUSNESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's meticulous financial habits emphasize his organized and responsible nature despite his flaws."</data>
+  <data key="d5">"organization, responsibility"</data>
+  <data key="d6">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</edge>
+<edge source="&quot;IMPACT_OF_NEPHEW&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Fred's persistent invitations serve to challenge Scrooge's low agreeableness, highlighting the importance of familial ties."</data>
+  <data key="d5">"family connection, social critique"</data>
+  <data key="d6">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</edge>
+<edge source="&quot;CHANGED_LIFE_COMMITMENT&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge’s decision to keep Christmas in his heart signals his commitment to live a reformed life after the grave confrontation."</data>
+  <data key="d5">"redemption, sincerity"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</edge>
+<edge source="&quot;CHRISTMAS_MORNING&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Awakening on Christmas morning symbolizes Scrooge's reunion with joy and community after a life of isolation."</data>
+  <data key="d5">"joy, transformation"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;CHRISTMAS_MORNING&quot;" target="&quot;LOW_NEUROTICISM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Post-transformation, Scrooge's emotional stability allows him to fully embrace joy and celebration during Christmas."</data>
+  <data key="d5">"joy, emotional growth"</data>
+  <data key="d6">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</edge>
+<edge source="&quot;REGRETFUL_REFLECTION&quot;" target="&quot;GHOST_OF_CHRISTMAS_PAST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The reflection on the past during his interaction with the ghost catalyzes Scrooge's journey towards self-awareness and growth."</data>
+  <data key="d5">"introspection, self-awareness"</data>
+  <data key="d6">chunk-8bc1edd983869352d14cf0886a9175a7</data>
+</edge>
+<edge source="&quot;REGRETFUL_REFLECTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Scrooge's interactions with his past reveal a developing openness and emotional awareness as his character transforms."</data>
+  <data key="d5">"emotional growth, self-reflection"</data>
+  <data key="d6">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</edge>
+<edge source="&quot;BOB_CRATCHIT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Bob's dedication and humble character showcase the impact of Scrooge's earlier actions on the lives of his employees."&lt;SEP&gt;"Scrooge's eventual kindness towards Bob Cratchit illustrates his shift from an exploitative employer to a supportive figure."</data>
+  <data key="d5">"character growth, kindness"&lt;SEP&gt;"workplace dynamics, responsibility"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad</data>
+</edge>
+<edge source="&quot;BOB_CRATCHIT_INTERACTION&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's growing empathy towards Bob and Tiny Tim catalyzes his transformative realization."</data>
+  <data key="d5">"care, communal spirit"</data>
+  <data key="d6">chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</edge>
+<edge source="&quot;BOB_CRATCHIT_INTERACTION&quot;" target="&quot;HIGH_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's changing dynamic with Bob showcases the increase of his agreeableness and empathy toward others over time."</data>
+  <data key="d5">"relationship development, care"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</edge>
+<edge source="&quot;BOB_CRATCHIT_INTERACTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"Scrooge's harsh treatment of Bob illustrates his lack of empathy and cooperation, underscoring his low conscientiousness and high neuroticism."&lt;SEP&gt;"Scrooge's harsh treatment of Bob illustrates his low agreeableness and emotional distance."</data>
+  <data key="d5">"lack of care, empathy "&lt;SEP&gt;"workplace relationship, lack of compassion"</data>
+  <data key="d6">chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;FEAR_OF_CHANGE&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"His initial reluctance for change illustrates the motivation behind his selfish behavior, typical of low agreeableness."</data>
+  <data key="d5">"motivation for control, resistance to change"</data>
+  <data key="d6">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</edge>
+<edge source="&quot;GHOST_OF_CHRISTMAS_PAST&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">29.0</data>
+  <data key="d4">"The Ghost of Christmas Past catalyzes Scrooge's introspection, leading him to rethink his life choices and emotional distance."&lt;SEP&gt;"The encounter with this spirit initiates Scrooge's journey of self-reflection, prompting him to confront painful memories."&lt;SEP&gt;"The retrospective journey with the ghost prompts Scrooge to confront past mistakes and long-lost happiness."</data>
+  <data key="d5">"introspection, past reflection"&lt;SEP&gt;"memories, self-reflection"&lt;SEP&gt;"reflection, regret"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;GHOST_OF_CHRISTMAS_PAST&quot;" target="&quot;LOW_OPENNESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's initial resistance to the lessons of the past highlights his low openness at the beginning of the story."</data>
+  <data key="d5">"stubbornness, resistance"</data>
+  <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+</edge>
+<edge source="&quot;MENTORSHIP_COMMITMENT&quot;" target="&quot;HIGH_CONSCIENTIOUSNESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's commitment to mentor others shows his growth in responsibility and conscientiousness after transformation."</data>
+  <data key="d5">"commitment, responsibility"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</edge>
+<edge source="&quot;CHRISTMAS_PAST_VISIT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The visit to his past evokes regret and nostalgia in Scrooge, which is crucial for developing his emotional openness."</data>
+  <data key="d5">"self-reflection, emotional awareness"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;GRAVE_SCENE&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The horrific vision of the neglected dead man profoundly impacts Scrooge, serving as a harsh mirror to his own life choices."</data>
+  <data key="d5">"self-reflection, life consequences"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;LOW_OPENNESS&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"His earlier refusal to engage with the world around him shows his low openness during his miserly days."</data>
+  <data key="d5">"stagnation, skepticism"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;LOW_OPENNESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">186.0</data>
+  <data key="d4">The entity "SCROOGE" exemplifies "LOW_OPENNESS" through a series of characteristics that define his initial mindset. At the beginning of the narrative, Scrooge exhibits a rigid and closed mindset, demonstrating a strong resistance to new ideas and change. His aversion to change is reflected in his disdain for Christmas, showcasing a significant lack of emotional awareness and openness. Scrooge's reluctance to embrace new experiences and ideas illustrates a stagnation in his personal growth, marked by his obsessive adherence to routines and avoidance of emotional connections.
+
+Initially, Scrooge's closed-mindedness is evident in his interactions with others, particularly his ridicule of his cheerful nephew, which underscores his lack of appreciation for emotional connections and festive joy. This resistance to change and rigidity limit his emotional growth, as he rejects opportunities for connection and creativity, ultimately highlighting his inability to engage with the joy of Christmas or the festive spirit.
+
+Throughout the beginning stages of the story, Scrooge's initial rigidity and lack of curiosity serve as a testament to his low openness. His struggle to accept change and clinging to traditional views significantly impact his attitudes and communication. Scrooge's low openness is notably characterized by his initial rejection of new ideas, emotional experiences, and the rich tapestry of human connections, which he perceives as unnecessary distractions from his rigid beliefs.
+
+However, as the narrative unfolds, Scrooge starts to challenge these entrenched views following his encounters with the spirits, suggesting the potential for transformation and growth. Nonetheless, at the outset, his low openness is vividly illustrated through his firm resistance to the joy of Christmas and the emotional connectivity that accompanies it.</data>
+  <data key="d5">"closed mindedness, emotional repression"&lt;SEP&gt;"closed-mindedness, resistance to change"&lt;SEP&gt;"closed-mindedness, resistance"&lt;SEP&gt;"disdain for connection, rigidity"&lt;SEP&gt;"emotional rigidity, closed mindset"&lt;SEP&gt;"fixed mindset, isolation"&lt;SEP&gt;"fixed mindset, resistance to change"&lt;SEP&gt;"narrow-mindedness, avoidance, emotional unawareness"&lt;SEP&gt;"resistance to change, closed mindset"&lt;SEP&gt;"resistance to change, emotional guard"&lt;SEP&gt;"resistance to change, narrow-mindedness"&lt;SEP&gt;"resistance to change, rigid thinking"&lt;SEP&gt;"rigid mindset, isolation"&lt;SEP&gt;"rigid thinking, closed-mindedness"&lt;SEP&gt;"rigidity, closed-mindedness"&lt;SEP&gt;"rigidity, lack of curiosity"&lt;SEP&gt;"rigidity, lack of perspective"&lt;SEP&gt;"rigidity, resistance to change"&lt;SEP&gt;"stagnation, closed-mindedness"&lt;SEP&gt;"stagnation, emotional dullness"&lt;SEP&gt;8&lt;SEP&gt;closed-mindedness, rigidity</data>
+  <data key="d6">chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</edge>
+<edge source="&quot;LIGHTHEARTEDNESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Embracing lightheartedness showcases Scrooge's complete transformation from a somber, miserly figure to a joyous and cheerful person."</data>
+  <data key="d5">"emotional freedom, joy"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</edge>
+<edge source="&quot;LOW_AGREEABLENESS_REFLECTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's selfishness is highlighted by his earlier interactions, which lack compassion for others, illustrating his character before transformation."</data>
+  <data key="d5">"selfishness, lack of empathy"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;HIGH_CONSCIENTIOUSNESS&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's rise in responsibility and ethical behavior signifies a move toward high conscientiousness after his transformations."</data>
+  <data key="d5">"responsibility, integrity"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;HIGH_CONSCIENTIOUSNESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">231.0</data>
+  <data key="d4">The character of Scrooge is marked by a complex relationship with high conscientiousness, embodying diligence and responsibility primarily in the context of his business endeavors. Initially, this conscientiousness is expressed through an obsessive commitment to financial success, demonstrating a strong work ethic and meticulous attention to detail. Scrooge's focus on profit often overshadows his personal relationships, leading to a life devoid of joy and emotional connections. His responsibility is misguided, directed toward selfish ends rather than altruism or social engagement.
+
+However, following his transformative experiences with the spirits, Scrooge exhibits a significant evolution in his conscientiousness. He begins to take a genuine interest in the wellbeing of others, reflecting a newfound sense of responsibility and moral integrity. This change is particularly evident in his actions towards Bob Cratchit and his family, illustrating a commitment to social awareness and charitable behavior. As Scrooge reflects on his past behaviors, he becomes increasingly aware of the impact of his actions on others and the community, leading him to seek redemption and amend his wrongs.
+
+Post-transformation, Scrooge's conscientiousness is not diminished but rather enriched; it now encompasses a balance between his strong work ethic and a commitment to helping others. His journey showcases a mature form of conscientiousness that integrates responsibility, dedication, and a more humane approach to life, reflecting growth in both his professional and personal spheres. Ultimately, Scrooge's character embodies the potential for conscientiousness to evolve from a narrow focus on success to a broader understanding of social responsibility and community engagement.</data>
+  <data key="d5">"attention to detail, business focus"&lt;SEP&gt;"dedication, routine"&lt;SEP&gt;"diligence, work over relationships"&lt;SEP&gt;"discipline, work-focused"&lt;SEP&gt;"financial management, orderliness"&lt;SEP&gt;"financial responsibility, relationship neglect"&lt;SEP&gt;"moral responsibility, community care"&lt;SEP&gt;"orderly life, financial strictness"&lt;SEP&gt;"organizational skills, responsibility"&lt;SEP&gt;"personal development, responsibility"&lt;SEP&gt;"personal growth, accountability"&lt;SEP&gt;"personality work ethic, early focus"&lt;SEP&gt;"responsibility acceptance, moral awakening"&lt;SEP&gt;"responsibility growth, moral change"&lt;SEP&gt;"responsibility, ambition"&lt;SEP&gt;"responsibility, caring"&lt;SEP&gt;"responsibility, commitment"&lt;SEP&gt;"responsibility, financial focus"&lt;SEP&gt;"responsibility, positive action"&lt;SEP&gt;"responsibility, transformation"&lt;SEP&gt;"responsibility, work ethic"&lt;SEP&gt;"self-centered diligence, work focus"&lt;SEP&gt;"work ethic, responsibility"&lt;SEP&gt;"work ethic, rigidity"&lt;SEP&gt;9&lt;SEP&gt;organization, self-serving</data>
+  <data key="d6">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;HIGH_CONSCIENTIOUSNESS&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Scrooge's initial focus on responsibility and work was accompanied by a lack of warmth towards others."</data>
+  <data key="d5">"responsibility, emotional detachment"</data>
+  <data key="d6">chunk-54bdd22db1f84a965b5f4c06c9216d8d</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;LIFE_REFLECTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The process of reflecting on his life leads Scrooge to develop agreeableness as he becomes more empathetic and caring toward others."</data>
+  <data key="d5">"self-reflection, change"</data>
+  <data key="d6">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Post-transformation, Scrooge's actions indicate a shift towards high agreeableness, embracing kindness and community involvement."</data>
+  <data key="d5">"generosity, kindness"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;REVITALIZATION_SCENE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"In the final scene, Scrooge's joyful interactions symbolize his transformation into a caring and cooperative individual, showcasing high agreeableness."</data>
+  <data key="d5">"positive relationships, community engagement"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;POST_REDEMPTION_CELEBRATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's newfound kindness and generosity at the Christmas celebration highlight his transformed agreeableness, bridging connections with others."</data>
+  <data key="d5">"community spirit, joyful engagement"</data>
+  <data key="d6">chunk-503f0bfa5453467c7c61d160a3540eca</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Scrooge’s increased focus on community and connection illustrates the emergence of higher agreeableness as he becomes more empathetic and trusting."&lt;SEP&gt;"The desire to form genuine connections with others post-transformation reflects Scrooge’s commitment to high agreeableness and empathy."</data>
+  <data key="d5">"relationship building, caring"&lt;SEP&gt;"social reintegration, cooperative spirit"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's eventual rediscovery of generosity and empathy depicts a powerful evolution in his personality toward high agreeableness."</data>
+  <data key="d5">"transformation, positive change"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;CARING_DIALOGUE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's interaction with Tiny Tim after his transformation reveals his newfound agreeableness and empathy for others."</data>
+  <data key="d5">"empathy, kindness"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">251.0</data>
+  <data key="d4">The character of Scrooge, following his transformation, embodies high agreeableness through a profound shift in his personality. Initially depicted as self-centered and miserly, Scrooge undergoes a significant change that is marked by increased compassion and generosity towards others. This transformation manifests in various ways, as he begins to actively show kindness and concern for individuals around him, particularly notable in his interactions with the Cratchit family.
+
+As Scrooge's character evolves, he develops newfound empathy and a willingness to assist others, demonstrating a stark contrast to his former self. His actions become increasingly characterized by warmth and care, illustrating a rise in agreeableness that signifies his desire for connection and positive relationships. By embracing the joy of giving and celebrating with others, Scrooge's core transformation reflects a marked shift in his disposition from self-centeredness to a more community-oriented and supportive approach.
+
+Scrooge's capacity for empathy deepens as he comes to terms with his mortality and the consequences of his past choices. This self-reflection catalyzes his growth in agreeableness, culminating in his engagement in acts of kindness and cooperation. Ultimately, Scrooge's journey represents a significant evolution toward high agreeableness, characterized by his empathetic and generous demeanor, demonstrating how his newfound traits emerge through supportive actions and a commitment to nurturing a sense of community.</data>
+  <data key="d5">"altruism, community focus"&lt;SEP&gt;"character evolution, empathy development"&lt;SEP&gt;"charitable transformation, empathy growth"&lt;SEP&gt;"compassion, willingness to connect"&lt;SEP&gt;"emotional growth, social connection"&lt;SEP&gt;"empathy development, character growth"&lt;SEP&gt;"empathy development, relationships"&lt;SEP&gt;"empathy development, social generosity"&lt;SEP&gt;"empathy growth, transformation effect"&lt;SEP&gt;"empathy, change"&lt;SEP&gt;"empathy, community connection"&lt;SEP&gt;"empathy, community involvement"&lt;SEP&gt;"empathy, connection with others"&lt;SEP&gt;"empathy, generosity"&lt;SEP&gt;"empathy, kindness development"&lt;SEP&gt;"empathy, kindness"&lt;SEP&gt;"empathy, transformation"&lt;SEP&gt;"generosity, empathy"&lt;SEP&gt;"growth, community connection"&lt;SEP&gt;"kindness, generosity"&lt;SEP&gt;"kindness, generosity, social connection"&lt;SEP&gt;"personal growth, relational development"&lt;SEP&gt;"personal transformation, emotional growth"&lt;SEP&gt;"transformation, empathy development"&lt;SEP&gt;10</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-8bc1edd983869352d14cf0886a9175a7&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;HIGH_AGREEABLENESS&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's character development highlights the contrast between his initial low agreeableness and his transformed high agreeableness."</data>
+  <data key="d5">"character growth, transformation"</data>
+  <data key="d6">chunk-8f738cb25d60a7dab782162d9d0a25ed</data>
+</edge>
+<edge source="&quot;SPIRIT_OF_CHRISTMAS_PAST&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"Scrooge's confrontation with his past through the spirit serves as a crucial turning point for his self-awareness and remorse."&lt;SEP&gt;"The Ghost's revelations about Scrooge's past force him to confront painful memories, sparking the beginning of his transformation."</data>
+  <data key="d5">"reflection, nostalgia"&lt;SEP&gt;"self-reflection, awakening"</data>
+  <data key="d6">chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_EXPERIENCE&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's encounters with the spirits are critical in pushing him to reconsider his strict views, leading to more openness and emotional awareness."</data>
+  <data key="d5">"catalyst for change, emotional triggering"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;LOW_EXTRAVERSION&quot;" target="&quot;SKEPTICAL_DIALOGUE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Scrooge’s hesitant communication styles indicate low extraversion and resistance to social engagement."</data>
+  <data key="d5">"isolation, communication barriers"</data>
+  <data key="d6">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+</edge>
+<edge source="&quot;LOW_EXTRAVERSION&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"His isolation and reluctance to engage socially illustrate low extraversion at the beginning of the story."</data>
+  <data key="d5">"withdrawal, social avoidance"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;LOW_EXTRAVERSION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">168.0</data>
+  <data key="d4">"His earlier withdrawal from social interaction exemplifies a significant low extraversion level."&lt;SEP&gt;"His initial avoidance of social interactions illustrates low extraversion and preference for solitude."&lt;SEP&gt;"His isolation and preference for solitude illustrate low extraversion in his earlier life."&lt;&gt; "withdrawal, solitude"&lt;SEP&gt;"Initially, Scrooge's seclusion and avoidance of social interaction exemplify his low extraversion."&lt;SEP&gt;"Initially, Scrooge’s preference for solitude reflects his character's isolation and discomfort with social interaction."&lt;SEP&gt;"Scrooge's aversion to social engagement reveals his low extraversion and preference for isolation."&lt;SEP&gt;"Scrooge's hermit-like lifestyle is a strong reflection of his low extraversion and social avoidance strategies."&lt;SEP&gt;"Scrooge's initial reclusiveness and refusal to engage socially underscore his low extraversion before his change."&lt;SEP&gt;"Scrooge's preference for isolation and avoidance of relationships signify his low extraversion."&lt;SEP&gt;"Scrooge's preference for isolation and disdain for social interaction shows his low extraversion."&lt;SEP&gt;"Scrooge's preference for solitude and avoidance of relationships mark his low extraversion, further isolating him from society."&lt;SEP&gt;"Scrooge's prior inclination toward isolation and defensiveness reflects his low extraversion at the beginning of the story."&lt;SEP&gt;"Scrooge's solitary life at the tale's beginning exemplifies his low extraversion and aversion to social interactions."&lt;SEP&gt;"Scrooge's solitary lifestyle and avoidance of social events demonstrate his low extraversion at the start of the story."&lt;SEP&gt;"Scrooge's solitary preferences and unwillingness to interact socially emphasize his low level of extraversion."&lt;SEP&gt;"Scrooge's withdrawal and reluctance to engage with others consistently illustrate his low extraversion before his transformation."&lt;SEP&gt;"Scrooge's withdrawal from social participation at the story's outset illustrates his initial loneliness."&lt;SEP&gt;"Scrooge’s preference for isolation and avoidance of social interaction showcases his low extraversion."&lt;SEP&gt;"Scrooge’s preference for solitude and reluctance to engage socially demonstrates his low extraversion, resulting in disconnection from others."&lt;SEP&gt;"Scrooge’s preference for solitude is exemplified in his avoidance of celebratory gatherings and social interaction."</data>
+  <data key="d5">"isolation, avoidance"&lt;SEP&gt;"isolation, despair"&lt;SEP&gt;"isolation, early characterization"&lt;SEP&gt;"isolation, introversion"&lt;SEP&gt;"isolation, social avoidance"&lt;SEP&gt;"isolation, withdrawal"&lt;SEP&gt;"reclusiveness, avoidance"&lt;SEP&gt;"social avoidance, emotional disconnect"&lt;SEP&gt;"social avoidance, isolation"&lt;SEP&gt;"social withdrawal, introversion"&lt;SEP&gt;"social withdrawal, isolation"&lt;SEP&gt;"social withdrawal, loneliness"&lt;SEP&gt;"social withdrawal, preference for solitude"&lt;SEP&gt;"social withdrawal, solitude"&lt;SEP&gt;"solitary behavior, social aversion"&lt;SEP&gt;"solitude, social withdrawal"&lt;SEP&gt;9&lt;SEP&gt;isolation, aversion</data>
+  <data key="d6">chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145</data>
+</edge>
+<edge source="&quot;FEAR_OF_LONELINESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's fear of ending up alone propels his earlier actions, driving his selfishness and avarice."</data>
+  <data key="d5">"root of greed, motivation"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;HIGH_OPENNESS&quot;" target="&quot;GHOST_OF_CHRISTMAS_PRESENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The insights shared by the Ghost of Christmas Present encourage Scrooge to open his heart to the joys and struggles of others, revealing higher openness."</data>
+  <data key="d5">"increased empathy, acceptance of new perspectives"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;HIGH_OPENNESS&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's awakening to new perspectives and willingness to change portray a significant openness to experiences."</data>
+  <data key="d5">"personal transformation, new ideas"</data>
+  <data key="d6">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</edge>
+<edge source="&quot;HIGH_OPENNESS&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's opening up to new experiences and his emotional journey reflect high openness post-transformation."</data>
+  <data key="d5">"curiosity, emotional growth"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;HIGH_OPENNESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">144.0</data>
+  <data key="d4">"After his encounters with the spirits, Scrooge’s willingness to embrace new experiences highlights his increased openness."&lt;SEP&gt;"As Scrooge engages with others and embraces emotional experiences, his high openness is highlighted through his interactions."&lt;SEP&gt;"As Scrooge experiences the joys and connections of Christmas, his transformation reveals a burgeoning openness to life and others."&lt;SEP&gt;"His eventual acceptance of change and new ideas reflects high openness, embracing life and community."&lt;&gt; "acceptance, growth"&lt;SEP&gt;"Post-transformation, Scrooge's embrace of new ideas and emotional experiences shows a marked increase in openness."&lt;SEP&gt;"Scrooge's changes and acceptance of new ideas at the end reflect a significant increase in openness towards experiences."&lt;SEP&gt;"Scrooge's curiosity towards the Spirits and desire to learn about the joys of life illustrate his high openness journey."&lt;SEP&gt;"Scrooge's embracing of new emotional insights and perspectives embody a substantial shift towards higher openness."&lt;SEP&gt;"Scrooge's emerging openness to joy and connection illustrates his growth into a more emotionally aware individual."&lt;SEP&gt;"Scrooge's eventual acceptance of change and engagement with new experiences reflects his newfound openness to life and relationships."&lt;SEP&gt;"Scrooge's eventual openness to change and new emotional experiences reflects a significant shift in his personality after witnessing the consequences of his past."&lt;SEP&gt;"Scrooge's journey of self-discovery indicates high openness, as he allows new ideas about human kindness to enter his mind during ghostly encounters."&lt;SEP&gt;"Scrooge's transformation reveals his capacity for emotional awareness and desire to embrace life after his encounters with the Spirits."&lt;SEP&gt;"Scrooge's transformation signifies a newfound openness to change and emotional awareness through spirit encounters."&lt;SEP&gt;"Scrooge's transformative experiences awaken a new openness to change and emotional awareness by the end of the narrative."&lt;SEP&gt;"Scrooge’s burgeoning interest in new experiences reflects his transformation towards high openness as he embraces joy and community."&lt;SEP&gt;"Scrooge’s gradual willingness to confront his past and embrace his emotions reflects an emergence of high openness throughout his transformation."</data>
+  <data key="d5">"acceptance, emotional awareness"&lt;SEP&gt;"adaptability, learning"&lt;SEP&gt;"curiosity transformation, emotional awareness"&lt;SEP&gt;"embracing change, emotional awareness"&lt;SEP&gt;"emotional awakening, life appreciation"&lt;SEP&gt;"emotional awareness, new experiences"&lt;SEP&gt;"emotional growth, perspective change"&lt;SEP&gt;"emotional growth, willingness to change"&lt;SEP&gt;"engagement, emotional awareness"&lt;SEP&gt;"experience embrace, emotional shift"&lt;SEP&gt;"growth, change acceptance"&lt;SEP&gt;"new experiences, transforming perspectives"&lt;SEP&gt;"personal growth, acceptance of experience"&lt;SEP&gt;"transformation through interaction, openness to change"&lt;SEP&gt;"transformation, emotional growth"&lt;SEP&gt;"transformation, personal growth"&lt;SEP&gt;10</data>
+  <data key="d6">chunk-8f738cb25d60a7dab782162d9d0a25ed&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</edge>
+<edge source="&quot;NEPHEW_VISIT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's rejection of Fred's cheerful invitation underscores his emotional barriers and lack of familial warmth."</data>
+  <data key="d5">"resistance to joy, emotional detachment"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SELFISHNESS_MOTIVATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Initially, Scrooge's actions driven by financial gain and isolation illustrate his selfish motives."</data>
+  <data key="d5">"greed, personal isolation"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;HOLIDAY_CELEBRATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's transformation is climaxed by his integration into festive holiday celebrations, showcasing his emotional rebirth."</data>
+  <data key="d5">"celebration, community"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;CRATCHIT_FAMILY_INTERACTION&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's interactions with the Cratchit family highlight his initial lack of empathy and self-centeredness."</data>
+  <data key="d5">"empathy deficit, familial neglect"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;LOW_NEUROTICISM&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's emotional stability grows after his transformation, reflecting reduced neuroticism in his newfound happiness."</data>
+  <data key="d5">"emotional awareness, stability"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;LOW_NEUROTICISM&quot;" target="&quot;EBENEZER_SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Post-transformation, Scrooge displays emotional stability and contentment, indicating low neuroticism."</data>
+  <data key="d5">"emotional stability, joy"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;LOW_NEUROTICISM&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">123.0</data>
+  <data key="d4">"After his transformation, Scrooge demonstrates low neuroticism characterized by emotional stability and happiness."&lt;SEP&gt;"As he embraces change, Scrooge's emotional state stabilizes, reflecting a decrease in neuroticism."&lt;SEP&gt;"By the conclusion of the narrative, Scrooge's emotional stability and joy demonstrate a marked decrease in neuroticism."&lt;SEP&gt;"By the conclusion, Scrooge's newfound joy and emotional stability are indicative of low neuroticism."&lt;SEP&gt;"By the end of the narrative, Scrooge's emotional stability demonstrates a significant reduction in neuroticism."&lt;SEP&gt;"Following his transformation, Scrooge experiences emotional stability and joy, demonstrating lowered neuroticism."&lt;SEP&gt;"Following his transformation, Scrooge's emotional stability and joy indicate a significant reduction in neuroticism."&lt;SEP&gt;"Following his transformation, Scrooge's stability and newfound joy in life show a significant reduction in neuroticism."&lt;SEP&gt;"His emotional stabilization and newfound joy illustrate low neuroticism as he embraces life and connection at the end."&lt;SEP&gt;"Scrooge's emotional stability post-transformation highlights his evolution into a more stable character."&lt;&gt; "emotionally stable, joy"&lt;SEP&gt;"Scrooge's eventual emotional resilience and joy highlight low neuroticism after his transformation, as he reconciles with the past."&lt;SEP&gt;"Scrooge's newfound contentment and joy at the end signify a decline in neuroticism and an embrace of emotional stability."&lt;SEP&gt;"The shift in Scrooge's emotional state from anxious and moody to joyful and stable shows a marked decrease in neuroticism."&lt;SEP&gt;"The transformation results in emotional stability, resonating with low neuroticism and an increased joyfulness."</data>
+  <data key="d5">"calmness, happiness"&lt;SEP&gt;"contentment, emotional balance"&lt;SEP&gt;"emotion regulation, happiness"&lt;SEP&gt;"emotional growth, newfound peace"&lt;SEP&gt;"emotional growth, stability"&lt;SEP&gt;"emotional peace, happiness"&lt;SEP&gt;"emotional stability, acceptance"&lt;SEP&gt;"emotional stability, embrace of life"&lt;SEP&gt;"emotional stability, joy"&lt;SEP&gt;"happiness, acceptance"&lt;SEP&gt;"happiness, stability"&lt;SEP&gt;"peaceful mindset, joy assessment"&lt;SEP&gt;9</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</edge>
+<edge source="&quot;PHILANTHROPY_GROWTH&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"His transformation leads to a desire to give back, marking a significant turn towards philanthropy."</data>
+  <data key="d5">"charitable actions, growth"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;MARLEY'S_GHOST_APPEARANCE&quot;" target="&quot;SKEPTICAL_DIALOGUE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The encounter with Marley's Ghost pushes Scrooge's skepticism to the forefront, impacting his emotional and mental stability."</data>
+  <data key="d5">"supernatural confrontation, belief struggle"</data>
+  <data key="d6">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+</edge>
+<edge source="&quot;MARLEY'S_GHOST_ENCOUNTER&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The terrifying experience with Marley's ghost initiates Scrooge's journey towards change, triggering reflections on his past choices."</data>
+  <data key="d5">"catalyst for change, supernatural intervention"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;CRATCHIT_HOLIDAY&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Cratchit family's struggles highlighted by Scrooge’s stinginess illustrates his low agreeableness and social disconnect."</data>
+  <data key="d5">"emotional isolation, family dynamics"</data>
+  <data key="d6">chunk-19d72c57ae3408758b18d2568e86dc6b</data>
+</edge>
+<edge source="&quot;DESIRE_FOR_REDEMPTION&quot;" target="&quot;TRANSFORMATION_REALIZATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's internal motivation for redemption is amplified by the realizations prompted during his encounters with the spirits."</data>
+  <data key="d5">"self-improvement, desire for change"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SPIRIT_OF_CHRISTMAS_PRESENT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The spirit reveals the joy Scrooge is missing, further amplifying his feelings of regret and pushing him towards change."&lt;SEP&gt;"Through this spirit, Scrooge learns the importance of generosity, family, and joy, further promoting his character growth."</data>
+  <data key="d5">"illustrating joy, contrast"&lt;SEP&gt;"present moments, realization"</data>
+  <data key="d6">chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SAD_CHRISTMAS_REFLECTIONS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge’s reflections during Christmas highlight his internal emotional struggles and lack of connection to joy and celebration."</data>
+  <data key="d5">"internal conflict, emotional distance"</data>
+  <data key="d6">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</edge>
+<edge source="&quot;EBENEZER_SCROOGE&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's cold, unhelpful nature at the beginning of the novel illustrates his low agreeableness."</data>
+  <data key="d5">"selfishness, isolation"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;EBENEZER_SCROOGE&quot;" target="&quot;LOW_CONSCIENTIOUSNESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's initial behavior lacks responsibility and care for the needs of others, reflecting low conscientiousness."</data>
+  <data key="d5">"disregard, apathy"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;CURIOSITY_FOR_CHANGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's desire to engage with his past fills him with curiosity, triggering his eventual redemption process."</data>
+  <data key="d5">"personal growth, introspection"</data>
+  <data key="d6">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;SPIRIT_ENCOUNTERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The visit from the spirits triggers Scrooge’s realization of his past, present, and future, leading to his commitment to change."</data>
+  <data key="d5">"catalyst for change, self-reflection"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;PAST_REFLECTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge’s reflections on his past lead him to a deeper understanding of his mistakes, which catalyze his transformative journey."</data>
+  <data key="d5">"introspection, regret"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;NOSTALGIA_IN_REFLECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Reflecting on the past serves as a crucial motivator for Scrooge's change after visiting the spirits."</data>
+  <data key="d5">"self-awareness, motivation"</data>
+  <data key="d6">chunk-91572b3cd42786ba4cb2f180ca25cbf4</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;FINAL_CONFRONTATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's emotional awakening beforehand signifies a pivotal change in his personality and outlook on life."</data>
+  <data key="d5">"transformation, self-awareness"</data>
+  <data key="d6">chunk-1d4b58de5429cd1261370c231c8673e8</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;SPIRIT_GUIDANCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Interaction with the spirits catalyzes Scrooge’s realization of past mistakes and drives his motivation for change."</data>
+  <data key="d5">"self-reflection, change catalyst"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Interactions with the Cratchits and realization of the importance of family propel Scrooge's transformation towards generosity."&lt;SEP&gt;"The interactions with the spirits catalyze Scrooge's realization of his past mistakes and promote his transformation."</data>
+  <data key="d5">"catalyst for change, awakening"&lt;SEP&gt;"community connection, charitable awakening"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;TRANSFORMATION_REALIZATION&quot;" target="&quot;REGRET_FOR_PAST_ACTIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's regret for his past leads to a pivotal transformation realization, shifting his desire from self-centeredness to altruism."</data>
+  <data key="d5">"catalyst for change, self-awareness"</data>
+  <data key="d6">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</edge>
+<edge source="&quot;GHOSTLY_INTERACTION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's interactions with the spirits serve as catalysts for his emotional awakening and reflection on his life choices."</data>
+  <data key="d5">"catalytic experience, awakening"</data>
+  <data key="d6">chunk-8590d9263cd2cd4fa583c432fc54e6c3</data>
+</edge>
+<edge source="&quot;SCENE_CHRISTMAS_CONVERSATION&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bitter exchange with his nephew highlights Scrooge's neurotic traits and low agreeableness, solidifying his character as a miser."</data>
+  <data key="d5">"emotional conflict, character establishment"</data>
+  <data key="d6">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</edge>
+<edge source="&quot;LOW_CONSCIENTIOUSNESS&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">118.0</data>
+  <data key="d4">"At the start, Scrooge's neglect of his responsibilities showcases his low conscientiousness."&lt;SEP&gt;"Early in the narrative, Scrooge's selfishness and lack of regard for others exemplify his low conscientiousness."&lt;SEP&gt;"His disregard for personal relationships highlights low conscientiousness in social contexts and emotional neglect."&lt;SEP&gt;"His earlier neglect for communal responsibilities reflects his low conscientiousness, prioritizing wealth over social ethics."&lt;SEP&gt;"His earlier neglect of responsibilities towards family and community reflects a low conscientiousness level."&lt;SEP&gt;"His initial neglect of social and familial duties shows a lack of responsibility for his actions."&lt;SEP&gt;"Initially, Scrooge's disregard for personal relationships and emotional connections reflects a lack of conscientiousness in his life choices."&lt;SEP&gt;"Initially, Scrooge's low conscientiousness is evident in his disregard for family and societal bonds."&lt;&gt; "neglect, irresponsibility"&lt;SEP&gt;"Neglecting personal relationships in favor of financial gain showcases Scrooge's lower conscientiousness."&lt;SEP&gt;"Prior to transformation, Scrooge’s lack of attentiveness to relationships highlights his low conscientiousness, emphasizing neglect of social norms."&lt;SEP&gt;"Scrooge's earlier neglect of his obligations and relationships indicates a lack of conscientiousness in his character."&lt;SEP&gt;"Scrooge's early neglect of relationships and duties highlights his low conscientiousness and disregard for important personal ties."&lt;SEP&gt;"Scrooge's lack of care for his relationships before his transformation exemplifies low conscientiousness in his earlier life."&lt;SEP&gt;"Scrooge's low conscientiousness reflects in his early life choices, valuing wealth over interpersonal responsibility."&lt;SEP&gt;"Scrooge's neglect of social obligations and disregard for others' needs illustrates his low conscientiousness during his early life."</data>
+  <data key="d5">"Irresponsibility, neglect"&lt;SEP&gt;"carelessness, neglect"&lt;SEP&gt;"carelessness, social disregard"&lt;SEP&gt;"emotional neglect, isolation"&lt;SEP&gt;"irresponsibility, negative traits"&lt;SEP&gt;"neglect of social ties, financial priorities"&lt;SEP&gt;"neglect, financial obsession"&lt;SEP&gt;"neglect, self-focus"&lt;SEP&gt;"neglect, selfishness"&lt;SEP&gt;"relationship neglect, self-focus"&lt;SEP&gt;"self-serving focus, moral decline"&lt;SEP&gt;"selfish behavior, neglect"&lt;SEP&gt;"selfishness, irresponsibility"&lt;SEP&gt;"selfishness, neglect"&lt;SEP&gt;8</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-60fc063c79fc0d4acc91a57e79de04dc&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;SKEPTICAL_DIALOGUE&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Scrooge's lack of trust and harsh remarks towards Marley illustrate his low agreeableness and difficult personality."</data>
+  <data key="d5">"distrust, difficult interactions"</data>
+  <data key="d6">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+</edge>
+<edge source="&quot;MEETING_WITH_GHOST&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The ghostly encounter propels Scrooge to confront his fears, signifying a shift in his neurotic tendencies."</data>
+  <data key="d5">"catalyst for fear, supernatural influence"</data>
+  <data key="d6">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</edge>
+<edge source="&quot;REDISCOVERED_CHRISTMAS_SPIRIT&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Embracing the Christmas spirit motivates Scrooge to spread joy and engage positively with others."</data>
+  <data key="d5">"engagement, positivity"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;CHARITY_GIVING&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's new willingness to give to the needy signifies the culmination of his character development and growth in agreeableness."</data>
+  <data key="d5">"generosity, reformed character"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+</edge>
+<edge source="&quot;GENEROSITY_POST_TRANSFORMATION&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's desire to connect with others inspires acts of generosity and community engagement after his change of heart."</data>
+  <data key="d5">"generosity, community focus"</data>
+  <data key="d6">chunk-8bc1edd983869352d14cf0886a9175a7</data>
+</edge>
+<edge source="&quot;LONELY_EXISTENCE&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's solitary and cold office life emphasizes his low agreeableness and inability to connect with others during this phase."</data>
+  <data key="d5">"social isolation, emotional barriers"</data>
+  <data key="d6">chunk-b2f98bc7abb0c67d4c86055c7fd72218</data>
+</edge>
+<edge source="&quot;BOB_CRATCHET&quot;" target="&quot;SCROOGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Interactions with Bob Cratchit highlight Scrooge's gradual understanding of compassion and connection with those in need."</data>
+  <data key="d5">"empathy, understanding"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;BOB_CRATCHET&quot;" target="&quot;TINY_TIM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tiny Tim's character stresses the importance of compassion and charity, deeply affecting Scrooge during his journey."</data>
+  <data key="d5">"impact, innocence"</data>
+  <data key="d6">chunk-da2472b4ef2a535b62908f14d0fb0ca9</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;CRATCHIT_FAMILY_CHRISTMAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Cratchits' holiday celebration reveals the warmth of family, contrasting sharply with Scrooge's lonely existence."</data>
+  <data key="d5">"joy, community"</data>
+  <data key="d6">chunk-e7637ff18c5ded77a68cce0a87883fad</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;CRATCHIT_FAMILY&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"Scrooge's developing empathy towards the Cratchit family showcases his shift towards agreeableness and generosity."&lt;SEP&gt;"The contrast between Scrooge's attitude and the warm interactions of the Cratchit family highlights his lack of empathy and generosity."</data>
+  <data key="d5">"empathy, transformation"&lt;SEP&gt;"indifference, neglect"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;GHOST_OF_CHRISTMAS_PRESENT&quot;">
+  <data key="d3">19.0</data>
+  <data key="d4">"The Ghost of Christmas Present highlights Scrooge’s isolation and unmet potential for joy, pushing him to consider change."&lt;SEP&gt;"The spirit showcases the joy of the present moment and community, pushing Scrooge to reconnect with humanity."</data>
+  <data key="d5">"awakening, realization"&lt;SEP&gt;"community, joy"</data>
+  <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;TINY_TIM&quot;">
+  <data key="d3">39.0</data>
+  <data key="d4">"Tiny Tim's fate serves as a wake-up call for Scrooge, catalyzing his transformation from a miser to a compassionate individual."&lt;SEP&gt;"Tiny Tim's illness and hopeful spirit elicit emotional responses from Scrooge, catalyzing his transformation towards compassion."&lt;SEP&gt;"Tiny Tim’s plight serves as a turning point for Scrooge, compelling him to confront his previously held beliefs about wealth and happiness."&lt;SEP&gt;"Witnessing Tiny Tim's fraction of hope despite adversity awakens Scrooge's empathy, leading to action."</data>
+  <data key="d5">"empathy, emotional connection"&lt;SEP&gt;"empathy, social responsibility"&lt;SEP&gt;"impact of innocence, personal transformation"&lt;SEP&gt;"innocence, inspiration"</data>
+  <data key="d6">chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;TRANSFORMATION_AFTER_NIGHTMARE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"After the visitation by the spirits, Scrooge begins to reflect and change, showing a gradual shift from his previous traits to more positive ones."</data>
+  <data key="d5">"personal growth, redemption arc"</data>
+  <data key="d6">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;SPIRIT_OF_CHRISTMAS_YET_TO_COME&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"The fear instilled by the third spirit compels Scrooge to consider the consequences of his actions, leading to his desire for change."&lt;SEP&gt;"The haunting vision of his lonely future culminates in Scrooge's urgent desire for redemption and transformation."</data>
+  <data key="d5">"fear of consequence, motivator for change"&lt;SEP&gt;"fear, motivation for change"</data>
+  <data key="d6">chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;INTERACTION_WITH_BOB_CRATCHET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's interaction with Bob Cratchit shows his transformed attitude as he offers support and understanding, signifying his growth in agreeableness."</data>
+  <data key="d5">"kindness expression, character growth"</data>
+  <data key="d6">chunk-503f0bfa5453467c7c61d160a3540eca</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;GRATITUDE_AFTER_REDEMPTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Post-transformation, Scrooge's gratitude showcases his newfound values and emphasizes the joy found in giving."</data>
+  <data key="d5">"transformation, emotional growth"</data>
+  <data key="d6">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;REDEMPTION_MOTIVATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's motivation to become a better person is fueled by his desire to escape the grim future revealed to him."</data>
+  <data key="d5">"self-improvement, change motivation"</data>
+  <data key="d6">chunk-c6c248858d1b13ab7ee9ca13c1aeed6b</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;DYNAMIC_CHARACTER_CHANGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's narrative illustrates a profound character change from miserly to benevolent, underscoring the potential for personal redemption."</data>
+  <data key="d5">"transformation arc, growth"</data>
+  <data key="d6">chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;SCROOGE'S_NEPHEW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Fred's cheerful attempts to connect with Scrooge highlight the contrast between Scrooge's initial isolation and potential for connection."</data>
+  <data key="d5">"family, connection"</data>
+  <data key="d6">chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;ETERNAL_GRUMP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's initial interactions emphasize his sterility and dismissal of others' joys, reinforcing his low agreeableness."</data>
+  <data key="d5">"grumpiness, emotional distance"</data>
+  <data key="d6">chunk-60fc063c79fc0d4acc91a57e79de04dc</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;ISOLATION_IMPACT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Isolation amplifies Scrooge's neurotic tendencies, making him more resistant to change and connection."</data>
+  <data key="d5">"impact of solitude, reluctance to engage"</data>
+  <data key="d6">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's joyful interactions with the boy embody his desire to reconnect with community and humanity after his transformation."</data>
+  <data key="d5">"relationship building, social rekindling"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;GENEROSITY_MOTIVATION&quot;">
+  <data key="d3">19.0</data>
+  <data key="d4">"Scrooge's shift from selfishness to a motivation for generosity becomes central to his character development."&lt;SEP&gt;"The motivation to change spurs Scrooge to act generously, exemplified by purchasing the turkey for the Cratchit family."</data>
+  <data key="d5">"altruism, legacy building"&lt;SEP&gt;"motivational shift, eagerness to give"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;JOYOUS_LAUGHTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's exuberance, reflected through joyous laughter, marks a strong contrast to his previous demeanor and symbolizes his transformation."</data>
+  <data key="d5">"emotional shift, happiness"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;GENEROSITY_ACT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Scrooge's decision to act generously toward the Cratchit family represents a tangible expression of his motivational shift."</data>
+  <data key="d5">"generosity, commitment to change"</data>
+  <data key="d6">chunk-90b95db5c53e4364a6bee36b7aa4d70f</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;GHOST_OF_CHRISTMAS_PRESENT_VISIT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The joyous interaction with the Ghost of Christmas Present catalyzes Scrooge's empathy and cooperation with others."</data>
+  <data key="d5">"joy, connection"</data>
+  <data key="d6">chunk-af4ae173c561e4594c5aea96198cce9d</data>
+</edge>
+<edge source="&quot;SCROOGE&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">321.0</data>
+  <data key="d4">In the narrative, Scrooge is characterized by his low agreeableness, which permeates his interactions and behaviors. At the story's outset, Scrooge's harsh comments about the festive spirit and family relationships reveal a profound lack of compassion and empathy. His miserly attitude leads to a pronounced isolation, as he actively avoids social connections and displays a disdainful attitude towards others, notably the Cratchit family. Scrooge's negative interactions and selfish behaviors illustrate his disregard for the needs and feelings of those around him, emphasizing a critical aspect of his personality marked by contempt and rudeness.
+
+His dismissiveness towards the struggles of others and a cold demeanor exemplify his failure to connect with people, creating barriers to joy and warmth in relationships. This self-centered approach is evident even in his interactions with family members, particularly his nephew, and in his refusal to engage in charitable acts. Scrooge’s dismissive attitude towards the message delivered by the Ghost further underscores his low agreeableness, defining him as a stingy and lonely figure entrenched in a mindset of isolation.
+
+Overall, Scrooge’s early demeanor reflects an antisocial personality marked by a lack of empathy and connection, showcasing a profound disdain for humanity and a critical need for transformation as the narrative progresses. His character serves as a representation of low agreeableness, illustrated vividly through his harsh treatment of others and the pervasive negativity that shapes his reputation before his eventual change.</data>
+  <data key="d5">"cold demeanor, emotional disconnect"&lt;SEP&gt;"conflict-driven interactions, lack of empathy"&lt;SEP&gt;"emotional distance, insensitivity"&lt;SEP&gt;"emotional distance, selfishness"&lt;SEP&gt;"harshness, unkindness"&lt;SEP&gt;"indifference, isolation"&lt;SEP&gt;"isolation, detachment"&lt;SEP&gt;"isolation, disdain for others"&lt;SEP&gt;"isolation, self-interest"&lt;SEP&gt;"isolation, selfishness"&lt;SEP&gt;"lack of empathy, cruel demeanor"&lt;SEP&gt;"lack of empathy, dismissive attitude"&lt;SEP&gt;"lack of empathy, harshness"&lt;SEP&gt;"negative traits, early characterization"&lt;SEP&gt;"self-centeredness, character arc"&lt;SEP&gt;"self-centeredness, social conflict"&lt;SEP&gt;"self-focus, isolation"&lt;SEP&gt;"self-interest, isolation"&lt;SEP&gt;"self-interest, lack of empathy"&lt;SEP&gt;"self-isolation, emotional detachment"&lt;SEP&gt;"selfishness, distrust"&lt;SEP&gt;"selfishness, emotional distance"&lt;SEP&gt;"selfishness, indifference"&lt;SEP&gt;"selfishness, interpersonal conflict"&lt;SEP&gt;"selfishness, isolation"&lt;SEP&gt;"selfishness, lack of care"&lt;SEP&gt;"selfishness, lack of compassion"&lt;SEP&gt;"selfishness, lack of connection"&lt;SEP&gt;"selfishness, lack of empathy"&lt;SEP&gt;"selfishness, social withdrawal"&lt;SEP&gt;"social neglect, lack of empathy"&lt;SEP&gt;9&lt;SEP&gt;distrust, emotional neglect</data>
+  <data key="d6">chunk-bb21d58d36c6306fd8810ddd51c4a971&lt;SEP&gt;chunk-85f77f5e3a9aba01133555a2d20e2fd8&lt;SEP&gt;chunk-194cd9680f4967f48bea89678f7ece21&lt;SEP&gt;chunk-af4ae173c561e4594c5aea96198cce9d&lt;SEP&gt;chunk-83ac129dc9b56f84c46760d153d68e93&lt;SEP&gt;chunk-773d0df1dd25c356f7b771d780583e09&lt;SEP&gt;chunk-91614df5cb74cbe5e109a338a82041e9&lt;SEP&gt;chunk-19d72c57ae3408758b18d2568e86dc6b&lt;SEP&gt;chunk-02baee20cc9463dbe08170a8e1043e32&lt;SEP&gt;chunk-7e2e7ebcc19a53b399dc03aded4743e7&lt;SEP&gt;chunk-b2f98bc7abb0c67d4c86055c7fd72218&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0&lt;SEP&gt;chunk-e7637ff18c5ded77a68cce0a87883fad&lt;SEP&gt;chunk-e1f29eeadc1d8ab46dc8a0bbd3c56b64&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-91572b3cd42786ba4cb2f180ca25cbf4&lt;SEP&gt;chunk-b0f459f5af1c3a5e0b92cbe4ee48b77b&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-da2472b4ef2a535b62908f14d0fb0ca9&lt;SEP&gt;chunk-54bdd22db1f84a965b5f4c06c9216d8d&lt;SEP&gt;chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-43c9bee23adfa77aa9dedd22401bba7d&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-99b0ec7f7e006561352b5d65e849611d&lt;SEP&gt;chunk-503f0bfa5453467c7c61d160a3540eca&lt;SEP&gt;chunk-90b95db5c53e4364a6bee36b7aa4d70f&lt;SEP&gt;chunk-c6c248858d1b13ab7ee9ca13c1aeed6b&lt;SEP&gt;chunk-94bea83e7153fc2064aa382b494936a1&lt;SEP&gt;chunk-8590d9263cd2cd4fa583c432fc54e6c3&lt;SEP&gt;chunk-1d4b58de5429cd1261370c231c8673e8&lt;SEP&gt;chunk-c51b3dc560b408cce12cdfe5c9c94f57&lt;SEP&gt;chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-843b5b2f944c7413d9ca876e2e2f151f</data>
+</edge>
+<edge source="&quot;REDEMPTION_MOTIVATION&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's motivation to redeem himself fuels his active participation in community life post-transformation."</data>
+  <data key="d5">"kindness, community involvement"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;CHRISTMAS_EVE_REFUSAL&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge’s rejection of his nephew's invitation during Christmas showcases his low agreeableness in social interactions."</data>
+  <data key="d5">"selfishness, family estrangement"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;CHRISTMAS_BENEVOLENCE&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's kindness toward the Cratchit family highlights his shift from isolation to altruism and community connection."</data>
+  <data key="d5">"altruism, community ties"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;SOCIAL_EMBRACE&quot;" target="&quot;COMMUNITY_CONNECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Scrooge's acceptance by the community at the end signifies his transformation and newfound integration into society."</data>
+  <data key="d5">"community acceptance, personal change"</data>
+  <data key="d6">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</edge>
+<edge source="&quot;INTERACTION_CLERK_CONFRONTATION&quot;" target="&quot;LOW_AGREEABLENESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's treatment of his clerk marks another instance of low agreeableness, revealing his harshness in professional relationships."</data>
+  <data key="d5">"authoritative dismissal, negative interaction"</data>
+  <data key="d6">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+</edge>
+<edge source="&quot;LOW_AGREEABLENESS&quot;" target="&quot;CRATCHIT_FAMILY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge initially shows little concern for the struggles of the Cratchit family, demonstrating his low agreeableness before his transformation."</data>
+  <data key="d5">"indifference, poverty"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;LOW_AGREEABLENESS&quot;" target="&quot;BUSINESS_MEETING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"In this scene, the colleagues’ mockery of Scrooge’s death reveals their low agreeableness and lack of empathy for him during his life."</data>
+  <data key="d5">"disrespect, unkindness"</data>
+  <data key="d6">chunk-f1a4fbcf1ed86864b9bfd5e8dba4c683</data>
+</edge>
+<edge source="&quot;LOW_AGREEABLENESS&quot;" target="&quot;SCROOGE'S_INITIAL_MINDSET&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Scrooge's initial mindset displays characteristics of low agreeableness through his dismissive and uncharitable attitudes."</data>
+  <data key="d5">"self-centeredness, emotional detachment"</data>
+  <data key="d6">chunk-c51b3dc560b408cce12cdfe5c9c94f57</data>
+</edge>
+</graph></graphml>

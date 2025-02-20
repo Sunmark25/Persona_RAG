@@ -3,7 +3,7 @@ from pyvis.network import Network
 import random
 
 # Load the GraphML file
-G = nx.read_graphml("./dickens/scrooge_subgraph.graphml")
+G = nx.read_graphml("./persona/agreeableness_graph.graphml")
 
 # Create a Pyvis network
 net = Network(height="100vh", notebook=True)

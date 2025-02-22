@@ -1,5 +1,6 @@
 import numpy as np
 import ollama
+import matplotlib.pyplot as plt
 
 def cosine_distance(vector1, vector2):
     return np.dot(vector1, vector2) / (np.linalg.norm(vector1) * np.linalg.norm(vector2))
@@ -48,4 +49,33 @@ for key in personality_traits:
     similarity_array.append(similarity_score)
 
 
-print(softmax(similarity_array))
+openness_array = []
+conscientiousness_array = []
+extraversion_array = []
+agreeableness_array = []
+neuroticism_array = []
+
+temperatures = np.arange(0.05, 1.05, 0.05)
+
+for temp in temperatures:
+    openness_array.append(softmax(similarity_array, temp)[0])
+    conscientiousness_array.append(softmax(similarity_array, temp)[1])
+    extraversion_array.append(softmax(similarity_array, temp)[2])
+    agreeableness_array.append(softmax(similarity_array, temp)[3])
+    neuroticism_array.append(softmax(similarity_array, temp)[4])
+
+plt.figure(figsize=(12, 9))
+plt.plot(temperatures, openness_array, label='Openness', marker='o')
+plt.plot(temperatures, conscientiousness_array, label='Conscientiousness', marker='s')
+plt.plot(temperatures, extraversion_array, label='Extraversion', marker='^')
+plt.plot(temperatures, agreeableness_array, label='Agreeableness', marker='d')
+plt.plot(temperatures, neuroticism_array, label='Neuroticism', marker='v')
+
+plt.xticks(np.arange(0, 1.05, 0.05))
+plt.yticks(np.arange(0, 0.75, 0.05))
+plt.xlabel('Temperature')
+plt.ylabel('Softmax Probability')
+plt.title('Personality Traits Probabilities vs Temperature')
+plt.legend()
+plt.grid(True)
+plt.show()

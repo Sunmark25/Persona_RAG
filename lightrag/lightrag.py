@@ -779,8 +779,10 @@ class LightRAG:
                 entity_type = entity_data.get("entity_type", "UNKNOWN")
                 description = entity_data.get("description", "No description provided")
                 # source_id = entity_data["source_id"]
-                source_chunk_id = entity_data.get("source_id", "UNKNOWN")
-                source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+                # source_chunk_id = entity_data.get("source_id", "UNKNOWN")
+                # source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+
+                source_id = entity_data.get("source_id", "UNKNOWN")
 
                 # Log if source_id is UNKNOWN
                 if source_id == "UNKNOWN":
@@ -811,8 +813,10 @@ class LightRAG:
                 keywords = relationship_data["keywords"]
                 weight = relationship_data.get("weight", 1.0)
                 # source_id = relationship_data["source_id"]
-                source_chunk_id = relationship_data.get("source_id", "UNKNOWN")
-                source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+                # source_chunk_id = relationship_data.get("source_id", "UNKNOWN")
+                # source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+
+                source_id = relationship_data.get("source_id", "UNKNOWN")
 
                 # Log if source_id is UNKNOWN
                 if source_id == "UNKNOWN":

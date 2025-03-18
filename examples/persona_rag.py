@@ -2,11 +2,132 @@ import os
 import argparse
 import json
 import networkx as nx
+import copy
+import asyncio
+import ollama
+import numpy as np
+from typing import Dict, List, Optional, Tuple, Union
+
 
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
+from lightrag.operate import extract_keywords_only
 
+def cosine_distance(vector1: np.ndarray, vector2: np.ndarray) -> float:
+    """
+    Calculate cosine similarity between two vectors.
+    
+    Args:
+        vector1: First vector
+        vector2: Second vector
+        
+    Returns:
+        float: Cosine similarity score (1.0 is most similar, 0.0 is least similar)
+    """
+    return np.dot(vector1, vector2) / (np.linalg.norm(vector1) * np.linalg.norm(vector2))
 
+def softmax(x: np.ndarray, temperature: float = 0.2) -> np.ndarray:
+    """
+    Apply softmax function with temperature control.
+    
+    Args:
+        x: Input array of values
+        temperature: Temperature parameter (lower = sharper distribution)
+        
+    Returns:
+        numpy.array: Softmax probabilities
+    """
+    if temperature <= 0:
+        raise ValueError("Temperature must be positive.")
+
+    x = np.array(x)
+    exp_x = np.exp(x/temperature)
+    return exp_x / np.sum(exp_x)
+
+# def compare_input_with_chunks(
+#     user_input: str, 
+#     text_chunks: Dict[str, str], 
+#     embedding_model: str = "nomic-embed-text",
+#     top_k: Optional[int] = None,
+#     temperature: float = 0.2
+# ) -> List[Dict]:
+#     """
+#     Compare user input with text chunks using cosine distance.
+    
+#     Args:
+#         user_input: User query or input text
+#         text_chunks: Dictionary of text chunks {chunk_id: content}
+#         embedding_model: Name of the Ollama embedding model to use
+#         top_k: Optional number of top chunks to return. If None, returns all chunks.
+#         temperature: Temperature for softmax probability calculation
+        
+#     Returns:
+#         List of dictionaries containing chunk_id, content, similarity score and probability,
+#         sorted by similarity (highest first)
+#     """
+#     # Handle empty input or chunks
+#     if not user_input or not text_chunks:
+#         print("Warning: Empty input or text chunks")
+#         return []
+    
+#     # Generate embedding for user input
+#     try:
+#         input_embedding_response = ollama.embed(
+#             model=embedding_model,
+#             input=user_input
+#         )
+#         input_embedding = np.array(input_embedding_response['embeddings'][0])
+#     except Exception as e:
+#         print(f"Error generating input embedding: {str(e)}")
+#         return []
+    
+#     # Calculate similarity for each chunk
+#     chunk_similarities = []
+    
+#     for chunk_id, content in text_chunks.items():
+#         try:
+#             # Generate embedding for chunk
+#             chunk_embedding_response = ollama.embed(
+#                 model=embedding_model,
+#                 input=content
+#             )
+#             chunk_embedding = np.array(chunk_embedding_response['embeddings'][0])
+            
+#             # Calculate cosine similarity
+#             similarity = cosine_distance(input_embedding, chunk_embedding)
+            
+#             chunk_similarities.append({
+#                 "chunk_id": chunk_id,
+#                 "content": content,
+#                 "similarity": similarity
+#             })
+#         except Exception as e:
+#             print(f"Error processing chunk {chunk_id}: {str(e)}")
+#             # Include the chunk with zero similarity in case of error
+#             chunk_similarities.append({
+#                 "chunk_id": chunk_id,
+#                 "content": content,
+#                 "similarity": 0.0
+#             })
+    
+#     # Sort by similarity (highest first)
+#     chunk_similarities.sort(key=lambda x: x["similarity"], reverse=True)
+    
+#     # Apply softmax to get probability distribution
+#     if chunk_similarities:
+#         similarities = [item["similarity"] for item in chunk_similarities]
+#         probabilities = softmax(similarities, temperature)
+        
+#         # Add probabilities to results
+#         for i, prob in enumerate(probabilities):
+#             chunk_similarities[i]["probability"] = float(prob)
+    
+#     # Return either top k or all chunks
+#     if top_k is not None and top_k > 0:
+#         return chunk_similarities[:min(top_k, len(chunk_similarities))]
+#     else:
+#         return chunk_similarities
+    
 def setup_rag(working_dir):
     """Set up a LightRAG instance"""
     if not os.path.exists(working_dir):
@@ -194,6 +315,104 @@ def generate_chunk_content(chunk_id):
     # Default content
     return f"Content related to the knowledge graph node or relationship with ID {chunk_id}"
 
+def get_query_related_chunks(rag, query, param=None):
+    """
+    获取与查询相关的所有文本块
+    
+    Args:
+        rag: LightRAG实例 
+        query: 查询文本
+        param: 查询参数，默认为None时会创建一个新的QueryParam
+        
+    Returns:
+        dict: 包含源ID和对应文本块内容的字典 {source_id: chunk_content}
+    """
+    # 设置默认查询参数
+    if param is None:
+        param = QueryParam(mode="hybrid")
+    
+    # 克隆param来避免修改原始对象
+    debug_param = copy.deepcopy(param)
+    # 启用DEBUG模式，让LightRAG返回内部信息
+    debug_param.debug = True
+    
+    # 获取查询的关键词
+    loop = asyncio.get_event_loop()
+    hl_keywords, ll_keywords = loop.run_until_complete(
+        extract_keywords_only(
+            text=query,
+            param=param,
+            global_config=rag.__dict__,
+            hashing_kv=rag.llm_response_cache
+        )
+    )
+    
+    print(f"查询关键词: HL={hl_keywords}, LL={ll_keywords}")
+    
+    # 从知识图谱中收集相关节点的source_ids
+    related_source_ids = set()
+    graph = rag.chunk_entity_relation_graph._graph
+    
+    # 根据关键词匹配节点
+    for node, data in graph.nodes(data=True):
+        node_str = str(node).upper()
+        node_desc = str(data.get("description", "")).upper()
+        
+        # 检查节点名称或描述是否包含任何关键词
+        if any(kw.upper() in node_str for kw in hl_keywords + ll_keywords) or \
+           any(kw.upper() in node_desc for kw in hl_keywords + ll_keywords):
+            
+            if "source_id" in data:
+                if "<SEP>" in data["source_id"]:
+                    for sid in data["source_id"].split("<SEP>"):
+                        related_source_ids.add(sid.strip())
+                else:
+                    related_source_ids.add(data["source_id"].strip())
+    
+    # 从边中也收集相关的source_ids
+    for src, tgt, edge_data in graph.edges(data=True):
+        src_str = str(src).upper()
+        tgt_str = str(tgt).upper()
+        desc = str(edge_data.get("description", "")).upper()
+        keywords = str(edge_data.get("keywords", "")).upper()
+        
+        # 检查边的信息是否包含任何关键词
+        if any(kw.upper() in src_str + tgt_str + desc + keywords for kw in hl_keywords + ll_keywords):
+            if "source_id" in edge_data:
+                if "<SEP>" in edge_data["source_id"]:
+                    for sid in edge_data["source_id"].split("<SEP>"):
+                        related_source_ids.add(sid.strip())
+                else:
+                    related_source_ids.add(edge_data["source_id"].strip())
+    
+    # 从text_chunks中获取文本块
+    result_chunks = {}
+    
+    # 优先从客户端存储中获取数据(内存中的数据)
+    if hasattr(rag.text_chunks, "client_storage") and "data" in rag.text_chunks.client_storage:
+        chunks = rag.text_chunks.client_storage["data"]
+        
+        for chunk_id, chunk_data in chunks.items():
+            # 直接匹配chunk_id
+            if chunk_id in related_source_ids:
+                result_chunks[chunk_id] = chunk_data["content"]
+            # 或者匹配chunk的source_id字段
+            elif "source_id" in chunk_data and chunk_data["source_id"] in related_source_ids:
+                result_chunks[chunk_data["source_id"]] = chunk_data["content"]
+    else:
+        # 如果客户端存储不可用，从数据库中获取
+        async def get_chunks():
+            chunks_data = {}
+            for source_id in related_source_ids:
+                chunk = await rag.text_chunks.get_by_id(source_id)
+                if chunk and "content" in chunk:
+                    chunks_data[source_id] = chunk["content"]
+            return chunks_data
+        
+        result_chunks = loop.run_until_complete(get_chunks())
+    
+    return result_chunks
+
 def main():
     working_dir = "./neuroticism"
     graphml_path = "./big_five/neuroticism/graph_chunk_entity_relation.graphml"
@@ -229,6 +448,19 @@ def main():
     #     print(f"Answer: {result}")
     #     print("-" * 80)
 
+    # 先示范如何获取查询相关的文本块
+    sample_query = "What does Scrooge think about Christmas?"
+    print("\n=== Getting Related Text Chunks for Sample Query ===")
+    print(f"Sample Query: {sample_query}")
+    
+    related_chunks = get_query_related_chunks(rag, sample_query)
+    
+    print(f"\nFound {len(related_chunks)} related text chunks:")
+    for source_id, content in related_chunks.items():
+        print(f"\nSource ID: {source_id}")
+        print(f"Content: {content[:200]}..." if len(content) > 200 else f"Content: {content}")
+        print("-" * 80)
+    
     system_prompt = "Please answer the following questions as character Scoorge. "
     
     # Execute hybrid search
@@ -237,6 +469,15 @@ def main():
         print(f"\nQuestion: {question}")
         result = rag.query(system_prompt + question, param=QueryParam(mode="hybrid", conversation_history=empty_history))
         print(f"Answer: {result}")
+        
+        # 获取并显示此问题相关的文本块
+        print("\n--- Related Text Chunks ---")
+        query_chunks = get_query_related_chunks(rag, question)
+        print(f"Found {len(query_chunks)} related chunks")
+        for source_id, content in query_chunks.items():
+            print(f"Source ID: {source_id}")
+            print(f"Content snippet: {content[:100]}..." if len(content) > 100 else f"Content: {content}")
+        
         print("-" * 80)
 
 # If this script is run directly, execute the main function

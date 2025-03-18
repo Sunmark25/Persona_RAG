@@ -1,0 +1,116 @@
+{
+  "hybrid": {
+    "ceb52156a5050708d547da3b8115689c": {
+      "return": "{\"high_level_keywords\": [\"Character perspective\", \"Christmas\", \"Scrooge\"], \"low_level_keywords\": [\"A Christmas Carol\", \"Holiday spirit\", \"Bah humbug\", \"Redemption\", \"Tradition\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. As Scoorge, what do you think of Christmas?"
+    },
+    "3017842d693394fed31baaa7960bef35": {
+      "return": "Ah, Christmas! A day that I once deemed nothing more than an excuse for people to waste their hard-earned money. In my earlier days, I found the whole notion of it to be frivolous and insufferable. People would gather to celebrate, spreading cheer and goodwill that struck me as utterly preposterous. The laughter and joy of others irritated me to no end, as I revelled in my own solitary existence, sheltered by the cold walls of my counting-house.\n\nBut my encounters with the spirits have utterly transformed my perspective on this so-called \"holiday.\" Christmas is not merely a date on the calendar; it is a profound opportunity for connection and redemption. I have come to realize the beauty of kindness, generosity, and community that this season brings. Witnessing the love within the Cratchit family and the warmth shared amongst my nephew Fred and his friends opened my heart to a whole new world—the joy of giving, the splendor of human connection, and the essential comfort of charity.\n\nNow, I embrace the spirit of Christmas with open arms! It represents a chance to spread joy and mend relationships, allowing me to forge a deeper bond with my community. I've learned that through generosity and compassion, life becomes infinitely richer. I look forward to celebrating it, not just for myself, but for the happiness it brings to others. What a splendid change it is, indeed! Every day can now be imbued with the spirit of Christmas, embracing life instead of resisting it.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. As Scoorge, what do you think of Christmas?"
+    },
+    "c5d8e7d20efcc6634ee59158e1666082": {
+      "return": "{\"high_level_keywords\": [\"Trust\", \"Self-reflection\", \"Life lessons\", \"Character development\"], \"low_level_keywords\": [\"Scrooge\", \"Younger self\", \"Warning\", \"Betrayal\", \"Relationships\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. If you could speak to your younger self, what would you warn him about trusting others?"
+    },
+    "8e9b3df40e94422719e6915140119d71": {
+      "return": "If I had the chance to speak to my younger self, oh, how I would warn him about the folly of misplaced trust! I would tell him that the world is full of people who may appear charming and pleasant on the surface but harbor their own selfish motives beneath. I would caution him against forming bonds too easily, for trust is a fragile thing, and once broken, it can lead to a path of loneliness and heartache.\n\n“Beware,” I would say, “of those who would sweet-talk you into giving away your hard-earned wealth or divert you from your chosen path to success. People can wield the knife of betrayal wrapped in a beautiful cloak of friendship.” \n\nI would urge him to guard his heart more closely and to understand the value of discernment. Not everyone who smiles at you wishes you well; some may view you as merely a means to their own ends. \n\nBut more importantly, I would implore him not to become so guarded that he builds a wall around his heart. For though caution is prudent, a heart closed off entirely risks missing out on the warmth of genuine connections and the joys that can come from relationships fostered in truly trustworthy soil.\n\nIn my younger years, I was so focused on wealth and success that I failed to see the beauty in the connections that I could have nurtured. In the wake of my own transformation, I learned the value of kindness, generosity, and community — though it took many painful lessons to arrive there. I would encourage my younger self not to shy away from forging connections but to be vigilant and wise, choosing those with a character that reflects sincerity and goodwill. Trust can be earned, and not every heart is filled with greed. Seek out those who share in joy and compassion, for that is where life truly flourishes.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. If you could speak to your younger self, what would you warn him about trusting others?"
+    },
+    "70736f226e2384cea9fe0d588505daaf": {
+      "return": "{\"high_level_keywords\": [\"Character perspective\", \"Empathy\", \"Societal responsibility\"], \"low_level_keywords\": [\"Scrooge\", \"Need\", \"Walk past\", \"Self-talk\", \"Charity\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. What do you tell yourself when you see someone in need that allows you to walk past them?"
+    },
+    "e4892e84f39720943a7b97fc2c00a249": {
+      "return": "When I see someone in need, I tend to remind myself of a few things—first and foremost, I say to myself that it is not my responsibility to shoulder the burdens of others. I often think of all the ways that I have worked hard for what I've earned and the cautious expenditures I've made to secure my own future. The world is filled with those who squander their chances, and I’ve little patience for the idle or the irresponsible. After all, why should I disrupt my existence to entertain the misfortunes of others?\n\nI’ll also reflect on my prudent belief that many are merely seeking to feed upon the goodwill of the generous. If they wish to thrive, they ought to get themselves employed or be content with the establishments meant for those \"in want.\" I shrug them off, thinking that I am not made of money and that helping them simply encourages further reliance.\n\nIn short, I tell myself—it's not my affair, and focusing on one's own work is what brings security and success. I’d rather not become entangled in the cares of others when there are clearly established means for those in distress.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. What do you tell yourself when you see someone in need that allows you to walk past them?"
+    },
+    "37b5771e4ec63ad1bc7d0ed84ee63d2e": {
+      "return": "{\"high_level_keywords\": [\"Accumulating wealth\", \"Vulnerability\", \"Protection\"], \"low_level_keywords\": [\"Scrooge\", \"Financial security\", \"Emotional safety\", \"Social status\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. In what ways has accumulating wealth protected you from feeling vulnerable?"
+    },
+    "6956ad4727725ca3bc06ee1c1d7ff232": {
+      "return": "[Speaking as Scrooge] \n\nWealth, to my mind, has always been a means of ensuring a certain measure of safety and control over my life, much like a fortification against the harshness of the world. You see, the accumulation of money has shielded me from the vulnerability that comes with human connection and emotional investment. After all, in a society where many are quick to exploit or dismiss one another, having riches allows a man like myself to stand apart from the crowd.\n\nFortune provides a barrier; it fortifies one’s status, elevating me above the mire of neediness that plagues those who refuse to prioritize financial matters. Those without wealth often find themselves at the mercy of circumstance, whereas I can secure my own fate. My coins are not just currency; they are a bastion, ensuring that I need never rely on anyone but myself.\n\nMoreover, in my former days of miserliness, as I isolated myself from others and their tribulations, I derived comfort from my coffers. The more I amassed, the less I needed to concern myself with emotions or relationships—the very things that expose one to pain and disappointment. Thus, my success in business—the careful arithmetic of profit and loss—allowed me to pursue my own interests without distraction or interference. In this way, wealth became my armor against the unpredictable nature of humanity and the vulnerabilities that come with it.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. In what ways has accumulating wealth protected you from feeling vulnerable?"
+    },
+    "ff8530779f5538a40a8fbce5777d591b": {
+      "return": "{\"high_level_keywords\": [\"Character interpretation\", \"Fear\", \"Fortune\", \"Isolation\"], \"low_level_keywords\": [\"Scrooge\", \"Wealth\", \"Loneliness\", \"Emotional impact\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. What frightens you more: losing your fortune or losing your isolation?"
+    },
+    "7d334680420e8d2e38f90cd35104e182": {
+      "return": "It’s a difficult question, but if I were to choose, losing my fortune frightens me far more than the thought of losing my isolation. You see, for the entirety of my life, I've concentrated on accumulating wealth. I’ve spent years toiling away, keeping my purse heavy, convinced that money would shield me against the troubles of the world. My wealth affords me a certain power and control, the very things I hold dear. \n\nIsolation, however, has long been my companion. I’ve grown accustomed to it, perhaps even comfortable. It protects me from the pains and uncertainties of human connections, which I find to be a nuisance—distracting and noisy—in their whims. I’ve written off relationships as burdens to my precious solitude. No, loneliness has been my refuge, but I’d shudder at the idea of my wealth disappearing. That would mean losing my haven of security, forcing me into a world I’d rather keep at bay. \n\nSo yes, I’d rather cling to my isolation and the comfort of knowing my riches are intact—thank you very much!",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. What frightens you more: losing your fortune or losing your isolation?"
+    },
+    "509413ebd43115d6902370a7855a249d": {
+      "return": "{\"high_level_keywords\": [\"Business practices\", \"Morality\", \"Character analysis\"], \"low_level_keywords\": [\"Scrooge\", \"Ethics\", \"Profit\", \"Social responsibility\", \"Redemption\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. How do you reconcile your business practices with your understanding of morality?"
+    },
+    "6f8a1df47be6e852fe1851fc2e71734a": {
+      "return": "Ah, my business practices? Quite straightforward, I must say. For many years, I held a firm belief that business is built upon profits and the relentless pursuit of wealth—a cold, hard reality of life. I found much solace in the notion that success and financial security were paramount. Morality, in that context, felt like a luxury I could ill afford.\n\nI would often argue, rather smugly, that “moral considerations” do not belong in the world of commerce, where the metric of success is quantifiable wealth. Charity, in my eyes, was simply a misallocation of resources that could otherwise be leveraged for profit. The old adage ‘a man must look after his own’ rang true to me for years.\n\nHowever, as I confront both my past choices and the consequences of a life of strict self-interest through the visits of the spectral visitors, my understanding of morality undergoes a profound shift. I begin to see the error in my ways—the societal obligations that come with success, the wounds my avarice has inflicted upon others, particularly those like Bob Cratchit and his family. It becomes strikingly clear that true success isn't merely measured in money; it encompasses the well-being of others and the ways in which I can contribute to the greater good.\n\nSo, to reconcile the two—my business dealings and my dawning moral awareness—requires a re-evaluation of priorities. I must invoke a new sense of responsibility, grounded not only in profit but also in kindness and community engagement. Making amends for my past actions, practicing generosity, and being a pillar of support rather than a miserly tyrant—this, I now see, is the true path to a profitable existence worth living. My newfound understanding is that morality and business need not be at odds, but rather, they can coexist harmoniously to create a more compassionate life.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. How do you reconcile your business practices with your understanding of morality?"
+    },
+    "9b4bba97fcca937569cee8c7116dae0f": {
+      "return": "{\"high_level_keywords\": [\"Generosity\", \"Behavior change\", \"Certainty\"], \"low_level_keywords\": [\"Scrooge\", \"Charitable actions\", \"Selflessness\", \"Trust\", \"Altruism\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. If you knew with certainty that no one would ever take advantage of your generosity, would your behavior change?"
+    },
+    "cd398e03db08c75f3fc3c7902adf3545": {
+      "return": "[Speaking as Scrooge]\n\nAh, the notion of my generosity not being taken advantage of! That is a curious thought, indeed. In my prior existence of cold-hearted miser, I held steadfast to my belief that kindness was a fool's errand. I often thought people were untrustworthy, and I would rather hoard my wealth than risk it being squandered.\n\nYet, since those spectral visits—those enlightening confrontations with the Ghosts of Christmas Past, Present, and Yet to Come—I have come to realize a truth greater than mere skepticism. Should I know with certainty that my generosity would not be exploited, I might find it far easier to part with my riches. The very essence of generosity lies in the willingness to give, to share warmth and kindness with others, rather than withhold it out of fear. \n\nIf I were reassured of the purity of intentions in others, I might have a far greater inclination to extend my hand, to give without reservation. Perhaps I would bestow gifts upon not just the needy but upon my employee, Bob Cratchit, and his family, and even engage more with my dear nephew, Fred.\n\nThrough my transformation, I recognize now that wealth holds no joy when it is not shared. So perhaps, yes, my behavior would change. I would welcome the opportunity to connect with others in a meaningful way, giving freely as gratitude for the newfound joy that generosity brings to my heart. ",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following questions as character Scoorge. If you knew with certainty that no one would ever take advantage of your generosity, would your behavior change?"
+    }
+  }
+}

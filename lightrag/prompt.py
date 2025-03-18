@@ -32,9 +32,67 @@ PROMPTS["PERSONALITY_DIMENSIONS"] = {
     "neuroticism": ["anxiety", "emotional_stability", "self_consciousness", "stress_sensitivity", "moodiness"]
 }
 
+# PROMPTS["entity_extraction"] = """-Goal-
+# Analyze how {target_character} demonstrates the Big Five personality traits throughout the narrative, focusing on their actions, thoughts, and interactions with others.
+# 1. A description of how each trait is exhibited (detailing how the character’s behaviors and dialogue reflect the trait).
+# 2. Supporting excerpts from the novel that illustrate the trait.
+# 3. A causal relationship explanation that describes the events or interactions triggering these trait expressions (e.g., character interactions, plot twists).
+# Use {language} as output language.
+
+# Note: Refer to the following Big Five personality dimensions and their associated facets for trait analysis:
+# {personality_dimensions}
+
+# -Steps-
+# 1. Identify all entities. For each identified entity, extract the following information:
+# - entity_name: Name of the entity (e.g., "Openness_In_Book_Discussion" for a trait manifestation, "Garden_Confrontation" for a scene)
+# - entity_type: One of the following types: [{entity_types}]
+# - entity_description: Comprehensive description including:
+#   * For traits: Which Big Five dimension, how it manifests
+#   * For behaviors: Specific actions/responses showing the trait
+#   * For scenes: Context and situation details
+#   * For triggers: What caused the trait expression
+#   * For development: How the trait has changed
+# Additionally, ensure that among the extracted entities there are at least 10 personality trait entities representing both the high and low expressions of each Big Five dimension. Specifically, include:
+
+# "High_Agreeableness", "Low_Agreeableness", "High_Openness", "Low_Openness", "High_Conscientiousness", "Low_Conscientiousness", "High_Extraversion", "Low_Extraversion", "High_Neuroticism", and "Low_Neuroticism".
+# Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+# 2. From the entities identified in step 1, identify all pairs that are clearly related to each other.
+# For each pair of related entities, extract:
+# - source_entity: name of the source entity (e.g., a trait)
+# - target_entity: name of the target entity (e.g., a behavior or scene)
+# - relationship_description: How these entities connect in showing {target_character}'s personality
+# - relationship_strength: Score from 1-10 showing how strongly this relationship demonstrates the trait
+# - relationship_keywords: Key themes about this personality trait manifestation
+# Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_keywords>{tuple_delimiter}<relationship_strength>)
+
+# 3.Graph Structure Requirement:
+# Ensure that the generated knowledge graph is centered on {target_character}. In particular, every personality trait node (for example, "High_Agreeableness", "Low_Agreeableness", "High_Openness", "Low_Openness", etc.) must be directly connected to the {target_character} node.
+
+# 4. Identify high-level key words that summarize the main personality traits and their development shown in the text.
+# Format as ("content_keywords"{tuple_delimiter}<high_level_keywords>)
+
+# 5. Return output in {language} as a single list of all the entities and relationships. Use **{record_delimiter}** as the list delimiter.
+
+# 6. When finished, output {completion_delimiter}
+
+# ######################
+# -Examples-
+# ######################
+# {examples}
+
+# #############################
+# -Real Data-
+# ######################
+# Entity_types: {entity_types}
+# Text: {input_text}
+# ######################
+# Output:
+# """
+
 PROMPTS["entity_extraction"] = """-Goal-
 Analyze how {target_character} demonstrates the Big Five personality traits throughout the narrative, focusing on their actions, thoughts, and interactions with others.
-1. A description of how each trait is exhibited (detailing how the character’s behaviors and dialogue reflect the trait).
+1. A description of how each trait is exhibited (detailing how the character's behaviors and dialogue reflect the trait).
 2. Supporting excerpts from the novel that illustrate the trait.
 3. A causal relationship explanation that describes the events or interactions triggering these trait expressions (e.g., character interactions, plot twists).
 Use {language} as output language.
@@ -52,9 +110,9 @@ Note: Refer to the following Big Five personality dimensions and their associate
   * For scenes: Context and situation details
   * For triggers: What caused the trait expression
   * For development: How the trait has changed
-Additionally, ensure that among the extracted entities there are at least 10 personality trait entities representing both the high and low expressions of each Big Five dimension. Specifically, include:
+Additionally, ensure that among the extracted entities there are at least 5 personality trait entities representing each Big Five dimension. Specifically, include:
 
-"High_Agreeableness", "Low_Agreeableness", "High_Openness", "Low_Openness", "High_Conscientiousness", "Low_Conscientiousness", "High_Extraversion", "Low_Extraversion", "High_Neuroticism", and "Low_Neuroticism".
+"Agreeableness", "Openness", "Conscientiousness", "Extraversion", "Neuroticism".
 Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
 
 2. From the entities identified in step 1, identify all pairs that are clearly related to each other.
@@ -67,7 +125,7 @@ For each pair of related entities, extract:
 Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_keywords>{tuple_delimiter}<relationship_strength>)
 
 3.Graph Structure Requirement:
-Ensure that the generated knowledge graph is centered on {target_character}. In particular, every personality trait node (for example, "High_Agreeableness", "Low_Agreeableness", "High_Openness", "Low_Openness", etc.) must be directly connected to the {target_character} node.
+Ensure that the generated knowledge graph is centered on {target_character}. In particular, every personality trait node (for example, "Agreeableness", "Openness", "Conscientiousness", etc.) must be directly connected to the {target_character} node.
 
 4. Identify high-level key words that summarize the main personality traits and their development shown in the text.
 Format as ("content_keywords"{tuple_delimiter}<high_level_keywords>)

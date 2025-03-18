@@ -13,7 +13,7 @@ def softmax(x, temperature=0.2):
     exp_x = np.exp(x/temperature)
     return exp_x / np.sum(exp_x)
 
-input = '''Ellie moved gracefully through the community garden, noticing a young woman struggling with several heavy bags of soil. Without hesitation, she offered her assistance, smiling warmly as she introduced herself and insisted on carrying the heavier load despite the woman's gentle protests. As they worked together, Ellie listened attentively to the stranger's innovative ideas for vertical gardening using recycled materials, her eyes lighting up with genuine fascination. Later, when another gardener expressed frustration about the placement of certain plants, Ellie patiently mediated the disagreement, finding a compromise that satisfied everyone while incorporating elements from various global gardening traditions she'd studied during her travels. At the garden's planning meeting that evening, she enthusiastically supported each person's vision, building upon their ideas with thoughtful suggestions drawn from her eclectic knowledge of permaculture, indigenous farming practices, and contemporary sustainable agriculture—all while making sure the quieter members had opportunities to share their perspectives and ensuring that everyone felt their contributions were valued.'''
+intput = '''… in the last years she continued to settle and began to shrink. Her mouth bowed forward and her brow sloped back, and her skull shone pink and speckled within a mere haze of hair, which hovered about her head like the remembered shape of an altered thing. She looked as if the nimbus of humanity were fading away and she were turning monkey. Tendrils grew from her eyebrows and coarse white hairs sprouted on her lip and chin. When she put on an old dress the bosom hung empty and the hem swept the floor. Old hats fell down over her eyes. Sometimes she put her hand over her mouth and laughed, her eyes closed and her shoulder shaking.'''
 
 similarity_array = []
 
@@ -78,4 +78,6 @@ plt.ylabel('Softmax Probability')
 plt.title('Personality Traits Probabilities vs Temperature')
 plt.legend()
 plt.grid(True)
+
+plt.savefig('./personality_traits_probabilities_vs_temperature.png')
 plt.show()

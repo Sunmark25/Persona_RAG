@@ -1,0 +1,18 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 9621,
+    "model": "lightrag:latest",
+    "timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 1
+  },
+  "test_cases": {
+    "basic": {
+      "query": "唐僧有几个徒弟"
+    },
+    "generate": {
+      "query": "电视剧西游记导演是谁"
+    }
+  }
+}

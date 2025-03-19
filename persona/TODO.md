@@ -1,0 +1,2 @@
+- [x] Finish README.md
+- [ ] Change `prompt.py` so that it only creates big five nodes instead of low & high version of big five nodes

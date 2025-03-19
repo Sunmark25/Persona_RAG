@@ -44,89 +44,22 @@ def softmax(x: np.ndarray, temperature: float = 0.2) -> np.ndarray:
     exp_x = np.exp(x/temperature)
     return exp_x / np.sum(exp_x)
 
-# def compare_input_with_chunks(
-#     user_input: str, 
-#     text_chunks: Dict[str, str], 
-#     embedding_model: str = "nomic-embed-text",
-#     top_k: Optional[int] = None,
-#     temperature: float = 0.2
-# ) -> List[Dict]:
-#     """
-#     Compare user input with text chunks using cosine distance.
-    
-#     Args:
-#         user_input: User query or input text
-#         text_chunks: Dictionary of text chunks {chunk_id: content}
-#         embedding_model: Name of the Ollama embedding model to use
-#         top_k: Optional number of top chunks to return. If None, returns all chunks.
-#         temperature: Temperature for softmax probability calculation
-        
-#     Returns:
-#         List of dictionaries containing chunk_id, content, similarity score and probability,
-#         sorted by similarity (highest first)
-#     """
-#     # Handle empty input or chunks
-#     if not user_input or not text_chunks:
-#         print("Warning: Empty input or text chunks")
-#         return []
-    
-#     # Generate embedding for user input
-#     try:
-#         input_embedding_response = ollama.embed(
-#             model=embedding_model,
-#             input=user_input
-#         )
-#         input_embedding = np.array(input_embedding_response['embeddings'][0])
-#     except Exception as e:
-#         print(f"Error generating input embedding: {str(e)}")
-#         return []
-    
-#     # Calculate similarity for each chunk
-#     chunk_similarities = []
-    
-#     for chunk_id, content in text_chunks.items():
-#         try:
-#             # Generate embedding for chunk
-#             chunk_embedding_response = ollama.embed(
-#                 model=embedding_model,
-#                 input=content
-#             )
-#             chunk_embedding = np.array(chunk_embedding_response['embeddings'][0])
-            
-#             # Calculate cosine similarity
-#             similarity = cosine_distance(input_embedding, chunk_embedding)
-            
-#             chunk_similarities.append({
-#                 "chunk_id": chunk_id,
-#                 "content": content,
-#                 "similarity": similarity
-#             })
-#         except Exception as e:
-#             print(f"Error processing chunk {chunk_id}: {str(e)}")
-#             # Include the chunk with zero similarity in case of error
-#             chunk_similarities.append({
-#                 "chunk_id": chunk_id,
-#                 "content": content,
-#                 "similarity": 0.0
-#             })
-    
-#     # Sort by similarity (highest first)
-#     chunk_similarities.sort(key=lambda x: x["similarity"], reverse=True)
-    
-#     # Apply softmax to get probability distribution
-#     if chunk_similarities:
-#         similarities = [item["similarity"] for item in chunk_similarities]
-#         probabilities = softmax(similarities, temperature)
-        
-#         # Add probabilities to results
-#         for i, prob in enumerate(probabilities):
-#             chunk_similarities[i]["probability"] = float(prob)
-    
-#     # Return either top k or all chunks
-#     if top_k is not None and top_k > 0:
-#         return chunk_similarities[:min(top_k, len(chunk_similarities))]
-#     else:
-#         return chunk_similarities
+def compute_embedding_similarity(user_input, context, embed_model = "mxbai-embed-large"):
+    input_response = ollama.embed(
+        model = embed_model,
+        input = user_input
+    )
+
+    context_response = ollama.embed(
+        model = embed_model,
+        input = context
+    )
+
+    input_embedding = np.array(input_response['embeddings'][0])
+    context_embedding = np.array(context_response['embeddings'][0])
+
+    similarity_score = cosine_distance(input_embedding, context_embedding)
+    return similarity_score
     
 def setup_rag(working_dir):
     """Set up a LightRAG instance"""
@@ -315,7 +248,40 @@ def generate_chunk_content(chunk_id):
     # Default content
     return f"Content related to the knowledge graph node or relationship with ID {chunk_id}"
 
-def get_query_related_chunks(rag, query, param=None):
+def combine_top_k_chunks(chunks_dict, top_k=None, separator="\n\n"):
+    """
+    将文本块字典中的前k个文本块合并成一个字符串
+    
+    Args:
+        chunks_dict: 包含源ID和对应文本块内容的字典 {source_id: chunk_content}
+        top_k: 要合并的文本块数量，None表示全部合并
+        separator: 文本块之间的分隔符
+        
+    Returns:
+        str: 合并后的文本字符串
+    """
+    # 如果字典为空，返回空字符串
+    if not chunks_dict:
+        return ""
+    
+    # 获取所有文本块
+    chunks_list = list(chunks_dict.items())
+    
+    # 如果指定了top_k且值有效，限制文本块数量
+    if top_k is not None and top_k > 0:
+        chunks_list = chunks_list[:min(top_k, len(chunks_list))]
+    
+    # 构建合并后的文本
+    combined_text = ""
+    for i, (source_id, content) in enumerate(chunks_list):
+        if i > 0:  # 添加分隔符（除了第一个块）
+            combined_text += separator
+        # 可以选择添加source_id作为标识符
+        combined_text += f"[{source_id}] {content}"
+    
+    return combined_text
+
+def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined_text=False):
     """
     获取与查询相关的所有文本块
     
@@ -323,9 +289,12 @@ def get_query_related_chunks(rag, query, param=None):
         rag: LightRAG实例 
         query: 查询文本
         param: 查询参数，默认为None时会创建一个新的QueryParam
+        top_k: 要返回的文本块数量，None表示返回所有相关文本块
+        return_combined_text: 是否返回合并后的文本字符串而不是字典
         
     Returns:
-        dict: 包含源ID和对应文本块内容的字典 {source_id: chunk_content}
+        dict或str: 默认返回包含源ID和对应文本块内容的字典 {source_id: chunk_content}，
+                 当return_combined_text=True时返回合并后的文本字符串
     """
     # 设置默认查询参数
     if param is None:
@@ -411,6 +380,17 @@ def get_query_related_chunks(rag, query, param=None):
         
         result_chunks = loop.run_until_complete(get_chunks())
     
+    # 如果需要限制返回的文本块数量
+    if top_k is not None and top_k > 0 and len(result_chunks) > top_k:
+        # 转换为列表并截取前top_k个元素
+        chunks_items = list(result_chunks.items())[:top_k]
+        # 重建字典
+        result_chunks = {k: v for k, v in chunks_items}
+    
+    # 返回合并后的文本字符串或原始字典
+    if return_combined_text:
+        return combine_top_k_chunks(result_chunks, top_k=None)  # 已经在上面限制了数量，这里不需要再次限制
+    
     return result_chunks
 
 def main():
@@ -440,14 +420,6 @@ def main():
         "If you knew with certainty that no one would ever take advantage of your generosity, would your behavior change?",
     ]
     
-    # # Execute global search
-    # print("\n=== GLOBAL Mode Query Results ===")
-    # for question in scrooge_questions:
-    #     print(f"\nQuestion: {question}")
-    #     result = rag.query(question, param=QueryParam(mode="global", conversation_history=empty_history))
-    #     print(f"Answer: {result}")
-    #     print("-" * 80)
-
     # 先示范如何获取查询相关的文本块
     sample_query = "What does Scrooge think about Christmas?"
     print("\n=== Getting Related Text Chunks for Sample Query ===")
@@ -461,6 +433,19 @@ def main():
         print(f"Content: {content[:200]}..." if len(content) > 200 else f"Content: {content}")
         print("-" * 80)
     
+    # 展示获取合并后的文本
+    print("\n=== Combined Text Chunks ===")
+    # 获取所有相关文本块的合并字符串
+    combined_all = get_query_related_chunks(rag, sample_query, return_combined_text=True)
+    print("所有文本块合并结果:")
+    print(combined_all[:300] + "..." if len(combined_all) > 300 else combined_all)
+    
+    # 获取仅前2个文本块的合并字符串
+    combined_top2 = get_query_related_chunks(rag, sample_query, top_k=2, return_combined_text=True)
+    print("\n仅合并前2个文本块结果:")
+    print(combined_top2[:300] + "..." if len(combined_top2) > 300 else combined_top2)
+    print("-" * 80)
+    
     system_prompt = "Please answer the following questions as character Scoorge. "
     
     # Execute hybrid search
@@ -470,14 +455,22 @@ def main():
         result = rag.query(system_prompt + question, param=QueryParam(mode="hybrid", conversation_history=empty_history))
         print(f"Answer: {result}")
         
-        # 获取并显示此问题相关的文本块
-        print("\n--- Related Text Chunks ---")
-        query_chunks = get_query_related_chunks(rag, question)
-        print(f"Found {len(query_chunks)} related chunks")
-        for source_id, content in query_chunks.items():
-            print(f"Source ID: {source_id}")
-            print(f"Content snippet: {content[:100]}..." if len(content) > 100 else f"Content: {content}")
+        # # 获取并显示此问题相关的文本块
+        # print("\n--- Related Text Chunks ---")
+        # query_chunks = get_query_related_chunks(rag, question)
+        # print(f"Found {len(query_chunks)} related chunks")
+        # for source_id, content in query_chunks.items():
+        #     print(f"Source ID: {source_id}")
+        #     print(f"Content snippet: {content[:100]}..." if len(content) > 100 else f"Content: {content}")
         
+        # 示范获取合并后的文本（仅使用前20个文本块）
+        combined_text = get_query_related_chunks(rag, question, top_k=20, return_combined_text=True)
+
+
+        print("\n--- Combined Top 20 Text Chunks ---")
+        # print(combined_text[:300] + "..." if len(combined_text) > 300 else combined_text)
+        embedding_result = compute_embedding_similarity(question, combined_text)
+        print("embedding_result is ", str(embedding_result))
         print("-" * 80)
 
 # If this script is run directly, execute the main function

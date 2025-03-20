@@ -4,7 +4,7 @@ from lightrag.utils import xml_to_json
 from neo4j import GraphDatabase
 
 # Constants
-WORKING_DIR = "./antigone"
+WORKING_DIR = "./antigone/agreeableness"
 BATCH_SIZE_NODES = 500
 BATCH_SIZE_EDGES = 100
 

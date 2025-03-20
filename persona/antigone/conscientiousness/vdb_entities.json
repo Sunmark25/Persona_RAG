@@ -1,346 +1,150 @@
 {
-  "ent-0be9f771943abb9c2116fca715b71b7b": {
-    "content": "\"ISOLATION\"\"A consequence of Antigone's choices leading to her physical and emotional isolation, highlighting her low levels of extraversion.\"<SEP>\"Antigone's solitude as she faces the repercussions of her defiance, highlighting her emotional and psychological struggles.\"<SEP>\"Antigone\u2019s choice to confront authority and uphold family loyalty creates a sense of isolation from society and her loved ones.\"",
-    "entity_name": "\"ISOLATION\""
-  },
-  "ent-bf2ec315dfeef547211dec4e59375b02": {
-    "content": "\"DEFIANCE\"\"A significant aspect of Antigone's character, evident in her refusal to obey unjust laws, emphasizing her moral integrity.\"<SEP>\"Antigone's act of defiance against Creon\u2019s authority demonstrates both her openness to challenge social norms and her conscientiousness regarding moral laws.\"<SEP>\"Antigone's willingness to go against the king's orders highlights her strong sense of moral duty and independence.\"",
-    "entity_name": "\"DEFIANCE\""
-  },
-  "ent-4ce14e22dea3af35a75ec60658c3a4fa": {
-    "content": "\"HAEMON\"\"Creon's son and Antigone's fianc\u00e9, caught between his loyalty to his father and his love for Antigone.\"<SEP>\"Creon's son and Antigone's fianc\u00e9, who embodies the conflict between familial loyalty and political allegiance.\"<SEP>\"Creon's son and Antigone's fianc\u00e9, who illustrates the struggle between loyalty to family and the laws of the state, ultimately reinforcing the themes of passion and tragedy.\"<SEP>\"Creon's son, caught between his father's authoritarian rule and his love for Antigone, embodying the struggle between personal loyalty and state loyalty.\"",
-    "entity_name": "\"HAEMON\""
-  },
-  "ent-c455478b7d32961fee84761f3affa3dc": {
-    "content": "\"INNER_CONFLICT\"\"Antigone's struggle with her duties as a sister versus her adherence to human law reflects her internal struggle and emotional depth.\"",
-    "entity_name": "\"INNER_CONFLICT\""
-  },
-  "ent-42b3b249814cf6763ac05d37be01b161": {
-    "content": "\"WILLINGNESS_TO_SACRIFICE\"\"A facet of Antigone's conscientiousness that highlights her readiness to face death for her beliefs and family honor.\"",
-    "entity_name": "\"WILLINGNESS_TO_SACRIFICE\""
-  },
   "ent-6d380408f52842f0cd516061d8f84e74": {
     "content": "\"SISTERLY_INTERACTION\"\"A poignant conversation between Antigone and Ismene, where Antigone asserts her independence and dedication to their family's honor.\"",
     "entity_name": "\"SISTERLY_INTERACTION\""
-  },
-  "ent-bc6519557c61dc22717c42c721d710cf": {
-    "content": "\"DIVINE_LAW\"\"Antigone firmly believes in divine law over human law, showcasing her high conscientiousness and moral commitment.\"<SEP>\"Antigone is motivated by her belief in divine law, prioritizing it over human laws in her actions.\"<SEP>\"Antigone's actions are driven by her belief in the supremacy of divine law over human law, propelling her into conflict with Creon.\"<SEP>\"Antigone's belief in the supremacy of divine law over human law showcases her moral framework and commitment to her principles.\"<SEP>\"Antigone's commitment to uphold the law of the gods motivates her to bury her brother regardless of the consequences set by Creon.\"<SEP>\"Antigone\u2019s actions are driven by her belief in divine law and the moral necessity to honor her brother, which she prioritizes over Creon's edicts.\"<SEP>\"Antigone\u2019s motivation driven by her belief in divine law and familial duty, which supersedes the laws put forth by Creon.\"<SEP>\"The sacred laws driving Antigone\u2019s actions, motivating her to honor her brother despite the consequences.\"",
-    "entity_name": "\"DIVINE_LAW\""
-  },
-  "ent-596571858c2819a31c3fac6d7633fca9": {
-    "content": "\"BLINDNESS_OF_CREON\"\"Creon\u2019s inability to see the moral implications of his decisions and disregard for familial loyalty highlights the conflict in the narrative.\"",
-    "entity_name": "\"BLINDNESS_OF_CREON\""
-  },
-  "ent-52a4d1ba3ae593d28e0909fc558500f6": {
-    "content": "\"STATE_LAW\"\"Creon's driving motivation to maintain order and authority in Thebes leads him to rigidly enforce his decrees against Antigone.\"",
-    "entity_name": "\"STATE_LAW\""
-  },
-  "ent-f150e230b7d6d31aec9f1c7f560f8530": {
-    "content": "\"BURIAL_RITE\"\"The act of Antigone burying her brother Polynices, signifying her defiance against Creon\u2019s edict and her strong beliefs.\"<SEP>\"The act of burying her brother becomes central to Antigone's conflict with Creon and signifies her moral and ethical stance.\"",
-    "entity_name": "\"BURIAL_RITE\""
-  },
-  "ent-800f83e2771990e9f1a479da8505ad03": {
-    "content": "\"RESPONSIBILITY\"\"A facet of Antigone's conscientiousness depicted in her unwavering commitment to perform burial rites for her brother, despite the repercussions.\"<SEP>\"A facet of Antigone's conscientiousness manifesting through her fierce commitment to her moral and familial obligations, regardless of consequences.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to ensure her brother receives a proper burial.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to fulfill familial duties, highlighting her sense of obligation.\"<SEP>\"A facet of Antigone's conscientiousness seen in her strong moral duty to bury her brother according to divine law.\"<SEP>\"A facet of Antigone's conscientiousness shown through her relentless dedication to honoring her brother with a proper burial, regardless of the law.\"<SEP>\"A facet of Antigone's conscientiousness which manifests as she takes on the heavy burden of burying her brother despite knowing the consequences.\"<SEP>\"A facet of Antigone's conscientiousness, evident in her unwavering commitment to uphold her brother's honor amidst societal opposition.\"<SEP>\"A facet of Antigone's conscientiousness, manifested in her unwavering commitment to performing burial rites for her brother as her moral obligation.\"",
-    "entity_name": "\"RESPONSIBILITY\""
-  },
-  "ent-9a9b497de59a97a47f5f924e38f04a65": {
-    "content": "\"MOURNING_CUSTOMS\"\"Antigone\u2019s reflections on mourning customs highlight the cultural importance of burial rites in her society.\"",
-    "entity_name": "\"MOURNING_CUSTOMS\""
-  },
-  "ent-eea35fbc84171cf6d336d2557c7e57ca": {
-    "content": "\"DEFIANCE_SCENE\"\"A pivotal moment in the narrative where Antigone confronts Creon, asserting her rights to honor her brother against the state\u2019s decrees.\"<SEP>\"A scene illustrating Antigone's bold resolve as she openly defies Creon's decree, demonstrating her commitment to bury her brother despite the consequences.\"<SEP>\"The moment Antigone decides to bury her brother against Creon's orders, highlighting her commitment to familial loyalty.\"<SEP>\"The moment when Antigone declares her intention to bury her brother, revealing her inner strength and resolve to defy Creon\u2019s edict.\"",
-    "entity_name": "\"DEFIANCE_SCENE\""
-  },
-  "ent-75f811df6c1b749453f69cc9ffbcb850": {
-    "content": "\"GUARD_ENCOUNTER\"\"The scene where Antigone is captured by the guard while burying Polynices, showcasing her bravery in the face of authority.\"",
-    "entity_name": "\"GUARD_ENCOUNTER\""
-  },
-  "ent-d9479fd66f417f19a404558189793d76": {
-    "content": "\"PRIVATE_REFLECTION\"\"A moment where Antigone contemplates the ramifications of her actions, reflecting her emotional awareness and internal conflict.\"",
-    "entity_name": "\"PRIVATE_REFLECTION\""
-  },
-  "ent-00b4c9427e2bee5cdb8ab2fc70fe87c6": {
-    "content": "\"MORAL_DILEMMA\"\"Antigone's struggle between obeying the king's law versus her personal moral beliefs about family loyalty reflects her character's core conflict.\"<SEP>\"The clash between Antigone's familial obligations and Creon's laws drives the narrative, forcing characters to choose between competing values.\"",
-    "entity_name": "\"MORAL_DILEMMA\""
-  },
-  "ent-e72259052eb3ae32f412dc3508ace5da": {
-    "content": "\"EMOTIONAL_TURBULENCE\"\"A facet of Antigone's neuroticism visible in her deep emotional responses to her circumstances and the impending consequences of her actions.\"",
-    "entity_name": "\"EMOTIONAL_TURBULENCE\""
-  },
-  "ent-862af4a7cf5417d0f80ebc0de86d9b5c": {
-    "content": "\"CONFLICT_WITH_CREON\"\"A pivotal confrontation between Antigone and Creon, highlighting her defiance against authority in honor of her brother.\"<SEP>\"A pivotal confrontation between Antigone and Creon, highlighting her unwavering stance on familial loyalty and moral duty.\"<SEP>\"Antigone's confrontational dialogue with Creon demonstrates her assertiveness and willingness to stand up against unjust authority.\"<SEP>\"The pivotal interaction between Antigone and Creon, emphasizing her defiance against his authority and the fundamental clash between law and morality.\"",
-    "entity_name": "\"CONFLICT_WITH_CREON\""
-  },
-  "ent-0d5a17d46f1c12c5cf7e229429fe982f": {
-    "content": "\"CONSCIENTIOUSNESS\"\"Antigone demonstrates high conscientiousness as shown by her sense of duty towards her brother and her determination to honor familial obligations even against societal rules.\"<SEP>\"Antigone demonstrates high conscientiousness marked by her sense of duty towards her family and moral obligations, shown by her determination to bury her brother.\"<SEP>\"Antigone demonstrates high conscientiousness through her relentless commitment to her principles, as seen in her preparation and actions to honor her brother, despite the risks involved.\"<SEP>\"Antigone demonstrates high conscientiousness through her sense of responsibility towards her family duties and her unwavering determination to carry out what she believes is morally right.\"<SEP>\"Antigone demonstrates strong conscientiousness by adhering to her moral values and taking decisive action to honor her brother.\"<SEP>\"Antigone displays high conscientiousness, driven by a sense of duty towards her brother and a commitment to her moral principles.\"<SEP>\"Antigone displays strong conscientiousness in her commitment to bury her brother, fulfilling her familial and ethical responsibilities with great resolve.\"<SEP>\"Antigone exhibits strong conscientiousness as she exhibits extreme responsibility toward her family and a commitment to upholding divine laws over human laws.\"<SEP>\"Antigone exhibits strong conscientiousness by fulfilling her familial duties with a profound sense of responsibility, despite the potential consequences.\"<SEP>\"Antigone exhibits strong conscientiousness reflected in her sense of duty towards her family and her strategic planning to bury her brother.\"<SEP>\"Antigone shows high conscientiousness as she demonstrates strong sense of duty and responsibility, prioritizing her family's honor and adherence to religious rites over her own safety.\"<SEP>\"Antigone shows high conscientiousness through her strong sense of duty to her family and her unwavering commitment to burying her brother according to her beliefs.\"<SEP>\"Antigone shows strong conscientiousness in her commitment to family loyalty and moral duties, even in the face of death.\"<SEP>\"Antigone shows strong conscientiousness, demonstrated by her commitment to honoring her brother's burial rites, regardless of the risks involved.\"<SEP>\"Antigone's conscientiousness is marked by a high sense of responsibility and strong commitment to her values, leading her to act despite dire consequences.\"<SEP>\"Antigone's strong conscientiousness is evident in her unwavering commitment to her values and responsibilities, particularly in honoring her brother through burial.\"",
-    "entity_name": "\"CONSCIENTIOUSNESS\""
-  },
-  "ent-109f69e02c4d09e2679430c7e6e9fa80": {
-    "content": "\"ISMENE\"\"Antigone's sister, who embodies a more cautious and compliant perspective in contrast to Antigone's defiance, ultimately reflecting the tension between obedience to law and loyalty to family.\"<SEP>\"Antigone's sister, who embodies caution and compliance with state laws, contrasting with Antigone's unwavering resolve.\"<SEP>\"Antigone\u2019s sister who initially hesitates to defy Creon's orders, embodying the conflict between loyalty to family and fear of authority.\"",
-    "entity_name": "\"ISMENE\""
-  },
-  "ent-d0b017d0c015e70f4d2cce2a0fdb2fea": {
-    "content": "\"POLITICAL_CONFLICT\"\"The overarching tension between the laws set forth by Creon and the moral convictions held by Antigone, highlighting the struggle of individual rights against state law.\"",
-    "entity_name": "\"POLITICAL_CONFLICT\""
-  },
-  "ent-7eaf5f67ef9f297f1d6c84900aa2b93e": {
-    "content": "\"ASSERTIVENESS\"\"A facet of Antigone's extraversion displayed through her bold declarations and strong stances against Creon and the expectations placed on her.\"<SEP>\"A facet of Antigone's extraversion seen in her bold declarations and unwavering stances in the face of authority.\"<SEP>\"A facet of Antigone's extraversion that allows her to confidently stand up for her beliefs, particularly when confronting Creon.\"<SEP>\"A facet of Antigone's extraversion, illustrated by her direct and bold declarations in front of Creon, asserting her rights and principles.\"",
-    "entity_name": "\"ASSERTIVENESS\""
-  },
-  "ent-c745d562a5d0930317f4d00883d5df5a": {
-    "content": "\"THEBANS\"\"The citizens of Thebes who represent the societal norms and values that Antigone defies in her pursuit of honoring her family.\"",
-    "entity_name": "\"THEBANS\""
-  },
-  "ent-a20e461eb9626c34cc208e4ac9c3a958": {
-    "content": "\"EMOTION_STABILITY\"\"A facet of Antigone's neuroticism that reflects her determination and resilience in the face of adversity, showing moments of steadiness despite her emotional turmoil.\"",
-    "entity_name": "\"EMOTION_STABILITY\""
-  },
-  "ent-b389a774c665fe0fc306679b534a7ea7": {
-    "content": "\"CHORUS_REFLECTION\"\"A moment where the Chorus reflects on human nature and the consequences of defiance, highlighting Antigone's choices and their implications.\"",
-    "entity_name": "\"CHORUS_REFLECTION\""
-  },
-  "ent-fe2584aa7d1d43bf4e7a340aefc5e7a0": {
-    "content": "\"COURAGE\"\"A facet of Antigone's conscientiousness displayed in her determination to stand against Creon's edict for the sake of justice.\"<SEP>\"A facet of Antigone's conscientiousness manifested in her bravery to defy Creon's edict, risking her life for her principles.\"<SEP>\"Antigone exhibits remarkable courage, willingly facing death for the sake of her principles and her brother's honor.\"<SEP>\"Antigone\u2019s courage manifests in her willingness to face death rather than dishonor her brother, illustrating her indomitable spirit.\"",
-    "entity_name": "\"COURAGE\""
-  },
-  "ent-6e66dbdffabaf68817748ada06d008b3": {
-    "content": "\"SELF_EXPRESSION\"\"A facet of Antigone's openness that manifests in her bold declarations about her beliefs and actions throughout the play.\"",
-    "entity_name": "\"SELF_EXPRESSION\""
-  },
-  "ent-787f203fef353c726c523ee96dd90099": {
-    "content": "\"PIETY\"\"A facet of Antigone's agreeableness that reflects her strong religious convictions and loyalty to the divine laws of the gods over human laws.\"<SEP>\"A reflection of Antigone's devotion to divine laws and familial duties, emphasizing her moral and ethical commitment.\"<SEP>\"Antigone's determined efforts to give her brother a proper burial despite Creon's edict reflect her devotion and religious adherence.\"",
-    "entity_name": "\"PIETY\""
-  },
-  "ent-22275efc3eee40983f002cfe3490e7f5": {
-    "content": "\"FAMILY_LOYALTY\"\"A defining moment showcasing Antigone's decision to bury her brother in defiance of Creon's edict, emphasizing her loyalty to family over state.\"<SEP>\"A facet of Antigone's agreeableness, highlighting her steadfast commitment to family values, especially evident in her actions for her brother.\"<SEP>\"Antigone's deep commitment to familial honor drives her actions, leading her to oppose the state for the sake of her brother.\"<SEP>\"Antigone's deep-seated loyalty to her family greatly influences her motivations and actions throughout the narrative.\"",
-    "entity_name": "\"FAMILY_LOYALTY\""
-  },
-  "ent-ad29cf2849d94e6c00b6be50e3bab8cb": {
-    "content": "\"HADES_RITES\"\"A key moment where Antigone emphasizes the importance of burial rites for her brother, showcasing her commitment to family and beliefs.\"",
-    "entity_name": "\"HADES_RITES\""
-  },
-  "ent-92d60716db5ba1829c0e9d30c984a143": {
-    "content": "\"ANTIGONE\"\"A courageous and principled woman who defies authority to honor her family, demonstrating deep emotional complexity and steadfastness in her beliefs.\"<SEP>\"A defiant and principled young woman who challenges authority in defense of her brother's honor.\"<SEP>\"A determined and courageous woman who defies societal norms to honor her family and uphold her moral beliefs.\"<SEP>\"A determined and principled individual who prioritizes familial duty and moral conviction over societal laws, exhibiting strong-willed bravery and deep empathy.\"<SEP>\"A determined and principled young woman who defies authority to honor her brother through burial rites, demonstrating strong moral conviction throughout the narrative.\"<SEP>\"A determined and principled young woman who defies authority to honor her brother's burial rights.\"<SEP>\"A determined and principled young woman who defies authority to honor her family and uphold divine law, displaying strong convictions throughout the narrative.\"<SEP>\"A determined protagonist who prioritizes familial duty and moral integrity, clashing with authority in her pursuit of what she perceives as justice.\"<SEP>\"A resilient and principled individual who steadfastly pursues honor and devotion to family, even at great personal cost.\"<SEP>\"A resolute and principled woman who defies authority to honor her familial duty and the divine laws of the gods.\"<SEP>\"A resolute and principled woman who defies state laws to honor her deceased brother, reflecting deep convictions and loyalty to familial duty.\"<SEP>\"A resolute and principled young woman who defies authority to honor her brother's burial rights, showcasing her deep commitment to family and moral duty.\"<SEP>\"A resolute and principled young woman who passionately defends her familial duties and moral beliefs despite facing severe consequences.\"<SEP>\"A strong-willed and defiant individual who prioritizes familial loyalty and divine law over human authority.\"<SEP>\"A strong-willed and determined individual who embodies loyalty and a sense of justice, challenging authority for her beliefs.\"<SEP>\"A strong-willed and principled woman who defies authority to honor her deceased brother, showcasing unwavering loyalty to family and moral convictions.\"",
-    "entity_name": "\"ANTIGONE\""
-  },
-  "ent-d6ab92d74cd6149de864af9c8df9b75f": {
-    "content": "\"DIVINE_LAW_VS_HUMAN_LAW\"\"Antigone's actions are driven by her belief in divine law over human edicts, exemplifying the moral struggle and the theme of justice.\"<SEP>\"Antigone's struggle stems from her belief in divine law superseding human authority, motivating her defiance against Creon's decree.\"",
-    "entity_name": "\"DIVINE_LAW_VS_HUMAN_LAW\""
-  },
-  "ent-608ff574f9f459b401ccaacc8e87b5ac": {
-    "content": "\"DEFIANT_SPIRIT\"\"Antigone's strong inner resolve drives her to act against Creon's edict, fueled by her deep belief in honor and justice for her brother.\"",
-    "entity_name": "\"DEFIANT_SPIRIT\""
-  },
-  "ent-36870029d69b304756edf375c78ab7cb": {
-    "content": "\"PUBLIC_REACTION\"\"A scene depicting the reactions of the Theban court and citizens to Antigone's actions, highlighting the broader social implications.\"",
-    "entity_name": "\"PUBLIC_REACTION\""
-  },
-  "ent-626ee5c74934f370f0d29765f7a15d15": {
-    "content": "\"MORAL_OBLIGATION\"\"Antigone's driving force is her deep sense of duty to honor her family and adhere to divine laws, leading her to oppose Creon.\"<SEP>\"Antigone's fierce sense of duty to her family drives her actions throughout the narrative, compelling her to defy unjust laws.\"",
-    "entity_name": "\"MORAL_OBLIGATION\""
-  },
-  "ent-22ff426c713c300fdaf0656be21407ec": {
-    "content": "\"ANTIGONE_FATE\"\"Antigone's motivation is deeply rooted in her desire to honor her brother's memory, driving her to confront authority and face death.\"",
-    "entity_name": "\"ANTIGONE_FATE\""
-  },
-  "ent-ceb8343f5816514a04b9542e7cf7dd22": {
-    "content": "\"JUSTICE_THEME\"\"A thematic element where Antigone\u2019s pursuit of justice for her brother clashes with Creon\u2019s laws, highlighting her moral integrity.\"",
-    "entity_name": "\"JUSTICE_THEME\""
-  },
-  "ent-0d6f72823506e886e22ac7916247af4b": {
-    "content": "\"PARENTAL_LEGACY\"\"Antigone carries the weight of her family's cursed legacy, which influences her actions and sense of duty throughout the narrative.\"",
-    "entity_name": "\"PARENTAL_LEGACY\""
-  },
-  "ent-689ee72a87c89e589622b48d7fd8e0ae": {
-    "content": "\"SISTERLY_LOVE\"\"Antigone's fierce love for her brother drives her to act against the law, showcasing her strong emotional ties and values.\"<SEP>\"The moment where Antigone calls Ismene to inform her about Creon's edict, emphasizing the strong bonds of family obligation and courage.\"",
-    "entity_name": "\"SISTERLY_LOVE\""
-  },
-  "ent-24d882eb434c51d5511dba4501a4bc04": {
-    "content": "\"TOMB_SOLILOQUY\"\"Antigone's poignant reflection while being led away captures her sorrow and determination to honor her brother, encapsulating her tragic fate and emotional depth.\"",
-    "entity_name": "\"TOMB_SOLILOQUY\""
-  },
-  "ent-0a98f41505e1774d3a95f6f9d500f5e4": {
-    "content": "\"SIBLING_LOYALTY\"\"Antigone's unwavering commitment to her brother's honor drives her decisions, illustrating her deep-rooted values and familial loyalty.\"",
-    "entity_name": "\"SIBLING_LOYALTY\""
-  },
-  "ent-4b7ac2e2cc456099bb6ab3d07c4c88b9": {
-    "content": "\"CIVIL_DISOBEDIENCE\"\"The act of Antigone defying Creon's edict represents a crucial scene illustrating her commitment to personal morality over state power.\"",
-    "entity_name": "\"CIVIL_DISOBEDIENCE\""
-  },
-  "ent-586965acd56832ccda08b374b58f57df": {
-    "content": "\"SACRIFICE_SCENE\"\"The climactic scene where Antigone faces the consequences of her defiance, illustrating her willingness to sacrifice everything for family and duty.\"",
-    "entity_name": "\"SACRIFICE_SCENE\""
-  },
-  "ent-e875a64c1a01d1bd6f42b59515f5cd32": {
-    "content": "\"FLAWED_HERO\"\"Antigone embodies the concept of a flawed hero, representing both noble intentions and tragic consequences stemming from her decisions.\"",
-    "entity_name": "\"FLAWED_HERO\""
-  },
-  "ent-845c32a60ec45c796ac82d9a96794c68": {
-    "content": "\"EMOTIONAL_STRUGGLE\"\"Antigone's inner conflict and emotional turmoil as she faces her impending death showcase her profound emotional depth and vulnerability.\"",
-    "entity_name": "\"EMOTIONAL_STRUGGLE\""
-  },
-  "ent-8f36fb2fc2db611d8b8117d75cae6fb3": {
-    "content": "\"CREATIVITY_IN_DEFIANCE\"\"A facet of Antigone's openness shown in how she creatively navigates the challenges presented by Creon\u2019s edicts, forming plans to ensure her brother receives a proper burial.\"",
-    "entity_name": "\"CREATIVITY_IN_DEFIANCE\""
-  },
-  "ent-bbe80f89a5b1333be4ae74a6c0d20c8e": {
-    "content": "\"STRUGGLE_FOR_JUSTICE\"\"Antigone's underlying motivation to seek justice for her brother, reflecting her commitment to family and morality.\"",
-    "entity_name": "\"STRUGGLE_FOR_JUSTICE\""
-  },
-  "ent-c81c77b227e6581a1f50c8d7e2063035": {
-    "content": "\"MORAL_INTEGRITY\"\"A facet of Antigone's conscientiousness reflected in her unwavering adherence to her ethical beliefs, even in the face of severe punishment.\"<SEP>\"Antigone's deep-seated belief in divine justice drives her actions to honor her brother despite the consequences.\"<SEP>\"Antigone's driving force is her profound loyalty to family and her moral duty, pushing her to act in defiance of authority to uphold justice.\"",
-    "entity_name": "\"MORAL_INTEGRITY\""
-  },
-  "ent-3d3852ec3442503c0bc431d7ece7f6e2": {
-    "content": "\"CONFRONTATION_WITH_CREON\"\"An intense exchange between Antigone and Creon where she defends her actions regarding her brother's burial, highlighting her moral conviction.\"<SEP>\"Antigone's defiance against Creon when faced with his decree serves as a pivotal moment of conflict, emphasizing her moral beliefs against the power of authority.\"<SEP>\"The intense exchange between Antigone and Creon signifies her defiance against unjust authority and highlights her moral convictions.\"<SEP>\"The intense exchange between Antigone and Creon where she stands up to authority regarding her brother's burial reflects her resolute nature.\"",
-    "entity_name": "\"CONFRONTATION_WITH_CREON\""
-  },
-  "ent-b68b1f3c887a11cb7bcedb50b0cbf91e": {
-    "content": "\"CURSES\"\"Antigone calls down curses on the doers of the deed after discovering her brother's unburied body, reflecting her intense sorrow and anger.\"",
-    "entity_name": "\"CURSES\""
-  },
-  "ent-eba7ee4aae3a617cf2ea7577a2042a8e": {
-    "content": "\"DRINK_OFFERING\"\"Antigone performs a ritual drink offering for her brother, demonstrating her commitment to familial duty and religious practices.\"",
-    "entity_name": "\"DRINK_OFFERING\""
-  },
-  "ent-263dbd2ecc437ece80ce7b1bd73141c8": {
-    "content": "\"CONFESSION\"\"Antigone openly admits to Creon that she buried her brother, showing her defiance and moral clarity.\"",
-    "entity_name": "\"CONFESSION\""
-  },
-  "ent-0a301cb12a4e192f03c69d22e455c14f": {
-    "content": "\"CONFLICT_OF_LOYALTY\"\"A scene representing the dramatic tensions between Antigone's loyalty to her family and Haemon\u2019s loyalty to his father.\"",
-    "entity_name": "\"CONFLICT_OF_LOYALTY\""
-  },
-  "ent-f504194f3747be073a663761c218e03c": {
-    "content": "\"OPENNESS\"\"Antigone demonstrates high openness through her emotional awareness and willingness to challenge societal norms and laws to honor her beliefs.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge societal norms and her emotional awareness of the consequences of her actions.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge societal norms and her emotional awareness regarding her family duties.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge the status quo and engage in deep moral reasoning about family loyalty versus civic duty.\"<SEP>\"Antigone displays high openness through her willingness to challenge authority and explore moral complexities in the pursuit of justice for her brother.\"<SEP>\"Antigone exhibits high openness by defying societal norms and expressing a strong moral perspective, showing curiosity in understanding her role in the sacredness of burial.\"<SEP>\"Antigone exhibits high openness through her courageous actions and willingness to challenge social norms for the sake of moral integrity.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge norms, express her beliefs, and navigate complex emotional landscapes regarding family loyalty and justice.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge societal norms and her ability to articulate her beliefs passionately.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge the status quo and engage in deep moral contemplation regarding family loyalty and justice.\"<SEP>\"Antigone exhibits moderate openness through her willingness to confront death and express her emotions openly.\"<SEP>\"Antigone exhibits strong openness through her courage to challenge societal norms and express her beliefs about family loyalty and honor.\"<SEP>\"Antigone shows high openness through her emotional awareness and her willingness to confront difficult truths about her family's past.\"<SEP>\"Antigone shows high openness through her willingness to challenge societal norms and her commitment to her beliefs, reflecting her emotional awareness as she navigates her family's tragedy.\"<SEP>\"Antigone shows high openness through her willingness to challenge societal norms and seek out different moral pathways, demonstrating curiosity and emotional awareness.\"<SEP>\"Antigone shows high openness through her willingness to confront oppressive laws and her readiness to embrace her values, regardless of societal norms.\"",
-    "entity_name": "\"OPENNESS\""
-  },
-  "ent-336ae60c76b70b25c9eb9e7c196ce40c": {
-    "content": "\"NEUROTICISM\"\"Antigone demonstrates moderate neuroticism, facing intense emotional turmoil as she grapples with loss, defiance, and the looming consequences of her actions.\"<SEP>\"Antigone demonstrates moderate neuroticism, with moments of anxiety stemming from her internal struggle between duty and societal norms.\"<SEP>\"Antigone demonstrates moderate to high levels of neuroticism, evident in her emotional turmoil and resolve to act despite fears of consequence, showcasing her intense inner struggles.\"<SEP>\"Antigone displays moderate to high neuroticism, as her intense emotional responses to her brother's death and the subsequent consequences reveal underlying anxiety and stress.\"<SEP>\"Antigone exhibits a moderate level of neuroticism as she experiences anxiety over her family\u2019s fate and the potential consequences of her defiance.\"<SEP>\"Antigone exhibits high neuroticism through her intense emotional reactions, particularly her grief and defiance against Creon.\"<SEP>\"Antigone exhibits moderate neuroticism; while she experiences anxiety about the consequences of her choices, she maintains strong emotional stability in her convictions.\"<SEP>\"Antigone exhibits moderate to high neuroticism, as her passionate responses to injustice and her internal battles showcase a significant emotional intensity and vulnerability.\"<SEP>\"Antigone experiences high neuroticism as she grapples with immense emotional turmoil due to her family's cursed fate and her own impending doom.\"<SEP>\"Antigone expresses moderate neuroticism, evidenced by her emotional strife and anxiety regarding the consequences of her actions, particularly in relation to the laws and judgment of others.\"<SEP>\"Antigone shows high neuroticism as she grapples with anxiety about her fate and the consequences of her actions.\"<SEP>\"Antigone shows low neuroticism, displaying emotional stability and determination even when faced with the threat of death.\"<SEP>\"Antigone shows moderate neuroticism reflected in her emotional tension and anxiety about her fate and her family's honor, but she maintains composure in her convictions.\"<SEP>\"Antigone shows moderate neuroticism, expressed through her emotional turmoil and resolve, especially when facing significant conflict and the imminent consequences of her actions.\"<SEP>\"Antigone shows moderate neuroticism, reflected in her emotional responses to her family's plight and the harsh realities of her defiance against Creon.\"<SEP>\"Antigone shows moderate neuroticism; she experiences emotional turmoil over her actions and the consequences they bring but maintains a resolute focus on her goals.\"",
-    "entity_name": "\"NEUROTICISM\""
-  },
-  "ent-0524904f6c8aea3b32e2407c7c875081": {
-    "content": "\"CAUTION\"\"A facet of Antigone's conscientiousness shown through her careful consideration of the consequences of her defiance against Creon, even as she proceeds with her actions.\"",
-    "entity_name": "\"CAUTION\""
-  },
-  "ent-dfdcec50395a69bd4a018c6a893840de": {
-    "content": "\"SELF_DISCIPLINE\"\"A facet of Antigone's conscientiousness evident in her steadfast resolve to follow through with her intentions despite opposing pressures.\"<SEP>\"Antigone shows high self-discipline as she remains focused on her mission to bury her brother despite the dangers involved.\"",
-    "entity_name": "\"SELF_DISCIPLINE\""
-  },
-  "ent-e76e1256b6e0e8a5a5f461df1c9c9ff1": {
-    "content": "\"PUBLIC_OPINION\"\"Antigone\u2019s actions provoke strong public opinion, reflecting the societal conflict between individual beliefs and community standards.\"",
-    "entity_name": "\"PUBLIC_OPINION\""
-  },
-  "ent-e806c90033cbb9b7b1e158e7145479e7": {
-    "content": "\"RESOLVE_TO_BURY\"\"Antigone's unwavering commitment to bury her brother, highlighting her strong convictions and dedication to family honor.\"",
-    "entity_name": "\"RESOLVE_TO_BURY\""
   },
   "ent-61d983e98ecd3fcef70857bacf7d89ab": {
     "content": "\"POWER_DYNAMICS\"\"A context showing the hierarchical struggle between individual moral beliefs and societal laws through the interactions of characters.\"",
     "entity_name": "\"POWER_DYNAMICS\""
   },
-  "ent-05ee335b81fddbe1c8e4466b7e893d0d": {
-    "content": "\"THEBANS_SILENCE\"\"The murmurs among Thebans who fear to speak against Creon but think positively of Antigone's actions, indicating societal pressure and fear.\"",
-    "entity_name": "\"THEBANS_SILENCE\""
+  "ent-fe2584aa7d1d43bf4e7a340aefc5e7a0": {
+    "content": "\"COURAGE\"\"A facet of Antigone's conscientiousness displayed in her determination to stand against Creon's edict for the sake of justice.\"<SEP>\"A facet of Antigone's conscientiousness manifested in her bravery to defy Creon's edict, risking her life for her principles.\"<SEP>\"Antigone exhibits remarkable courage, willingly facing death for the sake of her principles and her brother's honor.\"<SEP>\"Antigone\u2019s courage manifests in her willingness to face death rather than dishonor her brother, illustrating her indomitable spirit.\"",
+    "entity_name": "\"COURAGE\""
   },
-  "ent-4ce3a20e97cbac78d6968f175dcd81a9": {
-    "content": "\"LAW_VS_MORALITY\"\"The central conflict in the narrative where Antigone chooses to defy Creon\u2019s edict to bury her brother, reflecting the tension between human law and moral obligation.\"",
-    "entity_name": "\"LAW_VS_MORALITY\""
+  "ent-36870029d69b304756edf375c78ab7cb": {
+    "content": "\"PUBLIC_REACTION\"\"A scene depicting the reactions of the Theban court and citizens to Antigone's actions, highlighting the broader social implications.\"",
+    "entity_name": "\"PUBLIC_REACTION\""
   },
-  "ent-3158907b0eb3c828b250d85cee29928e": {
-    "content": "\"ANTIGONE'S_DEATH\"\"The climax of Antigone's defiance that leads to her tragic fate, underscoring the consequences of her moral choices.\"",
-    "entity_name": "\"ANTIGONE'S_DEATH\""
+  "ent-c81c77b227e6581a1f50c8d7e2063035": {
+    "content": "\"MORAL_INTEGRITY\"\"A facet of Antigone's conscientiousness reflected in her unwavering adherence to her ethical beliefs, even in the face of severe punishment.\"<SEP>\"Antigone's deep-seated belief in divine justice drives her actions to honor her brother despite the consequences.\"<SEP>\"Antigone's driving force is her profound loyalty to family and her moral duty, pushing her to act in defiance of authority to uphold justice.\"",
+    "entity_name": "\"MORAL_INTEGRITY\""
   },
-  "ent-a7be8a888bdf01494b828b3fea5b79f7": {
-    "content": "\"CONSEQUENCES_OF_DEFIANCE\"\"Antigone\u2019s understanding of the potential dire consequences for defying Creon drives her character's motivation and resolve.\"<SEP>\"The fallout of Antigone's rebellious actions that leads to her tragic fate, illustrating the harsh realities of her choices.\"<SEP>\"The looming repercussions of Antigone's actions, shaping her character development and highlighting her determination.\"",
-    "entity_name": "\"CONSEQUENCES_OF_DEFIANCE\""
+  "ent-800f83e2771990e9f1a479da8505ad03": {
+    "content": "\"RESPONSIBILITY\"\"A facet of Antigone's conscientiousness depicted in her unwavering commitment to perform burial rites for her brother, despite the repercussions.\"<SEP>\"A facet of Antigone's conscientiousness manifesting through her fierce commitment to her moral and familial obligations, regardless of consequences.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to ensure her brother receives a proper burial.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to fulfill familial duties, highlighting her sense of obligation.\"<SEP>\"A facet of Antigone's conscientiousness seen in her strong moral duty to bury her brother according to divine law.\"<SEP>\"A facet of Antigone's conscientiousness shown through her relentless dedication to honoring her brother with a proper burial, regardless of the law.\"<SEP>\"A facet of Antigone's conscientiousness which manifests as she takes on the heavy burden of burying her brother despite knowing the consequences.\"<SEP>\"A facet of Antigone's conscientiousness, evident in her unwavering commitment to uphold her brother's honor amidst societal opposition.\"<SEP>\"A facet of Antigone's conscientiousness, manifested in her unwavering commitment to performing burial rites for her brother as her moral obligation.\"",
+    "entity_name": "\"RESPONSIBILITY\""
+  },
+  "ent-eea35fbc84171cf6d336d2557c7e57ca": {
+    "content": "\"DEFIANCE_SCENE\"\"A pivotal moment in the narrative where Antigone confronts Creon, asserting her rights to honor her brother against the state\u2019s decrees.\"<SEP>\"A scene illustrating Antigone's bold resolve as she openly defies Creon's decree, demonstrating her commitment to bury her brother despite the consequences.\"<SEP>\"The moment Antigone decides to bury her brother against Creon's orders, highlighting her commitment to familial loyalty.\"<SEP>\"The moment when Antigone declares her intention to bury her brother, revealing her inner strength and resolve to defy Creon\u2019s edict.\"",
+    "entity_name": "\"DEFIANCE_SCENE\""
+  },
+  "ent-d0b017d0c015e70f4d2cce2a0fdb2fea": {
+    "content": "\"POLITICAL_CONFLICT\"\"The overarching tension between the laws set forth by Creon and the moral convictions held by Antigone, highlighting the struggle of individual rights against state law.\"",
+    "entity_name": "\"POLITICAL_CONFLICT\""
+  },
+  "ent-626ee5c74934f370f0d29765f7a15d15": {
+    "content": "\"MORAL_OBLIGATION\"\"Antigone's driving force is her deep sense of duty to honor her family and adhere to divine laws, leading her to oppose Creon.\"<SEP>\"Antigone's fierce sense of duty to her family drives her actions throughout the narrative, compelling her to defy unjust laws.\"",
+    "entity_name": "\"MORAL_OBLIGATION\""
+  },
+  "ent-586965acd56832ccda08b374b58f57df": {
+    "content": "\"SACRIFICE_SCENE\"\"The climactic scene where Antigone faces the consequences of her defiance, illustrating her willingness to sacrifice everything for family and duty.\"",
+    "entity_name": "\"SACRIFICE_SCENE\""
   },
   "ent-7b5011774a213f43eb3f684533a8bcd1": {
     "content": "\"BURIAL_CONFLICT\"\"The clash between Antigone and Creon regarding the burial of Polyneices, where Antigone's loyalty to her brother directly opposes Creon's edict.\"<SEP>\"The pivotal moment where Antigone decides to defy Creon's order not to bury her brother, showcasing her moral convictions.\"",
     "entity_name": "\"BURIAL_CONFLICT\""
   },
-  "ent-06b4a23b548cae71f5af120ead73afed": {
-    "content": "\"HAEMON_CONFLICT\"\"The heated exchange between Haemon and Creon illustrates Antigone's influence and the broader tensions between personal loyalty and state power.\"",
-    "entity_name": "\"HAEMON_CONFLICT\""
+  "ent-0a98f41505e1774d3a95f6f9d500f5e4": {
+    "content": "\"SIBLING_LOYALTY\"\"Antigone's unwavering commitment to her brother's honor drives her decisions, illustrating her deep-rooted values and familial loyalty.\"",
+    "entity_name": "\"SIBLING_LOYALTY\""
   },
-  "ent-4e40c646d07b17f3872ed53c665cb5e2": {
-    "content": "\"PRIDE\"\"Antigone\u2019s pride is shown in her unwavering commitment to her beliefs and the honor she seeks in fulfilling her familial duties.\"",
-    "entity_name": "\"PRIDE\""
+  "ent-24d882eb434c51d5511dba4501a4bc04": {
+    "content": "\"TOMB_SOLILOQUY\"\"Antigone's poignant reflection while being led away captures her sorrow and determination to honor her brother, encapsulating her tragic fate and emotional depth.\"",
+    "entity_name": "\"TOMB_SOLILOQUY\""
   },
-  "ent-0f2b14b28c28b222fc4fc5b191452760": {
-    "content": "\"JUSTICE\"\"A facet of Antigone's conscientiousness, expressed through her strong commitment to justice and fairness, as she believes in the right to honor the dead.\"",
-    "entity_name": "\"JUSTICE\""
+  "ent-92d60716db5ba1829c0e9d30c984a143": {
+    "content": "\"ANTIGONE\"\"A courageous and principled woman who defies authority to honor her family, demonstrating deep emotional complexity and steadfastness in her beliefs.\"<SEP>\"A defiant and principled young woman who challenges authority in defense of her brother's honor.\"<SEP>\"A determined and courageous woman who defies societal norms to honor her family and uphold her moral beliefs.\"<SEP>\"A determined and principled individual who prioritizes familial duty and moral conviction over societal laws, exhibiting strong-willed bravery and deep empathy.\"<SEP>\"A determined and principled young woman who defies authority to honor her brother through burial rites, demonstrating strong moral conviction throughout the narrative.\"<SEP>\"A determined and principled young woman who defies authority to honor her brother's burial rights.\"<SEP>\"A determined and principled young woman who defies authority to honor her family and uphold divine law, displaying strong convictions throughout the narrative.\"<SEP>\"A determined protagonist who prioritizes familial duty and moral integrity, clashing with authority in her pursuit of what she perceives as justice.\"<SEP>\"A resilient and principled individual who steadfastly pursues honor and devotion to family, even at great personal cost.\"<SEP>\"A resolute and principled woman who defies authority to honor her familial duty and the divine laws of the gods.\"<SEP>\"A resolute and principled woman who defies state laws to honor her deceased brother, reflecting deep convictions and loyalty to familial duty.\"<SEP>\"A resolute and principled young woman who defies authority to honor her brother's burial rights, showcasing her deep commitment to family and moral duty.\"<SEP>\"A resolute and principled young woman who passionately defends her familial duties and moral beliefs despite facing severe consequences.\"<SEP>\"A strong-willed and defiant individual who prioritizes familial loyalty and divine law over human authority.\"<SEP>\"A strong-willed and determined individual who embodies loyalty and a sense of justice, challenging authority for her beliefs.\"<SEP>\"A strong-willed and principled woman who defies authority to honor her deceased brother, showcasing unwavering loyalty to family and moral convictions.\"",
+    "entity_name": "\"ANTIGONE\""
   },
-  "ent-12fa95bbdd8bfb5f9cf2cd9585e443c0": {
-    "content": "\"LEADER\"\"The figure of authority in Thebes who upholds the laws set by Creon, symbolizing the rigidity of the state.\"",
-    "entity_name": "\"LEADER\""
+  "ent-596571858c2819a31c3fac6d7633fca9": {
+    "content": "\"BLINDNESS_OF_CREON\"\"Creon\u2019s inability to see the moral implications of his decisions and disregard for familial loyalty highlights the conflict in the narrative.\"",
+    "entity_name": "\"BLINDNESS_OF_CREON\""
   },
-  "ent-516aae97bb3eee752d502e8d1c8fb1c2": {
-    "content": "\"SACRIFICE\"\"A facet of Antigone's agreeableness, indicated by her willingness to sacrifice her life for her beliefs and family.\"",
-    "entity_name": "\"SACRIFICE\""
-  },
-  "ent-b6d42001a844055a114ad75b5e41cb92": {
-    "content": "\"SUFFERING\"\"Antigone experiences deep emotional suffering as she faces the consequences of her actions, revealing her moderate neuroticism.\"",
-    "entity_name": "\"SUFFERING\""
-  },
-  "ent-aedb5f202c0c1b5abc19af57a5747a31": {
-    "content": "\"TENSION_BETWEEN_CHARACTERS\"\"The confrontational dialogue between Creon and Antigone reveals the ideological clash between state law and familial loyalty.\"",
-    "entity_name": "\"TENSION_BETWEEN_CHARACTERS\""
-  },
-  "ent-6530d5263803c9da473c002733e152d6": {
-    "content": "\"BURIAL_RITES\"\"The significant action that Antigone insists on fulfilling, representing her commitment to familial duties over societal laws.\"",
-    "entity_name": "\"BURIAL_RITES\""
-  },
-  "ent-3cb887736c2087478dcba1d37e691078": {
-    "content": "\"STUBBORNNESS\"\"A facet of both Creon and Antigone, representing their unwillingness to yield to one another in their beliefs.\"",
-    "entity_name": "\"STUBBORNNESS\""
-  },
-  "ent-abad6539aa30745e8b138ac542e2f40a": {
-    "content": "\"POLYNEICES\"\"Antigone's brother whose unburied body becomes the central conflict of the story, representing familial loyalty and divine law.\"<SEP>\"The deceased brother of Antigone and Ismene, whose unburied body is the catalyst for the central conflict of the story, representing loyalty and honor.\"",
-    "entity_name": "\"POLYNEICES\""
-  },
-  "ent-f1091b702d70c791b79eac05ab7d34eb": {
-    "content": "\"FAMILY_DUTY_MOTIVATION\"\"Antigone's deep-seated motivation to honor her brother and fulfill her family duties drives her actions, leading her to openly challenge the king and societal norms.\"",
-    "entity_name": "\"FAMILY_DUTY_MOTIVATION\""
-  },
-  "ent-fb636aa1c0146e9dd00b9235eb518a4a": {
-    "content": "\"CREON_CONFLICT\"\"The confrontation between Antigone and Creon illustrates her defiance against his authority and emphasizes her moral stance.\"",
-    "entity_name": "\"CREON_CONFLICT\""
-  },
-  "ent-b548b08743ab113e673fc75840ce910e": {
-    "content": "\"EURYDICE\"\"Creon's wife who suffers the consequences of her husband's decisions and ultimately represents the impact of authority on family.\"<SEP>\"Creon's wife, a quieter figure who, although not heavily involved in the active conflict, represents the tragic consequences of the central actions taken by Antigone and Creon.\"",
-    "entity_name": "\"EURYDICE\""
-  },
-  "ent-1949f36ec01a3e203933648a19ca8100": {
-    "content": "\"DEFIANCE_OF_CREON\"\"Antigone's bold declaration of her intent to honor her brother Polyneices by burying him, despite the threat posed by Creon\u2019s edict.\"<SEP>\"Antigone's determination to bury her brother despite Creon's edict illustrates her defiance against unjust laws and strong commitment to her moral principles.\"",
-    "entity_name": "\"DEFIANCE_OF_CREON\""
+  "ent-4b7ac2e2cc456099bb6ab3d07c4c88b9": {
+    "content": "\"CIVIL_DISOBEDIENCE\"\"The act of Antigone defying Creon's edict represents a crucial scene illustrating her commitment to personal morality over state power.\"",
+    "entity_name": "\"CIVIL_DISOBEDIENCE\""
   },
   "ent-a84f725147742cd1faae700b57a48f61": {
     "content": "\"PUNISHMENT\"\"The looming threat of harsh punishment from Creon for those involved in the burial influences the guards' actions and decisions.\"",
     "entity_name": "\"PUNISHMENT\""
   },
-  "ent-0c0aa3975eebe5c9280a9d429b524995": {
-    "content": "\"MORAL_MOTIVATION\"\"Antigone's strong drive to adhere to familial duties and divine laws over societal expectations; her actions are motivated by love for her deceased brother.\"",
-    "entity_name": "\"MORAL_MOTIVATION\""
+  "ent-0524904f6c8aea3b32e2407c7c875081": {
+    "content": "\"CAUTION\"\"A facet of Antigone's conscientiousness shown through her careful consideration of the consequences of her defiance against Creon, even as she proceeds with her actions.\"",
+    "entity_name": "\"CAUTION\""
+  },
+  "ent-12fa95bbdd8bfb5f9cf2cd9585e443c0": {
+    "content": "\"LEADER\"\"The figure of authority in Thebes who upholds the laws set by Creon, symbolizing the rigidity of the state.\"",
+    "entity_name": "\"LEADER\""
+  },
+  "ent-f1091b702d70c791b79eac05ab7d34eb": {
+    "content": "\"FAMILY_DUTY_MOTIVATION\"\"Antigone's deep-seated motivation to honor her brother and fulfill her family duties drives her actions, leading her to openly challenge the king and societal norms.\"",
+    "entity_name": "\"FAMILY_DUTY_MOTIVATION\""
+  },
+  "ent-52a4d1ba3ae593d28e0909fc558500f6": {
+    "content": "\"STATE_LAW\"\"Creon's driving motivation to maintain order and authority in Thebes leads him to rigidly enforce his decrees against Antigone.\"",
+    "entity_name": "\"STATE_LAW\""
   },
   "ent-dbd6ceacbcca50f7ef2247f682fdaf61": {
     "content": "\"CREON\"\"The King of Thebes who represents the law and authority, conflicting with Antigone\u2019s moral convictions about familial duty.\"<SEP>\"The King of Thebes, whose edict against burying Polyneices represents the conflict between state law and individual moral beliefs, showcasing authority and power.\"<SEP>\"The King of Thebes, whose rigid adherence to his own laws and authority contrasts starkly with Antigone\u2019s moral conviction.\"<SEP>\"The authoritative ruler of Thebes whose decree forbids the burial of Polyneices, demonstrating a strong adherence to state laws and power.\"<SEP>\"The authoritative ruler who prioritizes state laws over familial bonds, representing the conflict between individual morals and societal structures.\"<SEP>\"The king of Thebes whose rigid adherence to governmental law directly opposes Antigone's moral convictions, embodying authority and governance.\"<SEP>\"The king of Thebes, a representation of state power and authority, who enforces his decrees against Antigone's actions.\"<SEP>\"The king of Thebes, representing law and order, whose strict adherence to his decrees sets up the central conflict of the play.\"<SEP>\"The king of Thebes, who rigidly upholds state laws and views the act of burial as an affront to his authority.\"<SEP>\"The newly appointed king of Thebes, representing state authority and law, whose rigid adherence to order clashes with Antigone's moral stance.\"",
     "entity_name": "\"CREON\""
   },
-  "ent-725fd1aa0303f0ad6df6add70fdda0d6": {
-    "content": "\"ACHIEVEMENT_STRIVING\"\"A facet of Antigone's conscientiousness demonstrated through her unwavering commitment to achieving justice for her brother, regardless of the personal cost.\"<SEP>\"A facet of Antigone's conscientiousness evidenced by her relentless pursuit of justice for her brother and her determination to honor familial ties.\"<SEP>\"A facet of Antigone's conscientiousness manifested in her determination to fulfill her familial duty despite the consequences.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to fulfill her duty to her brother at any cost.\"<SEP>\"A facet of Antigone's conscientiousness shown in her determination to fulfill her promise to her brother regardless of the risks involved.\"<SEP>\"A facet of Antigone's conscientiousness, illustrated by her determination to ensure her brother receives a proper burial, regardless of the consequences.\"",
-    "entity_name": "\"ACHIEVEMENT_STRIVING\""
+  "ent-4ce3a20e97cbac78d6968f175dcd81a9": {
+    "content": "\"LAW_VS_MORALITY\"\"The central conflict in the narrative where Antigone chooses to defy Creon\u2019s edict to bury her brother, reflecting the tension between human law and moral obligation.\"",
+    "entity_name": "\"LAW_VS_MORALITY\""
+  },
+  "ent-8902580f4e36ec91fd895b64e6f10a11": {
+    "content": "\"AUTHORITY\"\"Creon's rigid adherence to state laws embodies the concept of authority that conflicts with Antigone's personal belief system.\"",
+    "entity_name": "\"AUTHORITY\""
+  },
+  "ent-0d5a17d46f1c12c5cf7e229429fe982f": {
+    "content": "\"CONSCIENTIOUSNESS\"\"Antigone demonstrates high conscientiousness as shown by her sense of duty towards her brother and her determination to honor familial obligations even against societal rules.\"<SEP>\"Antigone demonstrates high conscientiousness marked by her sense of duty towards her family and moral obligations, shown by her determination to bury her brother.\"<SEP>\"Antigone demonstrates high conscientiousness through her relentless commitment to her principles, as seen in her preparation and actions to honor her brother, despite the risks involved.\"<SEP>\"Antigone demonstrates high conscientiousness through her sense of responsibility towards her family duties and her unwavering determination to carry out what she believes is morally right.\"<SEP>\"Antigone demonstrates strong conscientiousness by adhering to her moral values and taking decisive action to honor her brother.\"<SEP>\"Antigone displays high conscientiousness, driven by a sense of duty towards her brother and a commitment to her moral principles.\"<SEP>\"Antigone displays strong conscientiousness in her commitment to bury her brother, fulfilling her familial and ethical responsibilities with great resolve.\"<SEP>\"Antigone exhibits strong conscientiousness as she exhibits extreme responsibility toward her family and a commitment to upholding divine laws over human laws.\"<SEP>\"Antigone exhibits strong conscientiousness by fulfilling her familial duties with a profound sense of responsibility, despite the potential consequences.\"<SEP>\"Antigone exhibits strong conscientiousness reflected in her sense of duty towards her family and her strategic planning to bury her brother.\"<SEP>\"Antigone shows high conscientiousness as she demonstrates strong sense of duty and responsibility, prioritizing her family's honor and adherence to religious rites over her own safety.\"<SEP>\"Antigone shows high conscientiousness through her strong sense of duty to her family and her unwavering commitment to burying her brother according to her beliefs.\"<SEP>\"Antigone shows strong conscientiousness in her commitment to family loyalty and moral duties, even in the face of death.\"<SEP>\"Antigone shows strong conscientiousness, demonstrated by her commitment to honoring her brother's burial rites, regardless of the risks involved.\"<SEP>\"Antigone's conscientiousness is marked by a high sense of responsibility and strong commitment to her values, leading her to act despite dire consequences.\"<SEP>\"Antigone's strong conscientiousness is evident in her unwavering commitment to her values and responsibilities, particularly in honoring her brother through burial.\"",
+    "entity_name": "\"CONSCIENTIOUSNESS\""
+  },
+  "ent-bf2ec315dfeef547211dec4e59375b02": {
+    "content": "\"DEFIANCE\"\"A significant aspect of Antigone's character, evident in her refusal to obey unjust laws, emphasizing her moral integrity.\"<SEP>\"Antigone's act of defiance against Creon\u2019s authority demonstrates both her openness to challenge social norms and her conscientiousness regarding moral laws.\"<SEP>\"Antigone's willingness to go against the king's orders highlights her strong sense of moral duty and independence.\"",
+    "entity_name": "\"DEFIANCE\""
+  },
+  "ent-109f69e02c4d09e2679430c7e6e9fa80": {
+    "content": "\"ISMENE\"\"Antigone's sister, who embodies a more cautious and compliant perspective in contrast to Antigone's defiance, ultimately reflecting the tension between obedience to law and loyalty to family.\"<SEP>\"Antigone's sister, who embodies caution and compliance with state laws, contrasting with Antigone's unwavering resolve.\"<SEP>\"Antigone\u2019s sister who initially hesitates to defy Creon's orders, embodying the conflict between loyalty to family and fear of authority.\"",
+    "entity_name": "\"ISMENE\""
   },
   "ent-e09ac2a8881be5951c13ad94446d0259": {
     "content": "\"EXTRAVERSION\"Antigone exhibits a complex profile of extraversion characterized as low to moderate. She showcases assertiveness in her beliefs, particularly through her interactions with authority figures like Creon, where she engages in assertive dialogue and passionate speeches. Despite her readiness to confront others, her demeanor often appears serious and intense, reflecting a deep conviction rooted more in moral duty than in a desire for social validation or approval.\n\nWhile she is willing to express her thoughts and assert herself publicly, particularly in challenging authority, Antigone tends to prefer solitary actions driven by her strong moral imperative. This indicates a solitary nature, as she often acts in defiance rather than seeking broader social connections. Her interactions are meaningful and intense rather than widespread, demonstrating a preference for depth in her relationships\u2014mainly with family\u2014over extensive social networks.\n\nOverall, Antigone's extraversion can be described as moderate, as she engages boldly in discussions about her beliefs, demonstrating assertiveness without sacrificing her more introspective qualities. This balance highlights her complex personality: she is an individual who acts resolutely based on her convictions, yet remains somewhat reserved when navigating emotional challenges.",
     "entity_name": "\"EXTRAVERSION\""
   },
-  "ent-4ba37e77e60138a3c5011723966d18b8": {
-    "content": "\"AGREEABLENESS\"Antigone is characterized by a complex portrayal of agreeableness, predominantly reflecting high levels of this trait through her deep loyalty, empathy, and commitment to her family. Her actions demonstrate an innate sense of duty, particularly in her willingness to sacrifice her own life for her moral convictions and her steadfast commitment to honoring her deceased brother. Antigone's high agreeableness is evident in her prioritization of familial bonds, as she emphasizes love and loyalty over societal rules, showcasing altruism and a strong sense of responsibility towards her family.\n\nWhile many descriptions highlight her as displaying high agreeableness, there are also indications of moderate agreeableness due to her stubbornness and rigid adherence to her beliefs. This complexity suggests that although she is supportive and loyal, her strong sense of justice sometimes puts her at odds with authority figures, leading to conflicts especially with characters such as Ismene and Creon. Antigone's empathy shines through as she endures personal suffering and accepts consequences for her actions, making her appear both compassionate and uncompromising.\n\nOverall, Antigone's agreeableness can be summarized as primarily high, marked by her dedication to family values and the moral integrity reflected in her courageous choices. However, her interactions with authority and her unyielding nature introduce elements of moderate agreeableness, illustrating the nuanced dynamics of her relationships and motivations.",
-    "entity_name": "\"AGREEABLENESS\""
+  "ent-0c0aa3975eebe5c9280a9d429b524995": {
+    "content": "\"MORAL_MOTIVATION\"\"Antigone's strong drive to adhere to familial duties and divine laws over societal expectations; her actions are motivated by love for her deceased brother.\"",
+    "entity_name": "\"MORAL_MOTIVATION\""
   },
-  "ent-8902580f4e36ec91fd895b64e6f10a11": {
-    "content": "\"AUTHORITY\"\"Creon's rigid adherence to state laws embodies the concept of authority that conflicts with Antigone's personal belief system.\"",
-    "entity_name": "\"AUTHORITY\""
+  "ent-b548b08743ab113e673fc75840ce910e": {
+    "content": "\"EURYDICE\"\"Creon's wife who suffers the consequences of her husband's decisions and ultimately represents the impact of authority on family.\"<SEP>\"Creon's wife, a quieter figure who, although not heavily involved in the active conflict, represents the tragic consequences of the central actions taken by Antigone and Creon.\"",
+    "entity_name": "\"EURYDICE\""
+  },
+  "ent-f504194f3747be073a663761c218e03c": {
+    "content": "\"OPENNESS\"\"Antigone demonstrates high openness through her emotional awareness and willingness to challenge societal norms and laws to honor her beliefs.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge societal norms and her emotional awareness of the consequences of her actions.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge societal norms and her emotional awareness regarding her family duties.\"<SEP>\"Antigone demonstrates high openness through her willingness to challenge the status quo and engage in deep moral reasoning about family loyalty versus civic duty.\"<SEP>\"Antigone displays high openness through her willingness to challenge authority and explore moral complexities in the pursuit of justice for her brother.\"<SEP>\"Antigone exhibits high openness by defying societal norms and expressing a strong moral perspective, showing curiosity in understanding her role in the sacredness of burial.\"<SEP>\"Antigone exhibits high openness through her courageous actions and willingness to challenge social norms for the sake of moral integrity.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge norms, express her beliefs, and navigate complex emotional landscapes regarding family loyalty and justice.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge societal norms and her ability to articulate her beliefs passionately.\"<SEP>\"Antigone exhibits high openness through her willingness to challenge the status quo and engage in deep moral contemplation regarding family loyalty and justice.\"<SEP>\"Antigone exhibits moderate openness through her willingness to confront death and express her emotions openly.\"<SEP>\"Antigone exhibits strong openness through her courage to challenge societal norms and express her beliefs about family loyalty and honor.\"<SEP>\"Antigone shows high openness through her emotional awareness and her willingness to confront difficult truths about her family's past.\"<SEP>\"Antigone shows high openness through her willingness to challenge societal norms and her commitment to her beliefs, reflecting her emotional awareness as she navigates her family's tragedy.\"<SEP>\"Antigone shows high openness through her willingness to challenge societal norms and seek out different moral pathways, demonstrating curiosity and emotional awareness.\"<SEP>\"Antigone shows high openness through her willingness to confront oppressive laws and her readiness to embrace her values, regardless of societal norms.\"",
+    "entity_name": "\"OPENNESS\""
+  },
+  "ent-42b3b249814cf6763ac05d37be01b161": {
+    "content": "\"WILLINGNESS_TO_SACRIFICE\"\"A facet of Antigone's conscientiousness that highlights her readiness to face death for her beliefs and family honor.\"",
+    "entity_name": "\"WILLINGNESS_TO_SACRIFICE\""
+  },
+  "ent-725fd1aa0303f0ad6df6add70fdda0d6": {
+    "content": "\"ACHIEVEMENT_STRIVING\"\"A facet of Antigone's conscientiousness demonstrated through her unwavering commitment to achieving justice for her brother, regardless of the personal cost.\"<SEP>\"A facet of Antigone's conscientiousness evidenced by her relentless pursuit of justice for her brother and her determination to honor familial ties.\"<SEP>\"A facet of Antigone's conscientiousness manifested in her determination to fulfill her familial duty despite the consequences.\"<SEP>\"A facet of Antigone's conscientiousness reflected in her determination to fulfill her duty to her brother at any cost.\"<SEP>\"A facet of Antigone's conscientiousness shown in her determination to fulfill her promise to her brother regardless of the risks involved.\"<SEP>\"A facet of Antigone's conscientiousness, illustrated by her determination to ensure her brother receives a proper burial, regardless of the consequences.\"",
+    "entity_name": "\"ACHIEVEMENT_STRIVING\""
+  },
+  "ent-bc6519557c61dc22717c42c721d710cf": {
+    "content": "\"DIVINE_LAW\"\"Antigone firmly believes in divine law over human law, showcasing her high conscientiousness and moral commitment.\"<SEP>\"Antigone is motivated by her belief in divine law, prioritizing it over human laws in her actions.\"<SEP>\"Antigone's actions are driven by her belief in the supremacy of divine law over human law, propelling her into conflict with Creon.\"<SEP>\"Antigone's belief in the supremacy of divine law over human law showcases her moral framework and commitment to her principles.\"<SEP>\"Antigone's commitment to uphold the law of the gods motivates her to bury her brother regardless of the consequences set by Creon.\"<SEP>\"Antigone\u2019s actions are driven by her belief in divine law and the moral necessity to honor her brother, which she prioritizes over Creon's edicts.\"<SEP>\"Antigone\u2019s motivation driven by her belief in divine law and familial duty, which supersedes the laws put forth by Creon.\"<SEP>\"The sacred laws driving Antigone\u2019s actions, motivating her to honor her brother despite the consequences.\"",
+    "entity_name": "\"DIVINE_LAW\""
+  },
+  "ent-3cb887736c2087478dcba1d37e691078": {
+    "content": "\"STUBBORNNESS\"\"A facet of both Creon and Antigone, representing their unwillingness to yield to one another in their beliefs.\"",
+    "entity_name": "\"STUBBORNNESS\""
+  },
+  "ent-dfdcec50395a69bd4a018c6a893840de": {
+    "content": "\"SELF_DISCIPLINE\"\"A facet of Antigone's conscientiousness evident in her steadfast resolve to follow through with her intentions despite opposing pressures.\"<SEP>\"Antigone shows high self-discipline as she remains focused on her mission to bury her brother despite the dangers involved.\"",
+    "entity_name": "\"SELF_DISCIPLINE\""
+  },
+  "ent-1949f36ec01a3e203933648a19ca8100": {
+    "content": "\"DEFIANCE_OF_CREON\"\"Antigone's bold declaration of her intent to honor her brother Polyneices by burying him, despite the threat posed by Creon\u2019s edict.\"<SEP>\"Antigone's determination to bury her brother despite Creon's edict illustrates her defiance against unjust laws and strong commitment to her moral principles.\"",
+    "entity_name": "\"DEFIANCE_OF_CREON\""
   }
 }

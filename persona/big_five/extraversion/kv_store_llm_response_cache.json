@@ -1,0 +1,20 @@
+{
+  "hybrid": {
+    "96ce9ac04bad37eee4b00a71b23520ef": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Afterlife\", \"Unburied soul\", \"Beliefs\"], \"low_level_keywords\": [\"Greek mythology\", \"Burial rites\", \"Moral duty\", \"Soul's fate\", \"Divine punishment\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "d2bbd4b128a84cc6c65e9fc2c71387ee": {
+      "return": "[Speaking as Antigone]\n\nIn my heart, I believe that an unburied soul faces a severe fate in the afterlife. It is a profound injustice to leave the body of the deceased without the proper rites of burial, a sacred duty I hold in deep reverence. According to the laws upheld by the gods and our ancestors, a soul that remains unburied is condemned to wander aimlessly, never finding peace. \n\nThere is an emotional weight to this belief; I feel it acutely as I think of my dear brother Polyneices, whose honorable nature deserves to be honored even in death. To deny him burial is to deny him rest, and thus, the very essence of his spirit is tormented. I cannot abide by this thought. It pierces my soul; every ounce of my being is driven by a relentless commitment to ensure that my brother is laid to rest with dignity, allowing him to cross over to the afterlife, where he can find tranquility among our ancestors.\n\nThe laws of man, as represented by Creon’s edict, cannot override the divine principles that govern the fate of souls. In my view, the gods demand respect for the dead, ensuring that they receive the rites they deserve. Only through burial can one hope to appease both the dead and the gods, thus securing the peace of the soul that has departed. As I stand here, resolute in my beliefs, I will defy any earthly authority to honor my familial duty and uphold the divine law that transcends human judgment.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    }
+  }
+}

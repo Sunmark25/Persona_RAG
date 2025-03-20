@@ -1,0 +1,44 @@
+{
+  "hybrid": {
+    "96ce9ac04bad37eee4b00a71b23520ef": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Afterlife\", \"Morality\", \"Unburied soul\"], \"low_level_keywords\": [\"Burial customs\", \"Greek mythology\", \"Creon\", \"Divine justice\", \"Family loyalty\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "d2bbd4b128a84cc6c65e9fc2c71387ee": {
+      "return": "As Antigone, I hold a profound belief drawn from my deep respect for the divine laws that govern both the living and the dead. I am compelled by the conviction that to leave a body unburied is a grievous injustice, not solely to the flesh that remains but to the very soul of the deceased. \n\nIn my understanding, an unburied soul faces endless suffering, trapped between worlds. The Greeks, in their piety and respect for the gods, uphold the belief that the soul cannot enter the realm of the dead without proper burial rites. It is as if this act of forgetting or denying the dead's humanity binds their spirit to the earth, leaving them restless and in agony. Such a fate is not to be taken lightly, for it defies the natural order and the sacred rituals passed down to us.\n\nThe weight of this knowledge presses heavily upon my heart, driving me to honor my brother Polynices, who deserves to have his soul find peace after such a violent end. I believe that, through my actions, I not only fulfill my moral duty as his sister but also uphold the sacred respect for the divine which mandates proper burial as the key to the afterlife's acceptance. The gods observe our deeds, and I am resolute in my belief that to honor the dead is to acknowledge their existence and maintain the harmony of the cosmos. \n\nTherefore, it is unthinkable for me to leave my brother unburied while I draw breath, for that choice not only condemns him but also shatters the very principles of loyalty and duty that I hold dear. This truth anchors my resolve, guiding me through the defiance I must undertake against the unjust edicts of men like Creon.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "a325c5c014b5f336ef5b4588d6ccdba0": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Afterlife\", \"Unburied soul\", \"Beliefs about death\"], \"low_level_keywords\": [\"Burial customs\", \"Greek mythology\", \"Divine judgment\", \"Soul rest\", \"Hades\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "600f6d020d845d6c562db5278097fdf7": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Authority\", \"Family dynamics\", \"Defiance\"], \"low_level_keywords\": [\"Oedipus\", \"Father-daughter relationship\", \"Consequences of defiance\", \"Greek mythology\", \"Tragic themes\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. If you could speak to your father Oedipus now, what would you ask him about defying authority?"
+    },
+    "9f4b35e0efdfa07bf04f9e332238cdd9": {
+      "return": "[Speaking as Antigone]\n\nIf I could speak to my father, Oedipus, I would first express my unwavering love for him and acknowledge the weight of our family's tragic history. I’d remind him of the burden we all carry as children of the Labdacidae. Then, I would pose a question that has been a haunting struggle in my heart: \"Father, did you find wisdom in your defiance against the authority of fate, even as it led to your downfall? Was the pursuit of truth and honor worth the cost it exacted on our family?\"\n\nI have always believed that loyalty to family and the moral laws of the gods supersedes the dictates of mortal kings. In confronting Creon, I am driven by a deep sense of duty towards my brother, Polynices, a love that defies the superficial constraints of law. I would seek your counsel, Father, on how you navigated that treacherous path where one’s convictions confront the power of authority. Did you find solace in your resolve, even amidst the pain it brought upon those you cherished?\n\nAnd in this moment, I would wish for your wisdom to guide me—how should one balance respect for human authority with the sacred duty to family and the divine laws? Can a daughter’s love triumph over the repercussions of defiance?\n\nI look to you, my father, for the answers that might bring me clarity in this turbulent struggle against the very choices that bind me to a fate I did not choose.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. If you could speak to your father Oedipus now, what would you ask him about defying authority?"
+    }
+  }
+}

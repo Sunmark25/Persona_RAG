@@ -146,38 +146,64 @@ def extract_relevant_chunks(chunks_dict, source_ids):
     
     return relevant_chunks
 
-def extract_subgraph(graph, nodes, max_distance=2):
+def extract_subgraph(graph, nodes, stopping_node=None, max_distance=2):
     """
     Extract a subgraph containing nodes within max_distance of given nodes.
+    If stopping_node is provided, it will be included but its neighbors won't be explored.
     
     Args:
         graph: NetworkX graph
         nodes: List of node IDs to use as focal points
+        stopping_node: Node ID that should be included but whose neighbors should not be explored
         max_distance: Maximum distance from focal nodes (default: 2)
     
     Returns:
         NetworkX graph containing the subgraph
     """
-    # Create set to store all nodes within range
-    nearby_nodes = set()
-    
-    # For each focal node, get nodes within max_distance
+    # 验证节点是否存在
     for node in nodes:
-        # Validate node exists
         if node not in graph:
             raise ValueError(f"Node {node} not found in graph")
+    if stopping_node and stopping_node not in graph:
+        raise ValueError(f"Stopping node {stopping_node} not found in graph")
+    
+    # 用于存储最终子图节点的集合
+    subgraph_nodes = set(nodes)
+    
+    # 广度优先搜索实现
+    # 我们将跟踪与焦点节点的距离
+    current_nodes = set(nodes)  # 从距离为0的焦点节点开始
+    visited = set(nodes)
+    
+    # 探索直到最大距离
+    for distance in range(1, max_distance + 1):
+        next_nodes = set()
         
-        # Get ego graph (nodes within max_distance)
-        ego = nx.ego_graph(graph, node, radius=max_distance)
-        nearby_nodes.update(ego.nodes())
+        for node in current_nodes:
+            # 如果是停止节点，跳过探索其邻居
+            if node == stopping_node:
+                continue
+            
+            # 添加未访问的邻居到下一层
+            neighbors = set(graph.neighbors(node)) - visited
+            next_nodes.update(neighbors)
+            visited.update(neighbors)
+        
+        # 更新当前节点集合，用于下一次迭代
+        current_nodes = next_nodes
+        
+        # 更新子图节点
+        subgraph_nodes.update(next_nodes)
+        
+        # 如果没有更多节点需要探索，则退出循环
+        if not current_nodes:
+            break
     
-    # Create subgraph with nearby nodes
-    subgraph = graph.subgraph(nearby_nodes).copy()
-    
-    return subgraph
+    # 创建子图
+    return graph.subgraph(subgraph_nodes).copy()
 
 def main():
-    # Set up argument parser
+    # 设置参数解析器
     parser = argparse.ArgumentParser(
         description='Extract subgraph and generate LightRAG files'
     )
@@ -186,6 +212,8 @@ def main():
     parser.add_argument('nodes', type=str, nargs='+', help='1-2 node IDs to use as focal points')
     parser.add_argument('--distance', type=int, default=2,
                       help='Maximum distance from focal nodes (default: 2)')
+    parser.add_argument('--stopping_node', type=str, 
+                      help='Node to include but not explore its neighbors')
     parser.add_argument('--source_text', type=str, help='Optional source text file to include')
     parser.add_argument('--source_chunks_file', type=str, 
                       help='Optional file path to original text chunks JSON to extract from')
@@ -207,8 +235,8 @@ def main():
         graph = nx.read_graphml(args.input_file)
         print(f"Loaded original graph: {len(graph)} nodes, {len(graph.edges)} edges")
         
-        # Extract subgraph
-        subgraph = extract_subgraph(graph, args.nodes, args.distance)
+        # 提取子图，传入停止节点参数
+        subgraph = extract_subgraph(graph, args.nodes, args.stopping_node, args.distance)
         print(f"Extracted subgraph: {len(subgraph)} nodes, {len(subgraph.edges)} edges")
         
         # Save graphml format

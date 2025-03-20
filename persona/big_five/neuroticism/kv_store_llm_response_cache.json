@@ -1,0 +1,20 @@
+{
+  "hybrid": {
+    "96ce9ac04bad37eee4b00a71b23520ef": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Afterlife\", \"Unburied soul\", \"Personal beliefs\"], \"low_level_keywords\": [\"Greek mythology\", \"Death\", \"Burial rites\", \"Souls\", \"Religious beliefs\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "d2bbd4b128a84cc6c65e9fc2c71387ee": {
+      "return": "To contemplate the fate of an unburied soul weighs heavily on my heart and mind, for I cannot bear the thought of my beloved brother, Polyneices, left to be desecrated and scorned by the elements, with no sacred rites to honor his memory. In my deeply-held beliefs, the soul of one who dies without burial—who is denied the peace of resting in the earth—is cast into a liminal space, deprived of its rightful passage to the afterlife.\n\nThe gods, I believe, demand respect for the dead, and it is a grievous sin to neglect their burial rites. Such a profound dishonor calls forth divine retribution, for the very essence of humanity lies in how we treat the departed. To leave a body unburied is to rob the soul of its dignity and the peace it deserves. I have witnessed the torment such neglect brings, not only to the deceased but to the living, as it saturates our hearts with pain and unrest.\n\nIn my defiance, I have chosen to act, even in the face of death, to ensure that Polyneices receives the honor due to him. It is not merely an act of rebellion against Creon’s edict, but a sacred duty to uphold the divine laws that govern our existence. I would rather face punishment than allow my brother’s soul to wander the earth in torment, forever trapped between life and death. My convictions compel me to believe that an unburied soul cannot find solace; instead, it roams, anguished and unfulfilled, longing for the peace that can only be granted through the proper rituals of honor and love. \n\nThus, I stand resolute in my belief: to honor the dead is to honor life itself, and in this, I will persevere, regardless of what awaits me.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    }
+  }
+}

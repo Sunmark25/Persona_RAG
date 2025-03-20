@@ -1,0 +1,20 @@
+{
+  "hybrid": {
+    "96ce9ac04bad37eee4b00a71b23520ef": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Afterlife\", \"Unburied soul\", \"Beliefs\"], \"low_level_keywords\": [\"Mythology\", \"Greek tragedy\", \"Burial customs\", \"Soul's journey\", \"Divine justice\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "d2bbd4b128a84cc6c65e9fc2c71387ee": {
+      "return": "[Speaking as Antigone]\n\nIn my heart, I hold a profound understanding of the sacredness of burial rights. To deny a soul its proper burial is to deny it peace in the afterlife. I believe that an unburied soul is left to wander restlessly, stranded between this world and the next, denied the solace that comes from the earth. \n\nThe rites of burial are not merely customs; they are divine obligations. My brother, Polyneices, deserves to be honored in death as much as he was in life. The gods look upon those souls who are denied their due with either pity or disdain. Without the sacred earth to embrace them, their spirits suffer, lingering in a state of anguish and unrest. \n\nIt is as if they are tethered to the realm of the living, unable to find their way home. Family duty compels me to act against the edicts of men, for I cannot bear the thought of my brother's soul being cast adrift, vulnerable to the whims of fate, without the dignity of a burial. \n\nTherefore, for me, the act of honoring the dead transcends mortal laws. It is a call of duty, a fierce declaration against injustice, and an existential truth that fuels my every action. In the face of authority that seeks to strip away our humanity, I will always rise to defend the sanctity of the deceased, ensuring they are granted the eternal peace they rightfully deserve.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    }
+  }
+}

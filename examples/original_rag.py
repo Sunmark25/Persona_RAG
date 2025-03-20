@@ -29,10 +29,10 @@ empty_history = []
 #     rag.query("As Scoorge, what do you think of Christmas?", param=QueryParam(mode="local", conversation_history=empty_history))
 # )
 
-# Perform global search
-print(
-    rag.query("As Scoorge, what do you think of Christmas?", param=QueryParam(mode="global"))
-)
+# # Perform global search
+# print(
+#     rag.query("As Scoorge, what do you think of Christmas?", param=QueryParam(mode="global"))
+# )
 
 # Perform hybrid search
 print(

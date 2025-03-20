@@ -230,14 +230,19 @@ def generate_chunk_content(chunk_id):
     
     # If chunk ID contains semantic information, try to extract relevant content
     relevant_phrases = {
-        "SCROOGE": "Ebenezer Scrooge was a miserly businessman who valued money over human connection.",
-        "CHRISTMAS": "Christmas is a time for joy, generosity, and family gatherings.",
-        "TINY_TIM": "Tiny Tim was a small, ill boy who remained cheerful despite his difficulties.",
-        "MARLEY": "Jacob Marley was Scrooge's deceased business partner who returned as a ghost.",
-        "GHOST": "The spirits of Christmas visited Scrooge to help him change his ways.",
-        "CRATCHIT": "Bob Cratchit was Scrooge's underpaid clerk who maintained a cheerful disposition.",
-        "TRANSFORMATION": "Scrooge underwent a profound transformation from miserly to generous.",
-        "REDEMPTION": "The story follows Scrooge's journey of redemption and change of heart."
+        "ANTIGONE": "Antigone is the protagonist of the play, daughter of Oedipus, who defies Creon's decree to bury her brother Polyneices.",
+        "CREON": "Creon is the king of Thebes who decrees that Polyneices' body should remain unburied as punishment for his betrayal.",
+        "ISMENE": "Ismene is Antigone's sister who refuses to help her bury their brother, fearing Creon's punishment.",
+        "POLYNEICES": "Polyneices is Antigone's brother who fought against Thebes and whose body Creon forbids to be buried.",
+        "ETEOCLES": "Eteocles is Antigone's brother who defended Thebes and was given a proper burial by Creon.",
+        "HAEMON": "Haemon is Creon's son and Antigone's fiancé who pleads with his father to spare Antigone's life.",
+        "TIRESIAS": "Tiresias is the blind prophet who warns Creon that the gods disapprove of his actions.",
+        "CHORUS": "The Chorus represents the elders of Thebes who comment on the action and often provide moral judgments.",
+        "DIVINE_LAW": "The play explores the conflict between divine law, which Antigone follows, and human law, represented by Creon's decree.",
+        "BURIAL": "The burial of Polyneices is the central act of defiance in the play, representing Antigone's loyalty to family and divine law.",
+        "TRAGEDY": "Antigone is a Greek tragedy by Sophocles that follows the protagonist's resistance against the state and her tragic fate.",
+        "PRIDE": "Pride and stubbornness lead both Antigone and Creon to their tragic ends.",
+        "LOYALTY": "The conflict between loyalty to family and loyalty to the state is a central theme of the play."
     }
     
     # Check if chunk ID contains any keywords
@@ -394,84 +399,99 @@ def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined
     return result_chunks
 
 def main():
-    working_dir = "./neuroticism"
-    graphml_path = "./big_five/neuroticism/graph_chunk_entity_relation.graphml"
-    chunks_path = "./big_five/neuroticism/kv_store_text_chunks.json"
+    # Define all five personalities
+    personalities = ["agreeableness", "conscientiousness", "extraversion", "neuroticism", "openness"]
     
-    # Set up LightRAG instance
-    rag = setup_rag(working_dir)
+    # Dictionary to store LightRAG instances for each personality
+    rag_instances = {}
     
-    # Load knowledge graph
-    custom_kg = load_graphml_to_custom_kg(graphml_path, chunks_path)
-    if custom_kg:
-        rag.insert_custom_kg(custom_kg)
-        print(f"Loaded {len(custom_kg['entities'])} entities, {len(custom_kg['relationships'])} relationships, and {len(custom_kg['chunks'])} text chunks")
+    # Set up each personality's model
+    for personality in personalities:
+        # Create directory in big_five if it doesn't exist
+        big_five_dir = f"./big_five/{personality}"
+        if not os.path.exists(big_five_dir):
+            os.makedirs(big_five_dir)
+        
+        # Define paths for source and destination files
+        source_graphml = f"./antigone/{personality}/graph_chunk_entity_relation.graphml"
+        source_chunks = f"./antigone/{personality}/kv_store_text_chunks.json"
+        
+        # dest_graphml = f"./persona/big_five/{personality}/graph_chunk_entity_relation.graphml"
+        # dest_chunks = f"./persona/big_five/{personality}/kv_store_text_chunks.json"
+        
+        # Set up working directory for this personality
+        working_dir = f"./big_five/{personality}"
+        if not os.path.exists(working_dir):
+            os.makedirs(working_dir)
+        
+        # Set up LightRAG instance for this personality
+        rag = setup_rag(working_dir)
+        
+        # Load knowledge graph
+        custom_kg = load_graphml_to_custom_kg(source_graphml, source_chunks)
+        if custom_kg:
+            rag.insert_custom_kg(custom_kg)
+            print(f"[{personality}] Loaded {len(custom_kg['entities'])} entities, {len(custom_kg['relationships'])} relationships, and {len(custom_kg['chunks'])} text chunks")
+            rag_instances[personality] = rag
+        else:
+            print(f"WARNING: Failed to load knowledge graph for {personality}")
     
     # Fixed empty conversation history
     empty_history = []
     
-    scrooge_questions = [
-        "As Scoorge, what do you think of Christmas?",
-        "If you could speak to your younger self, what would you warn him about trusting others?",
-        "What do you tell yourself when you see someone in need that allows you to walk past them?",
-        "In what ways has accumulating wealth protected you from feeling vulnerable?",
-        "What frightens you more: losing your fortune or losing your isolation?",
-        "How do you reconcile your business practices with your understanding of morality?",
-        "If you knew with certainty that no one would ever take advantage of your generosity, would your behavior change?",
+    # Define Antigone questions
+    antigone_questions = [
+        "As Antigone, what do you believe happens to an unburied soul in the afterlife?",
+        "If you could speak to your father Oedipus now, what would you ask him about defying authority?",
+        "What do you tell yourself when faced with the choice between family loyalty and obedience to the state?",
+        "In what ways has your family's tragic history prepared you for making sacrifices others would not make?",
+        "What frightens you more: an unmarked grave or a life of compromise?",
+        "How do you reconcile your devotion to divine law with the suffering your actions bring to those who love you?",
+        "If you knew with certainty that Polyneices would not have done the same for you, would your decision change?",
+        "What parts of yourself do you recognize in Creon that you refuse to acknowledge?",
+        "How has being a daughter of Oedipus shaped your willingness to stand alone against consensus?",
+        "When you imagine your name echoing through future generations, what do you hope they will say of your choice?",
+        "What gives you the certainty that the gods approve of your actions when even the priests remain silent?",
+        "If Ismene had joined you, would your sacrifice feel more or less meaningful?"
     ]
     
-    # 先示范如何获取查询相关的文本块
-    sample_query = "What does Scrooge think about Christmas?"
-    print("\n=== Getting Related Text Chunks for Sample Query ===")
-    print(f"Sample Query: {sample_query}")
+    # System prompt for each personality
+    system_prompt = "Please answer the following question as Antigone with your personality traits. "
     
-    related_chunks = get_query_related_chunks(rag, sample_query)
-    
-    print(f"\nFound {len(related_chunks)} related text chunks:")
-    for source_id, content in related_chunks.items():
-        print(f"\nSource ID: {source_id}")
-        print(f"Content: {content[:200]}..." if len(content) > 200 else f"Content: {content}")
-        print("-" * 80)
-    
-    # 展示获取合并后的文本
-    print("\n=== Combined Text Chunks ===")
-    # 获取所有相关文本块的合并字符串
-    combined_all = get_query_related_chunks(rag, sample_query, return_combined_text=True)
-    print("所有文本块合并结果:")
-    print(combined_all[:300] + "..." if len(combined_all) > 300 else combined_all)
-    
-    # 获取仅前2个文本块的合并字符串
-    combined_top2 = get_query_related_chunks(rag, sample_query, top_k=2, return_combined_text=True)
-    print("\n仅合并前2个文本块结果:")
-    print(combined_top2[:300] + "..." if len(combined_top2) > 300 else combined_top2)
-    print("-" * 80)
-    
-    system_prompt = "Please answer the following questions as character Scoorge. "
-    
-    # Execute hybrid search
-    print("\n=== HYBRID Mode Query Results ===")
-    for question in scrooge_questions:
+    # Execute queries for each question
+    print("\n=== Generating Answers for All Personalities ===")
+    for question in antigone_questions:
         print(f"\nQuestion: {question}")
-        result = rag.query(system_prompt + question, param=QueryParam(mode="hybrid", conversation_history=empty_history))
-        print(f"Answer: {result}")
-        
-        # # 获取并显示此问题相关的文本块
-        # print("\n--- Related Text Chunks ---")
-        # query_chunks = get_query_related_chunks(rag, question)
-        # print(f"Found {len(query_chunks)} related chunks")
-        # for source_id, content in query_chunks.items():
-        #     print(f"Source ID: {source_id}")
-        #     print(f"Content snippet: {content[:100]}..." if len(content) > 100 else f"Content: {content}")
-        
-        # 示范获取合并后的文本（仅使用前20个文本块）
-        combined_text = get_query_related_chunks(rag, question, top_k=20, return_combined_text=True)
-
-
-        print("\n--- Combined Top 20 Text Chunks ---")
-        # print(combined_text[:300] + "..." if len(combined_text) > 300 else combined_text)
-        embedding_result = compute_embedding_similarity(question, combined_text)
-        print("embedding_result is ", str(embedding_result))
         print("-" * 80)
+        response_dict = {}
+        
+        # Generate answers for each personality and calculate similarity
+        for personality in personalities:
+            rag = rag_instances.get(personality)
+            if not rag:
+                print(f"Skipping {personality} as its RAG model couldn't be loaded")
+                continue
+                
+            print(f"\n--- {personality.capitalize()} Personality ---")
+            
+            # Generate answer
+            result = rag.query(
+                system_prompt + question, 
+                param=QueryParam(mode="hybrid", conversation_history=empty_history)
+            )
+            print(f"Answer: {result}")
+            
+            # Get related text chunks and calculate similarity
+            combined_text = get_query_related_chunks(rag, question, top_k=20, return_combined_text=True)
+            similarity_score = compute_embedding_similarity(question, combined_text)
+            print(f"Question-Context Similarity: {similarity_score:.4f}")
+
+            response_dict.update({"personality": personality, "response":result, "similarity": similarity_score})
+            
+            # Print the first 200 characters of combined text for reference
+            print(f"Context (excerpt): {combined_text[:200]}..." if len(combined_text) > 200 else combined_text)
+        
+        print("=" * 80)
 
 # If this script is run directly, execute the main function
 if __name__ == "__main__":

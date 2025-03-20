@@ -1,2 +1,3 @@
 - [x] Finish README.md
-- [ ] Change `prompt.py` so that it only creates big five nodes instead of low & high version of big five nodes
+- [x] Change `prompt.py` so that it only creates big five nodes instead of low & high version of big five nodes
+- [ ] Take a look at [Rolebench](https://huggingface.co/datasets/ZenMoore/RoleBench) and relevent paper

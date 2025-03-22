@@ -98,9 +98,7 @@ with gr.Blocks() as demo:
     
     txt.submit(chat, [txt, state], [txt, chatbot])
     
-    gr.Markdown("""*This chatbot embodies Antigone from Sophocles' tragedy, 
-                portraying her noble character, profound moral convictions, 
-                and the tragic circumstances of ancient Thebes.*""")
+    gr.Markdown("""*This chatbot embodies Antigone from Sophocles' tragedy*""")
 
 if __name__ == "__main__":
     demo.launch(share=True)

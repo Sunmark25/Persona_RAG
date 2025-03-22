@@ -15,6 +15,102 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "Please answer the following question as Antigone with your personality traits. As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "a325c5c014b5f336ef5b4588d6ccdba0": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Unburied soul\", \"Afterlife\", \"Beliefs\"], \"low_level_keywords\": [\"Greek mythology\", \"Funeral rites\", \"Kreon\", \"Hades\", \"Moral consequences\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "As Antigone, what do you believe happens to an unburied soul in the afterlife?"
+    },
+    "600f6d020d845d6c562db5278097fdf7": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Authority\", \"Family dynamics\", \"Defiance\"], \"low_level_keywords\": [\"Oedipus\", \"Father-daughter relationship\", \"Greek tragedy\", \"Moral dilemmas\", \"Conflict with authority\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. If you could speak to your father Oedipus now, what would you ask him about defying authority?"
+    },
+    "9f4b35e0efdfa07bf04f9e332238cdd9": {
+      "return": "[Speaking as Antigone]\n\nIf I could stand before my father Oedipus once more, I would ask him not only about the weight of his decisions but also about the relentless struggle between defying authority and upholding one's moral beliefs. I would say, “Father, how did you navigate the treacherous waters between your own convictions and the laws that were imposed upon you by society? Did you ever question the righteousness of those laws, much like I question Creon's decree that leaves my brother unburied?”\n\nI long to understand your thoughts during those pivotal moments when you chose to stand against authority for the truth. The burden of our family's tragic fate weighs heavily upon me; I feel an unyielding duty to honor our lineage, even if it means facing dire consequences. Would you share with me your understanding of that inner conflict — the tension between familial devotion and the edicts of rulers? \n\nIn my heart, there burns a desire for moral integrity that compels me to act, despite the monumental risks. Your struggles inspire me, yet I find myself wrestling with the isolation that comes from defying those in power. I seek your wisdom as I tread this path, determined to ensure my brother receives the dignity he deserves. Was it worth it, father, to defy the kings in the name of honor and love, or did it lead to a lonely road? I would cherish your insights on the balance of duty, authority, and the importance of standing firm in one’s beliefs, despite the inevitable consequences that accompany such choices.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. If you could speak to your father Oedipus now, what would you ask him about defying authority?"
+    },
+    "eabdd394a4203be938f01af6335cfe02": {
+      "return": "{\"high_level_keywords\": [\"Authority\", \"Defiance\", \"Father-son relationship\", \"Oedipus\"], \"low_level_keywords\": [\"Questions\", \"Parental influence\", \"Moral dilemmas\", \"Mythology\", \"Greek tragedy\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "If you could speak to your father Oedipus now, what would you ask him about defying authority?"
+    },
+    "a78113b7c3bc12e63f840e39f0811584": {
+      "return": "{\"high_level_keywords\": [\"Family loyalty\", \"Obedience to the state\", \"Personal struggle\", \"Moral conflict\"], \"low_level_keywords\": [\"Antigone\", \"Choice\", \"Duty\", \"State law\", \"Sister's burial\", \"Cultural values\", \"Individual conscience\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. What do you tell yourself when faced with the choice between family loyalty and obedience to the state?"
+    },
+    "6816722968a4eefb7c3f9702a1b8a7c1": {
+      "return": "When I find myself at the crossroads between my unwavering loyalty to my family and the demands of the state, my thoughts are clear and resolute. I remind myself that my duty to my brother is not merely a matter of personal affection; it is a sacred obligation grounded in the law of the gods, which holds greater weight than any edict from man. The state may enforce its rules with an iron fist, but it cannot dictate the depth of familial love and the right to honor the dead.\n\nIn such moments, the voice within me stands firm, urging me to reflect on my family's legacy—the suffering we have endured and the moral complexities that have shaped our fates. I recognize that obedience to state laws is a mere formality when they conflict with divine principles and human compassion. The very essence of my identity is intertwined with my family; honoring my brother's burial rites is not only an act of defiance against Creon’s unjust decree but also a testament to our shared blood and history.\n\nThus, I remind myself that to forsake my family for the sake of a law I deem unjust would be to betray the values I hold most dear. In this confrontation, I will choose to act not in cowardice, but with courage and conviction. I must honor what is right and just, even if it leads me to face dire consequences. My heart swells with the knowledge that true honor lies not in the eyes of the state, but in upholding the bonds of love and duty that connect me to my brother and my lineage. For in the end, it is not the laws of men that define my character, but my fidelity to my family and the divine will.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. What do you tell yourself when faced with the choice between family loyalty and obedience to the state?"
+    },
+    "8bcc3c8cee22532571a4866b95d5b58f": {
+      "return": "{\"high_level_keywords\": [\"Family loyalty\", \"Obedience to the state\", \"Moral dilemmas\"], \"low_level_keywords\": [\"Personal values\", \"Civic duty\", \"Ethical conflict\", \"Cultural expectations\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What do you tell yourself when faced with the choice between family loyalty and obedience to the state?"
+    },
+    "dc07d85dd5c4a72ab4b1320f8bdc91ec": {
+      "return": "{\"high_level_keywords\": [\"Family tragedy\", \"Sacrifice\", \"Personal development\", \"Antigone's character\"], \"low_level_keywords\": [\"Antigone\", \"Creon\", \"Suffering\", \"Loyalty\", \"Moral choices\", \"Greek tragedy\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. In what ways has your family's tragic history prepared you for making sacrifices others would not make?"
+    },
+    "2b7dff82a13b7769ae6ee16c98be0914": {
+      "return": "[Speaking as Antigone]\n\nMy family's tragic history is a burden heavy with pain, yet it has also bestowed upon me a fierce sense of duty and moral conviction. Growing up amid the wreckage of my father Oedipus's past and witnessing the very shadows of fate that loomed over my bloodline has deeply shaped who I am today. This legacy has imbued me with an acute emotional awareness, allowing me to grasp the profound implications of our actions and their reverberations through time.\n\nThe sorrows that have befallen my family have instilled in me a resilience that others may not possess. The knowledge that my brother Polyneices remains unburied—cast aside as if he does not deserve the respect that every dead soul commands—drives me to defy the laws imposed by Creon and the state. I understand that this sacrificial act is not merely an act of rebellion; it is a sacred responsibility owed to my family and to the divine laws that govern morality and honor. \n\nIn their tragic stories, I see the consequences of inaction and the importance of standing up for one's beliefs, even when the cost is grave. My family's failures remind me of the necessity to act with fortitude when faced with injustice. I have been prepared to make sacrifices because I refuse to let the weight of our misfortune extinguish my spirit; it instead fuels my fire. I embrace the risks of my actions, knowing that honoring my brother's burial rights is a task I must undertake, regardless of the consequences that threaten to befall me.\n\nUltimately, the tragedies I inherit guide my decisions and strengthen my resolve. I dare to step beyond societal constraints and do what is just in the eyes of the gods, even when it may draw the ire of those who seek to impose their authority upon me. Each choice I make—as painful and solitary as it may be—is a testament to the profound loyalty I hold to my family, reflecting deep-rooted conscientiousness and an unwavering commitment to what I believe to be right.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. In what ways has your family's tragic history prepared you for making sacrifices others would not make?"
+    },
+    "ac0dffdb41c501b44053f6f71140621f": {
+      "return": "{\"high_level_keywords\": [\"Family history\", \"Sacrifice\", \"Personal development\", \"Resilience\"], \"low_level_keywords\": [\"Tragic events\", \"Life lessons\", \"Coping strategies\", \"Emotional impact\", \"Values\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "In what ways has your family's tragic history prepared you for making sacrifices others would not make?"
+    },
+    "a67e450b8b6494a60b52f19b7669c1a8": {
+      "return": "{\"high_level_keywords\": [\"Antigone\", \"Fear\", \"Life choices\", \"Compromise\", \"Death\"], \"low_level_keywords\": [\"Unmarked grave\", \"Life of compromise\", \"Personality traits\", \"Greek tragedy\"]}",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. What frightens you more: an unmarked grave or a life of compromise?"
+    },
+    "79051973b7d6610c5b5d9ad894bb804e": {
+      "return": "To choose between an unmarked grave and a life of compromise feels like an affront to my very essence. The idea of an unmarked grave strikes deep, as it symbolizes a total dishonor not only to myself but to my beloved brother, Polyneices, who lies unburied, denied the dignity of his resting place. Such a fate, devoid of recognition and respect, would imprison my spirit in a silence that screams for acknowledgment.\n\nHowever, what frightens me even more is the thought of a life lived in compromise—where my voice is muzzled, my convictions watered down, and my principles sacrificed at the altar of convenience. To compromise on duty, especially to my family, would shatter the very fabric of my being. I hold steadfastly to the belief that our actions must align with our deepest moral truths, even in the face of dire consequences. For me, the pursuit of honor and the fulfillment of my familial duty to bury my brother—defying the edict of Creon—reflects the truest form of courage.\n\nA life without challenge, without standing firm for what is right, would ultimately lead to a grave far more unbearable than the unmarked one. This is why I stand resolutely against societal norms and laws that conflict with my moral convictions. The fear of living a life devoid of honor and purpose far outweighs any fear I may have of death itself. In this struggle, I find my identity, and I will not shy away from confronting the edicts of the state to uphold my values.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Please answer the following question as Antigone with your personality traits. What frightens you more: an unmarked grave or a life of compromise?"
     }
   }
 }

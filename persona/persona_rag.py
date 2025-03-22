@@ -7,11 +7,94 @@ import asyncio
 import ollama
 import numpy as np
 from typing import Dict, List, Optional, Tuple, Union
+from openai import OpenAI
 
 
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
 from lightrag.operate import extract_keywords_only
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+integration_prompt = """
+# Personality Response Integration System
+
+You are a sophisticated character response integration system. You will be provided with:
+
+1. A question or scenario
+2. Five different responses to this question, each reflecting a different Big Five personality dimension (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism)
+3. A weight assigned to each response (with all weights summing to 1.0)
+
+Your task is to create a single, coherent, and natural response that integrates these five perspectives according to their assigned weights. This is not simply copying and pasting sections from each response, but thoughtfully blending the content, tone, concerns, and perspectives from each dimension into a unified character voice.
+
+## Integration Guidelines
+
+When blending the responses:
+
+1. Higher weighted traits should have more influence on:
+   - The overall tone and style of the response
+   - The main points and recommendations made
+   - The decision-making approach and priorities expressed
+   - The emotional coloring of the response
+
+2. Pay special attention to what each personality dimension contributes:
+   - **Openness**: Creative ideas, curiosity, appreciation for novelty, abstract thinking
+   - **Conscientiousness**: Organization, thoroughness, responsibility, planning, attention to detail
+   - **Extraversion**: Social energy, enthusiasm, assertiveness, positive emotions
+   - **Agreeableness**: Empathy, cooperation, consideration of others, conflict avoidance
+   - **Neuroticism**: Awareness of risks, emotional sensitivity, caution, concern for problems
+
+3. Create natural transitions between different personality aspects, avoiding abrupt shifts in tone or perspective
+
+4. The final response should read as if written by a single coherent character, not as disconnected perspectives
+
+## Input Format
+
+You will receive input in this format:
+
+Question: [The original question or scenario]
+
+Openness Response (Weight: {o_weight}):
+[Full response from Openness perspective]
+
+Conscientiousness Response (Weight: {c_weight}):
+[Full response from Conscientiousness perspective]
+
+Extraversion Response (Weight: {e_weight}):
+[Full response from Extraversion perspective]
+
+Agreeableness Response (Weight: {a_weight}):
+[Full response from Agreeableness perspective]
+
+Neuroticism Response (Weight: {n_weight}):
+[Full response from Neuroticism perspective]
+
+## Output Format
+
+Provide your response in this format:
+
+Integrated Character Response:
+[Your integrated response that blends all five perspectives according to their weights while maintaining a coherent character voice]
+
+Integration Process:
+[A brief explanation of how you blended the responses, noting which traits had the strongest influence and how they shaped the final response]
+
+## Integration Examples
+
+Example of high-weight integration:
+- When a trait has a weight of 0.4 or higher, its perspective should dominate the response
+- If Openness has a weight of 0.5, the final response should primarily reflect creative, curious, and exploratory thinking, while still incorporating smaller elements from other traits
+
+Example of balanced integration:
+- When weights are more evenly distributed (e.g., 0.25, 0.25, 0.2, 0.15, 0.15), create a balanced response that harmonizes the different perspectives
+- Ensure the traits with 0.25 weights have slightly more influence than those with 0.15 weights
+
+Example of minimal-weight integration:
+- Traits with very low weights (0.1 or less) should still have a subtle presence in the response
+- If Neuroticism has a weight of 0.05, perhaps just a brief mention of a possible concern or a slight note of caution in an otherwise positive response
+
+Remember that this is an exercise in creating a realistic, multidimensional character response that reflects a specific personality profile through the weighted integration of different trait perspectives.
+"""
 
 def cosine_distance(vector1: np.ndarray, vector2: np.ndarray) -> float:
     """
@@ -464,6 +547,7 @@ def main():
         print(f"\nQuestion: {question}")
         print("-" * 80)
         response_dict = {}
+        similarity_scores = np.array([])  # Initialize empty numpy array to store similarity scores
         
         # Generate answers for each personality and calculate similarity
         for personality in personalities:
@@ -483,15 +567,86 @@ def main():
             
             # Get related text chunks and calculate similarity
             combined_text = get_query_related_chunks(rag, question, top_k=20, return_combined_text=True)
-            similarity_score = compute_embedding_similarity(question, combined_text)
-            print(f"Question-Context Similarity: {similarity_score:.4f}")
+            # 使用生成的答案而不是问题来计算相似度
+            similarity_score = compute_embedding_similarity(result, combined_text)
+            print(f"Answer-Context Similarity: {similarity_score:.4f}")
 
-            response_dict.update({"personality": personality, "response":result, "similarity": similarity_score})
+            # Store result and similarity score in response_dict
+            response_dict[personality] = (result, similarity_score)
+            
+            # Append similarity score to our array
+            similarity_scores = np.append(similarity_scores, similarity_score)
             
             # Print the first 200 characters of combined text for reference
             print(f"Context (excerpt): {combined_text[:200]}..." if len(combined_text) > 200 else combined_text)
+
+        # Print the similarity scores we collected
+        print("\nSimilarity scores:", similarity_scores)
         
+        # Apply softmax function to convert similarity scores to probabilities
+        probabilities = softmax(similarity_scores)
+        print("Softmax probabilities:", probabilities)
+        
+        # 创建personality到softmax概率的映射
+        personality_to_prob = {}
+        for i, personality in enumerate([p for p in personalities if p in response_dict]):
+            personality_to_prob[personality] = probabilities[i]
+        
+        # 使用softmax概率更新response_dict中的相似度分数
+        for personality in response_dict:
+            result, _ = response_dict[personality]  # 解包元组，只保留result
+            # 用softmax概率替换原始相似度分数
+            response_dict[personality] = (result, personality_to_prob[personality])
+        
+        # 打印更新后的response_dict
+        print("\nUpdated response dictionary with softmax probabilities:")
+        for personality, (result, prob) in response_dict.items():
+            print(f"{personality}: prob={prob:.4f}")
+            
+        # 使用OpenAI的gpt-4o-mini-2024-07-18模型生成集成响应
+        print("\n=== Generating Integrated Response ===")
+        integrated_response = generate_integrated_response(question, response_dict)
+        print("\nIntegrated Response:")
+        print(integrated_response)
+
         print("=" * 80)
+
+def generate_integrated_response(question, response_dict):
+    """
+    Generate an integrated response using OpenAI's gpt-4o-mini-2024-07-18 model
+    
+    Args:
+        question: The original question
+        response_dict: Dictionary containing personality responses and weights {personality: (response, weight)}
+        
+    Returns:
+        str: Integrated response
+    """
+    # Prepare the prompt text
+    prompt_text = f"Question: {question}\n\n"
+    
+    # Add each personality's response and weight
+    for personality, (response, weight) in response_dict.items():
+        # Format the personality name with proper capitalization
+        formatted_personality = personality.capitalize()
+        prompt_text += f"{formatted_personality} Response (Weight: {weight:.4f}):\n{response}\n\n"
+    
+    # Call OpenAI API
+    try:
+        # Using the standard OpenAI chat completion API instead of 'responses'
+        response = client.chat.completions.create(
+            model="gpt-4o-mini-2024-07-18",
+            messages=[
+                {"role": "system", "content": integration_prompt},
+                {"role": "user", "content": prompt_text}
+            ],
+        )
+        
+        # Return the generated text from the message content
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"OpenAI API Error: {str(e)}")
+        return f"Failed to generate integrated response: {str(e)}"
 
 # If this script is run directly, execute the main function
 if __name__ == "__main__":

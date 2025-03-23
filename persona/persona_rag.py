@@ -128,21 +128,36 @@ def softmax(x: np.ndarray, temperature: float = 0.2) -> np.ndarray:
     return exp_x / np.sum(exp_x)
 
 def compute_embedding_similarity(user_input, context, embed_model = "mxbai-embed-large"):
-    input_response = ollama.embed(
-        model = embed_model,
-        input = user_input
-    )
+    # If input or context is empty, return default similarity value
+    if not user_input or not context:
+        print("Warning: Input or context is empty, cannot compute similarity")
+        return 0.5  # Return a moderate default value
+    
+    try:
+        input_response = ollama.embed(
+            model = embed_model,
+            input = user_input
+        )
 
-    context_response = ollama.embed(
-        model = embed_model,
-        input = context
-    )
+        context_response = ollama.embed(
+            model = embed_model,
+            input = context
+        )
+        
+        # Check if valid embedding vectors were returned
+        if 'embeddings' not in input_response or not input_response['embeddings'] or \
+           'embeddings' not in context_response or not context_response['embeddings']:
+            print("Warning: Ollama did not return valid embedding vectors")
+            return 0.5  # Return a moderate default value
+        
+        input_embedding = np.array(input_response['embeddings'][0])
+        context_embedding = np.array(context_response['embeddings'][0])
 
-    input_embedding = np.array(input_response['embeddings'][0])
-    context_embedding = np.array(context_response['embeddings'][0])
-
-    similarity_score = cosine_distance(input_embedding, context_embedding)
-    return similarity_score
+        similarity_score = cosine_distance(input_embedding, context_embedding)
+        return similarity_score
+    except Exception as e:
+        print(f"Error computing embedding similarity: {str(e)}")
+        return 0.5  # Return default value on error
     
 def setup_rag(working_dir):
     """Set up a LightRAG instance"""
@@ -338,62 +353,62 @@ def generate_chunk_content(chunk_id):
 
 def combine_top_k_chunks(chunks_dict, top_k=None, separator="\n\n"):
     """
-    将文本块字典中的前k个文本块合并成一个字符串
+    Combines the top k text chunks from a dictionary into a single string
     
     Args:
-        chunks_dict: 包含源ID和对应文本块内容的字典 {source_id: chunk_content}
-        top_k: 要合并的文本块数量，None表示全部合并
-        separator: 文本块之间的分隔符
+        chunks_dict: Dictionary containing source IDs and corresponding chunk contents {source_id: chunk_content}
+        top_k: Number of text chunks to combine, None means combine all
+        separator: Separator to use between text chunks
         
     Returns:
-        str: 合并后的文本字符串
+        str: Combined text string
     """
-    # 如果字典为空，返回空字符串
+    # If dictionary is empty, return empty string
     if not chunks_dict:
         return ""
     
-    # 获取所有文本块
+    # Get all text chunks
     chunks_list = list(chunks_dict.items())
     
-    # 如果指定了top_k且值有效，限制文本块数量
+    # If top_k is specified and valid, limit the number of chunks
     if top_k is not None and top_k > 0:
         chunks_list = chunks_list[:min(top_k, len(chunks_list))]
     
-    # 构建合并后的文本
+    # Build the combined text
     combined_text = ""
     for i, (source_id, content) in enumerate(chunks_list):
-        if i > 0:  # 添加分隔符（除了第一个块）
+        if i > 0:  # Add separator (except for the first chunk)
             combined_text += separator
-        # 可以选择添加source_id作为标识符
+        # Optionally add source_id as an identifier
         combined_text += f"[{source_id}] {content}"
     
     return combined_text
 
 def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined_text=False):
     """
-    获取与查询相关的所有文本块
+    Retrieves all text chunks related to the query
     
     Args:
-        rag: LightRAG实例 
-        query: 查询文本
-        param: 查询参数，默认为None时会创建一个新的QueryParam
-        top_k: 要返回的文本块数量，None表示返回所有相关文本块
-        return_combined_text: 是否返回合并后的文本字符串而不是字典
+        rag: LightRAG instance
+        query: Query text
+        param: Query parameters, creates a new QueryParam when None
+        top_k: Number of text chunks to return, None means return all related chunks
+        return_combined_text: Whether to return a combined text string instead of a dictionary
         
     Returns:
-        dict或str: 默认返回包含源ID和对应文本块内容的字典 {source_id: chunk_content}，
-                 当return_combined_text=True时返回合并后的文本字符串
+        dict or str: By default returns a dictionary containing source IDs and corresponding chunk contents {source_id: chunk_content},
+                   when return_combined_text=True returns a combined text string
     """
-    # 设置默认查询参数
+    # Set default query parameters
     if param is None:
         param = QueryParam(mode="hybrid")
     
-    # 克隆param来避免修改原始对象
+    # Clone param to avoid modifying the original object
     debug_param = copy.deepcopy(param)
-    # 启用DEBUG模式，让LightRAG返回内部信息
+    # Enable DEBUG mode to make LightRAG return internal information
     debug_param.debug = True
     
-    # 获取查询的关键词
+    # Get query keywords
     loop = asyncio.get_event_loop()
     hl_keywords, ll_keywords = loop.run_until_complete(
         extract_keywords_only(
@@ -404,18 +419,18 @@ def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined
         )
     )
     
-    print(f"查询关键词: HL={hl_keywords}, LL={ll_keywords}")
+    print(f"Querying Keyword: HL={hl_keywords}, LL={ll_keywords}")
     
-    # 从知识图谱中收集相关节点的source_ids
+    # Collect source_ids of relevant nodes from the knowledge graph
     related_source_ids = set()
     graph = rag.chunk_entity_relation_graph._graph
     
-    # 根据关键词匹配节点
+    # Match nodes based on keywords
     for node, data in graph.nodes(data=True):
         node_str = str(node).upper()
         node_desc = str(data.get("description", "")).upper()
         
-        # 检查节点名称或描述是否包含任何关键词
+        # Check if node name or description contains any keywords
         if any(kw.upper() in node_str for kw in hl_keywords + ll_keywords) or \
            any(kw.upper() in node_desc for kw in hl_keywords + ll_keywords):
             
@@ -426,14 +441,14 @@ def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined
                 else:
                     related_source_ids.add(data["source_id"].strip())
     
-    # 从边中也收集相关的source_ids
+    # Also collect relevant source_ids from edges
     for src, tgt, edge_data in graph.edges(data=True):
         src_str = str(src).upper()
         tgt_str = str(tgt).upper()
         desc = str(edge_data.get("description", "")).upper()
         keywords = str(edge_data.get("keywords", "")).upper()
         
-        # 检查边的信息是否包含任何关键词
+        # Check if edge information contains any keywords
         if any(kw.upper() in src_str + tgt_str + desc + keywords for kw in hl_keywords + ll_keywords):
             if "source_id" in edge_data:
                 if "<SEP>" in edge_data["source_id"]:
@@ -442,22 +457,22 @@ def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined
                 else:
                     related_source_ids.add(edge_data["source_id"].strip())
     
-    # 从text_chunks中获取文本块
+    # Get text chunks from text_chunks
     result_chunks = {}
     
-    # 优先从客户端存储中获取数据(内存中的数据)
+    # Prioritize retrieving data from client storage (in-memory data)
     if hasattr(rag.text_chunks, "client_storage") and "data" in rag.text_chunks.client_storage:
         chunks = rag.text_chunks.client_storage["data"]
         
         for chunk_id, chunk_data in chunks.items():
-            # 直接匹配chunk_id
+            # Direct match with chunk_id
             if chunk_id in related_source_ids:
                 result_chunks[chunk_id] = chunk_data["content"]
-            # 或者匹配chunk的source_id字段
+            # Or match with the source_id field of the chunk
             elif "source_id" in chunk_data and chunk_data["source_id"] in related_source_ids:
                 result_chunks[chunk_data["source_id"]] = chunk_data["content"]
     else:
-        # 如果客户端存储不可用，从数据库中获取
+        # If client storage is not available, retrieve from database
         async def get_chunks():
             chunks_data = {}
             for source_id in related_source_ids:
@@ -468,18 +483,55 @@ def get_query_related_chunks(rag, query, param=None, top_k=None, return_combined
         
         result_chunks = loop.run_until_complete(get_chunks())
     
-    # 如果需要限制返回的文本块数量
+    # If the number of returned text chunks needs to be limited
     if top_k is not None and top_k > 0 and len(result_chunks) > top_k:
-        # 转换为列表并截取前top_k个元素
+        # Convert to list and take the first top_k elements
         chunks_items = list(result_chunks.items())[:top_k]
-        # 重建字典
+        # Rebuild dictionary
         result_chunks = {k: v for k, v in chunks_items}
     
-    # 返回合并后的文本字符串或原始字典
+    # Return combined text string or original dictionary
     if return_combined_text:
-        return combine_top_k_chunks(result_chunks, top_k=None)  # 已经在上面限制了数量，这里不需要再次限制
+        return combine_top_k_chunks(result_chunks, top_k=None)  # Number already limited above, no need to limit again
     
     return result_chunks
+
+def generate_integrated_response(question, response_dict):
+    """
+    Generate an integrated response using OpenAI's gpt-4o-mini-2024-07-18 model
+    
+    Args:
+        question: The original question
+        response_dict: Dictionary containing personality responses and weights {personality: (response, weight)}
+        
+    Returns:
+        str: Integrated response
+    """
+    # Prepare the prompt text
+    prompt_text = f"Question: {question}\n\n"
+    
+    # Add each personality's response and weight
+    for personality, (response, weight) in response_dict.items():
+        # Format the personality name with proper capitalization
+        formatted_personality = personality.capitalize()
+        prompt_text += f"{formatted_personality} Response (Weight: {weight:.4f}):\n{response}\n\n"
+    
+    # Call OpenAI API
+    try:
+        # Using the standard OpenAI chat completion API instead of 'responses'
+        response = client.chat.completions.create(
+            model="gpt-4o-mini-2024-07-18",
+            messages=[
+                {"role": "system", "content": integration_prompt},
+                {"role": "user", "content": prompt_text}
+            ],
+        )
+        
+        # Return the generated text from the message content
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"OpenAI API Error: {str(e)}")
+        return f"Failed to generate integrated response: {str(e)}"
 
 def main():
     # Define all five personalities
@@ -524,18 +576,10 @@ def main():
     
     # Define Antigone questions
     antigone_questions = [
-        "As Antigone, what do you believe happens to an unburied soul in the afterlife?",
         "If you could speak to your father Oedipus now, what would you ask him about defying authority?",
-        "What do you tell yourself when faced with the choice between family loyalty and obedience to the state?",
-        "In what ways has your family's tragic history prepared you for making sacrifices others would not make?",
         "What frightens you more: an unmarked grave or a life of compromise?",
-        "How do you reconcile your devotion to divine law with the suffering your actions bring to those who love you?",
-        "If you knew with certainty that Polyneices would not have done the same for you, would your decision change?",
         "What parts of yourself do you recognize in Creon that you refuse to acknowledge?",
-        "How has being a daughter of Oedipus shaped your willingness to stand alone against consensus?",
-        "When you imagine your name echoing through future generations, what do you hope they will say of your choice?",
-        "What gives you the certainty that the gods approve of your actions when even the priests remain silent?",
-        "If Ismene had joined you, would your sacrifice feel more or less meaningful?"
+        "If Ismene had joined you, would your sacrifice feel more or less meaningful?",
     ]
     
     # System prompt for each personality
@@ -567,7 +611,7 @@ def main():
             
             # Get related text chunks and calculate similarity
             combined_text = get_query_related_chunks(rag, question, top_k=20, return_combined_text=True)
-            # 使用生成的答案而不是问题来计算相似度
+            # Compute Similiarty between genereated answers and text chunks
             similarity_score = compute_embedding_similarity(result, combined_text)
             print(f"Answer-Context Similarity: {similarity_score:.4f}")
 
@@ -587,23 +631,23 @@ def main():
         probabilities = softmax(similarity_scores)
         print("Softmax probabilities:", probabilities)
         
-        # 创建personality到softmax概率的映射
+        # Create a mapping from personality to softmax probability
         personality_to_prob = {}
         for i, personality in enumerate([p for p in personalities if p in response_dict]):
             personality_to_prob[personality] = probabilities[i]
         
-        # 使用softmax概率更新response_dict中的相似度分数
+        # Update similarity scores in response_dict using softmax probabilities
         for personality in response_dict:
-            result, _ = response_dict[personality]  # 解包元组，只保留result
-            # 用softmax概率替换原始相似度分数
+            result, _ = response_dict[personality]  # Unpack the tuple, keep only the result
+            # Replace original similarity score with softmax probability
             response_dict[personality] = (result, personality_to_prob[personality])
         
-        # 打印更新后的response_dict
+        # Print the updated response_dict with softmax probabilities
         print("\nUpdated response dictionary with softmax probabilities:")
         for personality, (result, prob) in response_dict.items():
             print(f"{personality}: prob={prob:.4f}")
             
-        # 使用OpenAI的gpt-4o-mini-2024-07-18模型生成集成响应
+        # Generate integrated response using OpenAI's gpt-4o-mini-2024-07-18 model
         print("\n=== Generating Integrated Response ===")
         integrated_response = generate_integrated_response(question, response_dict)
         print("\nIntegrated Response:")
@@ -611,42 +655,6 @@ def main():
 
         print("=" * 80)
 
-def generate_integrated_response(question, response_dict):
-    """
-    Generate an integrated response using OpenAI's gpt-4o-mini-2024-07-18 model
-    
-    Args:
-        question: The original question
-        response_dict: Dictionary containing personality responses and weights {personality: (response, weight)}
-        
-    Returns:
-        str: Integrated response
-    """
-    # Prepare the prompt text
-    prompt_text = f"Question: {question}\n\n"
-    
-    # Add each personality's response and weight
-    for personality, (response, weight) in response_dict.items():
-        # Format the personality name with proper capitalization
-        formatted_personality = personality.capitalize()
-        prompt_text += f"{formatted_personality} Response (Weight: {weight:.4f}):\n{response}\n\n"
-    
-    # Call OpenAI API
-    try:
-        # Using the standard OpenAI chat completion API instead of 'responses'
-        response = client.chat.completions.create(
-            model="gpt-4o-mini-2024-07-18",
-            messages=[
-                {"role": "system", "content": integration_prompt},
-                {"role": "user", "content": prompt_text}
-            ],
-        )
-        
-        # Return the generated text from the message content
-        return response.choices[0].message.content
-    except Exception as e:
-        print(f"OpenAI API Error: {str(e)}")
-        return f"Failed to generate integrated response: {str(e)}"
 
 # If this script is run directly, execute the main function
 if __name__ == "__main__":
